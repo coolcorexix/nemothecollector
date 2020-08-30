@@ -1,0 +1,13 @@
+{
+  "name": "nemothecollector",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "fe": "yarn workspace ntc-fe"
+  }
+}
