@@ -8,6 +8,7 @@
     "packages/*"
   ],
   "scripts": {
-    "fe": "yarn workspace ntc-fe"
+    "fe": "yarn workspace ntc-fe",
+    "be": "yarn workspace ntc-be"
   }
 }
