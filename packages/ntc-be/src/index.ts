@@ -9,8 +9,7 @@ async function init() {
         method: 'GET',
         path: '/',
         handler: (request, h) => {
-
-            return 'Hello World!';
+            return 'Hello World 313!';
         }
     });
     await server.start();

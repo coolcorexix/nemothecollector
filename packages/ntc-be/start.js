@@ -1,2 +1,2 @@
 require("@babel/register")({extensions: ['.js', '.ts']});
-require("./index");
+require("./src/index");
