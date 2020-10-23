@@ -1,1 +1,3 @@
 node_modules
+packages/tiki-crawler/tiki-crawler-env/bin
+packages/tiki-crawler/tiki-crawler-env/lib/python3.8
