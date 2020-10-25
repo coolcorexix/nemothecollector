@@ -30,8 +30,10 @@ class TikiSpider(scrapy.Spider):
             PRODUCT_ITEM_REGULAR_PRICE_SELECTOR='span.price-regular ::text'
             PRODUCT_ITEM_BRAND_SELECTOR='::attr(data-brand)'
             PRODUCT_ITEM_CATEGORY_SELECTOR='::attr(data-category)'
+            PRODUCT_ITEM_IMAGE_SELECTOR='img.product-image ::attr(src)'
             productItem={
                 'tiki-id': productItem.css(PRODUCT_ITEM_TIKI_ID_SELECTOR).get(), 
+                'image': productItem.css(PRODUCT_ITEM_IMAGE_SELECTOR).get(),
                 'title': productItem.css(PRODUCT_ITEM_TITLE_SELECTOR).get().strip(),
                 'final-price': productItem.css(PRODUCT_ITEM_FINAL_PRICE_SELECTOR).get().strip(),
                 'raw-regular-price': productItem.css(PRODUCT_ITEM_REGULAR_PRICE_SELECTOR).get(),
