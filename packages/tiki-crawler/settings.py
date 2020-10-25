@@ -1,1 +1,0 @@
-USER_AGENT = 'tiki crawler'
