@@ -5,6 +5,7 @@
     "./pages/**/*"
   ],
   "compilerOptions": {
+    "baseUrl": "./",
     "lib": [
       "dom",
       "dom.iterable",
