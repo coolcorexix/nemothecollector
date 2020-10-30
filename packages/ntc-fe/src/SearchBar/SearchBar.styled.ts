@@ -27,7 +27,7 @@ export const SearchBarContainer = styled.div<{isActive: boolean}>`
         height: 100%;
         position: absolute;
         background: ${base03};
-        left: -4px;
+        right: -4px;
         top: 4px;
         z-index: 0;
     }
