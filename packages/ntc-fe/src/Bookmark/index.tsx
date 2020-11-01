@@ -1,4 +1,5 @@
 import React from 'react';
+import { BookmarkContainer } from './Bookmark.styled';
 
 interface IProps {
     link: string;
@@ -13,7 +14,7 @@ export function Bookmark(props: IProps) {
         link,
         tags,
     } = props;
-    return (<a href={link}>
+    return (<BookmarkContainer target='_blank' href={link}>
             <div>
                 <span>
                     {title}
@@ -27,5 +28,5 @@ export function Bookmark(props: IProps) {
                 </div>
             </div>
 
-        </a>)
+        </BookmarkContainer>)
 }
