@@ -17,7 +17,8 @@ class TikiSpider(scrapy.Spider):
         'https://tiki.vn/may-anh/c1801',
         'https://tiki.vn/dien-gia-dung/c1882',
         'https://tiki.vn/nha-cua-doi-song/c1883',
-        'https://tiki.vn/binh-pha-ca-phe/c23306'
+        'https://tiki.vn/binh-pha-ca-phe/c23306',
+        'https://tiki.vn/gia-do-laptop/c28682'
     ]
     def parse(self, response):
         PRODUCT_ITEM_SELECTOR='.product-item'
