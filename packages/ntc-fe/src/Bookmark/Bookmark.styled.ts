@@ -3,7 +3,7 @@ import { blue } from 'src/theme/colors';
 
 export const BookmarkContainer = styled.a`
     display: block;
-    padding: 16px;
+    padding: 0 16px 32px 16px;
     box-sizing: border-box;
 
     border-radius: 4;
