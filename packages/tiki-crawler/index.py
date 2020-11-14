@@ -27,6 +27,7 @@ class TikiSpider(scrapy.Spider):
             print('[ANNOUNCE] DONE CRAWLING')
             return
         for productItem in productItems:
+            PRODUCT_ITEM_HREF_SELECTOR='::attr(href)'
             PRODUCT_ITEM_TIKI_ID_SELECTOR='::attr(data-id)'
             PRODUCT_ITEM_TITLE_SELECTOR='::attr(data-title)'
             PRODUCT_ITEM_FINAL_PRICE_SELECTOR='::attr(data-price)'
@@ -43,6 +44,7 @@ class TikiSpider(scrapy.Spider):
                 'brand': productItem.css(PRODUCT_ITEM_BRAND_SELECTOR).get(),
                 'raw-category': productItem.css(PRODUCT_ITEM_CATEGORY_SELECTOR).get().strip(),
                 'crawl-date': today,
+                'href': productItem.css(PRODUCT_ITEM_HREF_SELECTOR).get(),
             }
             db.productItems.insert_one(productItem)
             yield productItem
