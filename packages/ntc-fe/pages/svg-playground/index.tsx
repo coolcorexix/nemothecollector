@@ -1,5 +1,5 @@
 import React from 'react';
-import { magenta, blue, base2 } from 'src/theme/colors';
+import { base1, base01, magenta, blue, base2, base00 } from 'src/theme/colors';
 
 const strokeWidth = 4;
 
@@ -12,7 +12,7 @@ function rotateInTheMiddle(degree, width, height) {
 }
 
 function renderPlanetLookLike() {
-    return <svg width="1000" height="1000">
+    return <svg width="100" height="100">
         <svg width="100" height="100" x={100} >
             {renderBoundingBox(100, 100)}
             <g transform={rotateInTheMiddle(21, 100, 100)}>
@@ -26,6 +26,96 @@ function renderPlanetLookLike() {
                 <path d='M20,50 a3,1 0 0 0 60,0' fill='none' stroke={magenta} strokeWidth={1} />
             </g>
         </svg>
+    </svg>
+}
+
+function renderCube() {
+    return (
+        <>
+        <svg viewBox="0 -20 300 100">
+
+            <path d='M0,-11.55 l300,0' stroke='black' strokeWidth={1}/>
+            <g id='cube' strokeWidth={1} fill={base1} fillOpacity={0.9} stroke={base01}>
+                
+                {/* <rect x={0} y={0} width={20} height={20} /> */}
+                <rect x={0} y={0} width={20} height={20} transform='skewY(30)' rx={1} />
+                <rect x={0} y={0} width={20} height={20} transform='skewY(-30) translate(20, 23.1)' rx={1} />
+                <rect x={0} y={0} width={20} height={20} transform="scale(1.41,.81) rotate(45) translate(0 -20)" rx={1}  />
+                
+                {/* <rect x={10} y={10} width={20} height={20} transform='skewY(30)' /> */}
+            </g>
+
+        </svg>
+        </>
+    )
+}
+
+function renderManyCube() {
+    return (
+        <svg viewBox='-21 -3 300 300'>
+            {/* 0 diagonal row <><><> */}
+            <use xlinkHref="#cube" x="20" y={20-11.55}/>
+            {/* <use xlinkHref="#cube" x="20" y="40"/>
+            <use xlinkHref="#cube" x="20" y="20"/> */}
+
+            {/* 1st diagonal row <><><> */}
+            <use xlinkHref="#cube" x="0" y="60"/>
+            <use xlinkHref="#cube" x="0" y="40"/>
+            <use xlinkHref="#cube" x="0" y="20"/>
+            
+            <use xlinkHref="#cube" x="40" y="60"/>
+            <use xlinkHref="#cube" x="40" y="40"/>
+            <use xlinkHref="#cube" x="40" y="20"/>
+            {/* 2nd diagonal row  <><><> */}
+            <use xlinkHref="#cube" x="-20" y="71.55"/>
+            <use xlinkHref="#cube" x="-20" y="51.55"/>
+            <use xlinkHref="#cube" x="-20" y="31.55"/>
+
+            <use xlinkHref="#cube" x="20" y="71.55"/>
+            <use xlinkHref="#cube" x="20" y="51.55"/>
+            <use xlinkHref="#cube" x="20" y="31.55"/>
+
+            <use xlinkHref="#cube" x="60" y="71.55"/>
+            <use xlinkHref="#cube" x="60" y="51.55"/>
+            <use xlinkHref="#cube" x="60" y="31.55"/>
+
+            {/* 3rd diagonal row  <><><> */}
+            <use xlinkHref="#cube" x="0" y="83.1"/>
+            <use xlinkHref="#cube" x="0" y="63.1"/>
+            <use xlinkHref="#cube" x="0" y="43.1"/>
+
+            <use xlinkHref="#cube" x="40" y="83.1"/>
+            <use xlinkHref="#cube" x="40" y="63.1"/>
+            <use xlinkHref="#cube" x="40" y="43.1"/>
+
+
+            {/* 4th diagonal row  <><><> */}
+            <use xlinkHref="#cube" x="20" y="94.65"/>
+            <use xlinkHref="#cube" x="20" y="74.65"/>
+            <use xlinkHref="#cube" x="20" y="54.65"/>
+            
+            
+            
+
+        </svg>
+    )
+}
+
+function generateACol(wheX, ) {
+    const hsn = 11.55;
+    const cubes = [];
+    for (let i = 0; i < 3; i++) {
+        cubes.push(<use xlinkHref="#cube" x="40" y="83.1"/>)
+    }
+
+    return (<>
+
+    </>)
+}
+
+function renderDaylightSky() {
+    return <svg width="100" height="100">
+
     </svg>
 }
 
@@ -106,6 +196,12 @@ export default function SvgPlayground() {
             }
             {
                 renderPlanetLookLike()
+            }
+            {
+                renderCube()
+            }
+            {
+                renderManyCube()
             }
             <svg height="400" width="450">
                 <path id="lineAB" d="M 100 350 l 150 -300" stroke="red"
