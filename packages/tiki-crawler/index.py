@@ -1,6 +1,11 @@
 import scrapy
 from datetime import date
+import json
+import uuid
+from elasticsearch import Elasticsearch
 from pymongo import MongoClient
+
+elastic = Elasticsearch()
 
 today = date.today().strftime("%d/%m/%Y")
 
@@ -36,17 +41,22 @@ class TikiSpider(scrapy.Spider):
             PRODUCT_ITEM_CATEGORY_SELECTOR='::attr(data-category)'
             PRODUCT_ITEM_IMAGE_SELECTOR='img.product-image ::attr(src)'
             productItem={
-                'tiki-id': productItem.css(PRODUCT_ITEM_TIKI_ID_SELECTOR).get(), 
+                'tiki-id': productItem.css(PRODUCT_ITEM_TIKI_ID_SELECTOR).get(),
                 'image': productItem.css(PRODUCT_ITEM_IMAGE_SELECTOR).get(),
-                'title': productItem.css(PRODUCT_ITEM_TITLE_SELECTOR).get().strip(),
-                'final-price': productItem.css(PRODUCT_ITEM_FINAL_PRICE_SELECTOR).get().strip(),
+                'title': productItem.css(PRODUCT_ITEM_TITLE_SELECTOR).get(),
+                'final-price': productItem.css(PRODUCT_ITEM_FINAL_PRICE_SELECTOR).get(),
                 'raw-regular-price': productItem.css(PRODUCT_ITEM_REGULAR_PRICE_SELECTOR).get(),
                 'brand': productItem.css(PRODUCT_ITEM_BRAND_SELECTOR).get(),
-                'raw-category': productItem.css(PRODUCT_ITEM_CATEGORY_SELECTOR).get().strip(),
+                'raw-category': productItem.css(PRODUCT_ITEM_CATEGORY_SELECTOR).get(),
                 'crawl-date': today,
                 'href': productItem.css(PRODUCT_ITEM_HREF_SELECTOR).get(),
             }
-            db.productItems.insert_one(productItem)
+            elastic.index(
+                index = 'product-items',
+                doc_type = '_doc',
+                id = uuid.uuid4().hex,
+                body = json.dumps(productItem)
+            )
             yield productItem
         NEXT_PAGE_SELECTOR = 'a.next ::attr(href)'
         next_page = response.css(NEXT_PAGE_SELECTOR).get()
