@@ -1,0 +1,54 @@
+@keyframes floatY {
+    50% {
+		transform: translatey(calc(var(--translate) * -1));
+	}
+	100% {
+		transform: translatey(var(--translate));
+	}
+	// 100% {
+	// 	transform: translatey(calc(var(--translate) * -1));
+	// }
+}
+
+.in-morph {
+    .moving-100 {
+        --translate: 6px;
+        animation: floatY 3s ease-in-out forwards;
+    }
+    
+    .moving-10 {
+        --translate: 2px;
+        animation: floatY 3s ease-in-out forwards;
+    }
+    
+    .moving1 {
+        --translate: -1px;
+        animation: floatY 3s ease-in-out forwards;
+    }
+    
+    .moving10 {
+        --translate: -2px;
+        animation: floatY 3s ease-in-out forwards;
+    }
+    
+    .moving100 {
+        --translate: -6px;
+        animation: floatY 3s ease-in-out forwards;
+    }
+    
+    .moving1000 {
+        --translate: -10px;
+        animation: floatY 3s ease-in-out forwards;
+    }
+    
+    .moving10000 {
+        --translate: -14px;
+        animation: floatY 3s ease-in-out forwards;
+    }
+    
+    .moving100000 {
+        --translate: -18px;
+        animation: floatY 3s ease-in-out forwards;
+    }
+}
+

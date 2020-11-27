@@ -5,6 +5,7 @@ import { Headline } from 'src/common/Headline.styled';
 import { PageWrapper } from 'src/common/PageWrapper.styled';
 import MockData from 'src/Bookmark/mock_data';
 import { Bookmark } from 'src/Bookmark';
+import { ManyCubes } from 'src/illstrustration/ManyCubes';
 
 function SearchPage() {
     return (
