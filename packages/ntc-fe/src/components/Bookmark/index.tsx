@@ -1,10 +1,11 @@
 import React from 'react';
+import { IBookmarkItemTag } from 'src/models/IBookmarkItemTag.model';
 import { BookmarkContainer } from './Bookmark.styled';
 
 interface IProps {
     link: string;
     title: string;
-    tags: string[];
+    tags: IBookmarkItemTag[];
     readAt: string;
 }
 
@@ -21,8 +22,8 @@ export function Bookmark(props: IProps) {
                 </span>
                 <div className='tags'>
                     {tags.map(tag => {
-                        return (<span>
-                            {tag}
+                        return (<span key={tag.id}>
+                            {tag.name}
                         </span>)
                     })}
                 </div>
