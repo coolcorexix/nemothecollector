@@ -1,13 +1,27 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { SearchPageContainer } from './SearchPage.styled';
-import { SearchBar } from 'src/SearchBar';
+import { SearchBar } from 'src/components/SearchBar';
 import { Headline } from 'src/common/Headline.styled';
 import { PageWrapper } from 'src/common/PageWrapper.styled';
-import MockData from 'src/Bookmark/mock_data';
-import { Bookmark } from 'src/Bookmark';
+import { Bookmark } from 'src/components/Bookmark';
+import { loadChromeBookmarks } from 'src/services/loadChromeBookmarks';
 import { ManyCubes } from 'src/illstrustration/ManyCubes';
+import { IBookmarkItem } from 'src/models/IBookmarkItem.model';
 
 function SearchPage() {
+    const [bookmarkItems, setBookmarkItems] = useState<IBookmarkItem[]>([]);
+    useEffect(() => {
+        setBookmarkItems(loadChromeBookmarks());
+    }, []);
+    const test = bookmarkItems.map((bookmarkItem) => 
+        (<Bookmark
+            key={bookmarkItem.id}
+            title={bookmarkItem.title}
+            link={bookmarkItem.url}
+            tags={bookmarkItem.tags}
+            readAt={bookmarkItem.readAt}
+        />))
+    
     return (
         <PageWrapper>
             <SearchPageContainer>
@@ -15,12 +29,7 @@ function SearchPage() {
                 <Headline>
                     Just read this week:
                 </Headline>
-                <Bookmark
-                    title={MockData.title}
-                    link={MockData.link}
-                    tags={MockData.tags}
-                    readAt={MockData.readAt}
-                />
+                {test.length !== 0 && test}  
             </SearchPageContainer>
         </PageWrapper>
     )
