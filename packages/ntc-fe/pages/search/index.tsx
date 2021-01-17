@@ -13,23 +13,22 @@ function SearchPage() {
     useEffect(() => {
         setBookmarkItems(loadChromeBookmarks());
     }, []);
-    const test = bookmarkItems.map((bookmarkItem) => 
-        (<Bookmark
-            key={bookmarkItem.id}
-            title={bookmarkItem.title}
-            link={bookmarkItem.url}
-            tags={bookmarkItem.tags}
-            readAt={bookmarkItem.readAt}
-        />))
-    
+
     return (
         <PageWrapper>
             <SearchPageContainer>
                 <SearchBar />
-                <Headline>
+                <span className='py-8 text-6xl'>
                     Just read this week:
-                </Headline>
-                {test.length !== 0 && test}  
+                </span>
+                {bookmarkItems.map((bookmarkItem) =>
+                (<Bookmark
+                    key={bookmarkItem.id}
+                    title={bookmarkItem.title}
+                    link={bookmarkItem.url}
+                    tags={bookmarkItem.tags}
+                    readAt={bookmarkItem.readAt}
+                />))}
             </SearchPageContainer>
         </PageWrapper>
     )

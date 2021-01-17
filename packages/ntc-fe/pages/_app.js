@@ -1,3 +1,4 @@
+import 'tailwindcss/tailwind.css';
 import '../styles/globals.css'
 import './svg-playground/cube-style.scss'
 
