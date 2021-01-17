@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { SearchPageContainer } from './SearchPage.styled';
+import { SearchPageContainer } from 'styles/SearchPage.styled';
 import { SearchBar } from 'src/components/SearchBar';
 import { Headline } from 'src/common/Headline.styled';
 import { PageWrapper } from 'src/common/PageWrapper.styled';
