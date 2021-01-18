@@ -10,6 +10,6 @@ jobs:
           vercel-token: ${{secrets.VERCEL_TOKEN}}
           github-token: ${{secrets.GITHUB_TOKEN}}
           vercel-args: "--prod"
-          vercel-org-id: ${{sercrets.VERCEL_ORGID}}
-          vercel-project-id: ${{sercrets.VERCEL_PROJECTID}}
+          vercel-org-id: ${{secrets.VERCEL_ORGID}}
+          vercel-project-id: ${{secrets.VERCEL_PROJECTID}}
           working-directory: ./packages/ntc-fe
