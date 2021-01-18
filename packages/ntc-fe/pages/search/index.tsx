@@ -18,7 +18,7 @@ function SearchPage() {
         <PageWrapper>
             <SearchPageContainer>
                 <SearchBar />
-                <span className='py-8 text-6xl'>
+                <span className='py-8 text-4xl'>
                     Just read this week:
                 </span>
                 {bookmarkItems.map((bookmarkItem) =>
