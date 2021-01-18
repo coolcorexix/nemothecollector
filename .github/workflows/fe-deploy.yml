@@ -1,5 +1,8 @@
 name: deploy nextjs
-on: [push]
+on:
+  push:
+    branches:
+      - mainster
 jobs:
   deploy:
     runs-on: ubuntu-latest
