@@ -4,6 +4,8 @@ on:
     branches:
       - mainster
 jobs:
+  env:
+    working-directory: ./packages/ntc-fe
   deploy:
     runs-on: ubuntu-latest
     steps:
@@ -15,3 +17,4 @@ jobs:
           vercel-args: "--prod"
           vercel-org-id: ${{secrets.VERCEL_ORGID}}
           vercel-project-id: ${{secrets.VERCEL_PROJECTID}}
+          working-directory: ${{env.working-directory}}
