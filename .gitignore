@@ -3,3 +3,4 @@ packages/tiki-crawler/tiki-crawler-env/bin
 packages/tiki-crawler/tiki-crawler-env/lib/python3.8
 packages/tiki-crawler/__pycache__
 postgredb
+.vercel
