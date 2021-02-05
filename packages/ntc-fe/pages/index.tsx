@@ -45,7 +45,7 @@ export default function Home() {
           </SectionHeader>
           {
             Object.keys(SiteItems).map(si => {
-              return <div className='text-md'>
+              return <div key={si} className='text-md'>
                 <span className='font-bold'>
                   {SiteItems[si].display}:&nbsp;
                 </span>
