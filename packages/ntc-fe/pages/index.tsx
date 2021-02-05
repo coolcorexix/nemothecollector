@@ -15,7 +15,7 @@ export default function Home() {
       <main className='max-w-screen-sm m-auto'>
         <div className='flex flex-col py-6'>
           <span className='block font-bold text-xl'>
-            It's me  Nêmô, your boi!
+            It's me  Nêmô, your boi! 🌱🌿🌸
           </span>
           <span className='block text-sm'>
             been collecting moments and feels of contribution lately
