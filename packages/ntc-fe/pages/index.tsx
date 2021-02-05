@@ -1,9 +1,5 @@
 import Head from 'next/head';
-import SiteItems from './site-items-data';
-
-
-import { ClickableItemBox } from 'src/components/ClickableItemBox';
-import { ItemWithLogoFirst } from 'src/components/ItemWithLogoFirst';
+import SiteItems from '../src/home-page-data/site-items-data';
 import { SectionHeader} from 'src/components/SectionHeader';
 import { SectionContainer } from 'src/components/SectionContainer';
 
