@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className='max-w-screen-sm m-auto'>
+      <main className='max-w-screen-sm px-2 sm:px-0 m-auto'>
         <div className='flex flex-col py-6'>
           <span className='block font-bold text-xl'>
             It's me  Nêmô, your boi! 🌱🌿🌸
