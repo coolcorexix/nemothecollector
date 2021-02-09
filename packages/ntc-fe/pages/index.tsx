@@ -2,6 +2,7 @@ import Head from 'next/head';
 import SiteItems from '../src/home-page-data/site-items-data';
 import { SectionHeader} from 'src/components/SectionHeader';
 import { SectionContainer } from 'src/components/SectionContainer';
+import { PinnedSlider } from 'src/components/PinnedSlider';
 
 
 export default function Home() {
@@ -13,7 +14,7 @@ export default function Home() {
       </Head>
 
       <main className='max-w-screen-sm px-2 sm:px-0 m-auto'>
-        <div className='flex flex-col py-6'>
+        <div className='flex flex-col py-4'>
           <span className='block font-bold text-xl'>
             It's me  Nêmô, your boi! 🌱🌿🌸
           </span>
@@ -29,13 +30,11 @@ export default function Home() {
           <div className='mb-1'>
             I am at Qui Nhơn for Tết 2021, constantly sending out kèo đi chơi haha
           </div>
-          <img
-            className='w-64'
-            src='https://i.imgur.com/c7Q0aZ6.jpeg'
-            style={{
-              objectFit: 'contain',
-            }}
-
+          <PinnedSlider
+            listImgSrc={[
+              'https://i.imgur.com/CjIqrpM.jpg',
+              'https://i.imgur.com/c7Q0aZ6.jpeg',
+            ]}
           />
 
         </SectionContainer>
