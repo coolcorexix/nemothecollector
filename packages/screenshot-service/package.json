@@ -1,0 +1,10 @@
+{
+  "name": "screenshot-service",
+  "version": "0.0.1",
+  "description": "take screenshot service, initially for the history feature",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^7.1.0"
+  }
+}
