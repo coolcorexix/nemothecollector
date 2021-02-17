@@ -1,6 +1,8 @@
 name: deploy nextjs
 on:
   push:
+    paths:
+      - 'packages/ntc-fe/**'
     branches:
       - mainster
 jobs:
