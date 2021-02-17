@@ -5,9 +5,6 @@ on:
       - mainster
 jobs:
   deploy:
-    strategy:
-      matrix:
-        width: [1024, 320]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -19,6 +16,9 @@ jobs:
           vercel-org-id: ${{secrets.VERCEL_ORGID}}
           vercel-project-id: ${{secrets.VERCEL_PROJECTID}}
       - uses: swinton/screenshot-website@v1.x
+        strategy:
+          matrix:
+            width: [1024, 320]
         with:
           source: https://nemothecollector.dev/
           destination: screenshot-${{ matrix.width }}.png
