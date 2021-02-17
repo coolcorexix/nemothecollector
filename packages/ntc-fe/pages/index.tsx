@@ -19,7 +19,7 @@ export default function Home() {
             It's me  Nêmô, your boi! 🌱🌿🌸
           </span>
           <span className='block text-sm'>
-            been collecting moments and feels of contribution lately
+            fruit-tree, how-to-look-cool obsessed
           </span>
         </div>
 
