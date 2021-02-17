@@ -32,6 +32,7 @@ export default function Home() {
           </div>
           <PinnedSlider
             listImgSrc={[
+              'https://i.imgur.com/3EKxmSs.jpg',
               'https://i.imgur.com/CjIqrpM.jpg',
               'https://i.imgur.com/c7Q0aZ6.jpeg',
             ]}

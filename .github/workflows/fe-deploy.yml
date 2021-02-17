@@ -15,12 +15,16 @@ jobs:
           vercel-args: "--prod"
           vercel-org-id: ${{secrets.VERCEL_ORGID}}
           vercel-project-id: ${{secrets.VERCEL_PROJECTID}}
-      - uses: swinton/screenshot-website@v1.x
-        strategy:
-          matrix:
-            width: [1024, 320]
-        with:
-          source: https://nemothecollector.dev/
-          destination: screenshot-${{ matrix.width }}.png
-          width: ${{ matrix.width }}
-          full-page: true
+  screenshot:
+    needs: deploy
+    runs-on: macos-latest
+    strategy:
+      matrix:
+        width: [1024, 320]
+    steps:
+    - uses: swinton/screenshot-website@v1.x
+      with:
+        source: https://nemothecollector.dev/
+        destination: screenshot-${{ matrix.width }}.png
+        width: ${{ matrix.width }}
+        full-page: true
