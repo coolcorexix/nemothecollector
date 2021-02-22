@@ -3,6 +3,7 @@ import SiteItems from '../src/home-page-data/site-items-data';
 import { SectionHeader} from 'src/components/SectionHeader';
 import { SectionContainer } from 'src/components/SectionContainer';
 import { PinnedSlider } from 'src/components/PinnedSlider';
+import {quickBio} from 'src/home-page-data/quick-bio';
 
 
 export default function Home() {
@@ -19,7 +20,7 @@ export default function Home() {
             It's me  Nêmô, your boi! 🌱🌿🌸
           </span>
           <span className='block text-sm'>
-            fruit-tree, how-to-look-cool obsessed
+            {quickBio}
           </span>
         </div>
 
