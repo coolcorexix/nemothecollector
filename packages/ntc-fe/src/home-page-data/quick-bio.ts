@@ -1,1 +1,1 @@
-export const quickBio = 'been collecting moments and feels of contribution lately'
+export const quickBio = 'fruit-tree, how-to-look-cool obsessed'
