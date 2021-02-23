@@ -4,6 +4,7 @@ import { SectionHeader} from 'src/components/SectionHeader';
 import { SectionContainer } from 'src/components/SectionContainer';
 import { PinnedSlider } from 'src/components/PinnedSlider';
 import {quickBio} from 'src/home-page-data/quick-bio';
+import {pinnedContent} from 'src/home-page-data/pinned-content';
 
 
 export default function Home() {
@@ -29,16 +30,11 @@ export default function Home() {
             Pinned:
           </SectionHeader>
           <div className='mb-1'>
-            I am at Qui Nhơn for Tết 2021, constantly sending out kèo đi chơi haha
+            {pinnedContent.caption}
           </div>
           <PinnedSlider
-            listImgSrc={[
-              'https://i.imgur.com/3EKxmSs.jpg',
-              'https://i.imgur.com/CjIqrpM.jpg',
-              'https://i.imgur.com/c7Q0aZ6.jpeg',
-            ]}
+            listImgSrc={pinnedContent.images}
           />
-
         </SectionContainer>
         <div>
           <SectionHeader>
