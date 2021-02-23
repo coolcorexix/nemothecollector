@@ -1,8 +1,7 @@
 export const pinnedContent = {
-    caption: 'I am at Qui Nhơn for Tết 2021, constantly sending out kèo đi chơi haha',
+    caption: 'Back to Sài Gòn - double tempo!',
     images: [
-        'https://i.imgur.com/3EKxmSs.jpg',
-        'https://i.imgur.com/CjIqrpM.jpg',
-        'https://i.imgur.com/c7Q0aZ6.jpeg',
+        'https://i.imgur.com/N7CDwen.jpeg',
+        'https://i.imgur.com/VL4oMJX.jpeg',
     ],
 }
