@@ -1,8 +1,8 @@
 import React from 'react';
 import FolderTree from './react-folder-tree.bundle';
 import { SearchBar } from 'src/components/SearchBar';
-import { convertJsonToTreeViewFormat } from './services/convertJsonToTreeViewFormat';
-import { filterBookmarks } from './services/filterBookmarks';
+import { convertJsonToTreeViewFormat } from 'src/read2/services/convertJsonToTreeViewFormat';
+import { filterBookmarks } from 'src/read2/services/filterBookmarks';
 const a = convertJsonToTreeViewFormat();
 export default function Read2() {
   const [keyword, setKeyword] = React.useState('');

@@ -3,7 +3,7 @@ export function filterBookmarks(keyword: string, input: {
     url?: string;
     children?: {name?: string , url?: string, children?: any}[];
 }) {
-    let temp = {};
+    let temp = null;
     const rs = [];
     function recursiveSearch(keyword: string, input: {
         name?: string;
