@@ -1,0 +1,2977 @@
+{
+    "children": [{
+        "children": [{
+            "children": [{
+                "date_added": "13194196683000000",
+                "guid": "7dc35ae4-64ff-4367-9d95-6ea7647033dc",
+                "id": "7",
+                "name": "(542) What Redbone would sound like if you used to know it - YouTube",
+                "type": "url",
+                "url": "https://www.youtube.com/watch?v=fyx_VkXOzzQ"
+            }, {
+                "date_added": "13207107970000000",
+                "guid": "b89500ca-22d2-4e9c-8ffd-29c6c9e3063d",
+                "id": "8",
+                "name": "Mongolian Throat Singing-Batzorig Vaanchig - YouTube",
+                "type": "url",
+                "url": "https://www.youtube.com/watch?v=1rmo3fKeveo"
+            }, {
+                "date_added": "13208330872000000",
+                "guid": "d6656a7e-5e45-43c3-9871-222fb204b78c",
+                "id": "9",
+                "name": "Erlang -- gen_statem Behavior",
+                "type": "url",
+                "url": "http://erlang.org/doc/design_principles/statem.html"
+            }, {
+                "date_added": "13208798832000000",
+                "guid": "c66f2813-0850-44fb-804b-0740719fc52d",
+                "id": "10",
+                "name": "Steve Jobs, kẻ “mù code”, mù công nghệ và bài học cho cả thế giới hi-tech | Tech Talk",
+                "type": "url",
+                "url": "https://techtalk.vn/steve-jobs-ke-mu-code-mu-cong-nghe-va-bai-hoc-cho-ca-the-gioi-hi-tech.html?fbclid=IwAR0LFkRF0JoNm-_xViJoqqbmO9NaNe5Us9_S6zBP9w7V2brqbpSAGoanWCE"
+            }, {
+                "date_added": "13215778549000000",
+                "guid": "480d0071-d4a9-4d1e-b5a5-3916c4844fe9",
+                "id": "11",
+                "name": "DEV Community 👩‍💻👨‍💻",
+                "type": "url",
+                "url": "https://dev.to/"
+            }, {
+                "date_added": "13216324673000000",
+                "guid": "4b7ae9ad-825b-438a-b024-05a81845dc4d",
+                "id": "12",
+                "name": "Failed gas estimation causes JSON-RPC error -32603 · Issue #7286 · MetaMask/metamask-extension",
+                "type": "url",
+                "url": "https://github.com/MetaMask/metamask-extension/issues/7286"
+            }, {
+                "date_added": "13216707406000000",
+                "guid": "fcf83315-e6f9-45e3-8c6d-c5344c28e33f",
+                "id": "13",
+                "name": "Why ‘Feedback’ Is Overrated - Forge",
+                "type": "url",
+                "url": "https://forge.medium.com/why-feedback-is-overrated-ebab1315a5ed"
+            }],
+            "date_added": "13247564653645691",
+            "date_modified": "0",
+            "guid": "a45b0ec3-17bb-4353-8eef-d4a8ac2db833",
+            "id": "6",
+            "name": "Deja Vu",
+            "type": "folder"
+        }, {
+            "children": [{
+                "date_added": "13231495074000000",
+                "guid": "37dff575-a0f8-4823-9fbd-38560f2cf972",
+                "id": "15",
+                "name": "daohoangson/dvhcvn: Bộ dữ liệu các đơn vị hành chính Việt Nam (3 cấp)",
+                "type": "url",
+                "url": "https://github.com/daohoangson/dvhcvn"
+            }],
+            "date_added": "13247564653647282",
+            "date_modified": "0",
+            "guid": "f66378e7-e7af-4148-9590-022070fa16d5",
+            "id": "14",
+            "name": "buthowsafe",
+            "type": "folder"
+        }, {
+            "children": [{
+                "date_added": "13218175055000000",
+                "guid": "9d8bbd42-fdc5-4b39-9a24-a3e2c34ed8c9",
+                "id": "17",
+                "name": "Phở Tàu Bay ở Quận 10, TP. HCM | Foody.vn",
+                "type": "url",
+                "url": "https://www.foody.vn/ho-chi-minh/pho-tau-bay"
+            }],
+            "date_added": "13247564653647335",
+            "date_modified": "0",
+            "guid": "cc2df641-5b68-49d7-a1c5-7aa27339b436",
+            "id": "16",
+            "name": "To eat ",
+            "type": "folder"
+        }, {
+            "children": [{
+                "date_added": "13233119947000000",
+                "guid": "2e525dab-31d3-48a3-b387-4890d2b3f48c",
+                "id": "19",
+                "name": "(263) Travis Scott - STARGAZING (Audio) - YouTube",
+                "type": "url",
+                "url": "https://www.youtube.com/watch?v=2a8PgqWrc_4"
+            }, {
+                "date_added": "13241078029000000",
+                "guid": "2fedb9c7-48ea-4833-8f5e-922e910c43df",
+                "id": "20",
+                "name": "JACKBOYS (full Album) - YouTube",
+                "type": "url",
+                "url": "https://www.youtube.com/watch?v=9_7h5gtElWs"
+            }, {
+                "date_added": "13241774829000000",
+                "guid": "f2290b69-e8d5-4a94-8ac7-70a38d53432a",
+                "id": "21",
+                "name": "(80) Travis Scott - YOSEMITE (Audio) - YouTube",
+                "type": "url",
+                "url": "https://www.youtube.com/watch?v=ykMHDKB0-1o"
+            }],
+            "date_added": "13247564653647390",
+            "date_modified": "0",
+            "guid": "89116d63-cb66-4906-b664-8681280547f5",
+            "id": "18",
+            "name": "míu ",
+            "type": "folder"
+        }, {
+            "children": [{
+                "date_added": "13235628585000000",
+                "guid": "7106c065-887e-4877-86cf-8d761d442519",
+                "id": "23",
+                "name": "(504) Beat DSK(Kong) - YouTube",
+                "type": "url",
+                "url": "https://www.youtube.com/watch?v=7YzH01zvh8k&list=PLy5r838ENB0cM31YX8ql_zQ2ghKDkY97q&index=1"
+            }, {
+                "date_added": "13235719100000000",
+                "guid": "db9c8f61-e125-4159-ad24-4390d8d83534",
+                "id": "24",
+                "name": "Cách bấm các hợp âm cơ bản của guitar",
+                "type": "url",
+                "url": "http://pianominhthanh.vn/tu-van-kien-thuc-dan-guitar/cach-bam-cac-hop-am-co-ban-cua-guitar-957.html"
+            }, {
+                "date_added": "13236147796000000",
+                "guid": "42acabb7-e399-40c6-999c-33212ba9cceb",
+                "id": "25",
+                "name": "(26) Boogie Belgique - Volta - YouTube",
+                "type": "url",
+                "url": "https://www.youtube.com/watch?v=pr3z3WwZ8F4"
+            }, {
+                "date_added": "13087351842000000",
+                "guid": "34b8a496-ed47-49ff-8aaf-b9eed0a132b9",
+                "id": "26",
+                "name": "‫حسين الجسمي - وتبقى لي (النسخة الأصلية) | 2014‬‎ - YouTube",
+                "type": "url",
+                "url": "https://www.youtube.com/watch?v=oYy752k6Uow"
+            }, {
+                "date_added": "13237811794000000",
+                "guid": "304ab204-3efe-417d-bf01-a5a359254391",
+                "id": "27",
+                "name": "(86) 4 bài tập để chinh phục hợp âm F (Fa trưởng) - Văn Anh Guitar Class - YouTube",
+                "type": "url",
+                "url": "https://www.youtube.com/watch?v=58XOGTbgDTc"
+            }, {
+                "date_added": "13239563804000000",
+                "guid": "c684c2a0-4e3d-4d9a-8c42-b013c6736e08",
+                "id": "28",
+                "name": "Hợp âm Tìm - Mr.A (Phiên bản 1) - Hợp Âm Chuẩn",
+                "type": "url",
+                "url": "https://hopamchuan.com/song/4648/tim/?s=1"
+            }, {
+                "date_added": "13241110938000000",
+                "guid": "3a515a95-b954-4c49-ae1e-04ac31f8e4af",
+                "id": "29",
+                "name": "",
+                "type": "url",
+                "url": "https://www.youtube.com/watch?v=HKGt0VXiAew"
+            }, {
+                "date_added": "13242463472000000",
+                "guid": "530db462-1a07-4b59-9616-640c774fbd53",
+                "id": "30",
+                "name": "(2) Drake - Passionfruit Instrumental (Reprod. By Osva J) - YouTube",
+                "type": "url",
+                "url": "https://www.youtube.com/watch?v=FloETO_HWao"
+            }, {
+                "date_added": "13242930011000000",
+                "guid": "6ed629c3-10cc-4931-acfc-d156bdfebc9c",
+                "id": "31",
+                "name": "(5) J.COLE - \"LYRICAL SHIT\" | J.Cole Type Beat | Hip Hop Beat - YouTube",
+                "type": "url",
+                "url": "https://www.youtube.com/watch?v=KDSCy4BcZdE"
+            }],
+            "date_added": "13247564653647517",
+            "date_modified": "0",
+            "guid": "1cd4de9f-b371-4b3a-81bc-859e0ef6c677",
+            "id": "22",
+            "name": "to murder ",
+            "type": "folder"
+        }, {
+            "children": [],
+            "date_added": "13247564653647969",
+            "date_modified": "13247564653647969",
+            "guid": "1da92906-fbb0-421d-9e3d-94a436e17ee9",
+            "id": "32",
+            "name": "good reads",
+            "type": "folder"
+        }, {
+            "children": [{
+                "date_added": "13243838394000000",
+                "guid": "0c5bbd6b-36a6-415d-bccb-919b006d0a90",
+                "id": "34",
+                "name": "Thực tập doanh nghiệp hk2 nh 2018 - 2019 - Google Drive",
+                "type": "url",
+                "url": "https://drive.google.com/drive/folders/1a8lmhqPjbkMGCZNGccKMrIhJVyzidago"
+            }, {
+                "date_added": "13243674384000000",
+                "guid": "5d35e451-50c7-4ce3-b3a8-fcc982b1097f",
+                "id": "35",
+                "name": "Một số quy trình dành cho sinh viên | Cổng thông tin đào tạo",
+                "type": "url",
+                "url": "https://daa.uit.edu.vn/thongbao/mot-so-quy-trinh-danh-cho-sinh-vien#baoluuketqua"
+            }, {
+                "date_added": "13246362620000000",
+                "guid": "54d54dfa-6342-4643-a8f3-2ad083eebadd",
+                "id": "36",
+                "name": "6._quyet_dinh_ve_viec_ban_hanh_quy_dinh_ve_khoa_luan_tot_nghiep_cho_sv_he_cq.pdf",
+                "type": "url",
+                "url": "https://daa.uit.edu.vn/sites/daa/files/201903/6._quyet_dinh_ve_viec_ban_hanh_quy_dinh_ve_khoa_luan_tot_nghiep_cho_sv_he_cq.pdf"
+            }, {
+                "date_added": "13246364903000000",
+                "guid": "202f0b66-684c-4858-8b46-bdb38f815c1c",
+                "id": "37",
+                "name": "Quy che Dao tao theo tin chi_UIT (2) - Google Tài liệu",
+                "type": "url",
+                "url": "https://docs.google.com/document/d/1n7_tBv_hFP6u0wFKTN-relw26top_OTYCNhGWZK_ISo/edit"
+            }],
+            "date_added": "13247564653647976",
+            "date_modified": "0",
+            "guid": "22d936ab-bb92-4e30-abb4-0988176e732c",
+            "id": "33",
+            "name": "for long long day to come",
+            "type": "folder"
+        }, {
+            "children": [{
+                "date_added": "13245582145000000",
+                "guid": "0eb7342a-fd2e-40cd-ab40-aad8b9bf93d3",
+                "id": "39",
+                "name": "334803 - Sign out from ATI.com cycles from sign out to sign in. Need to exit browser.",
+                "type": "url",
+                "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=334803"
+            }, {
+                "date_added": "13245582317000000",
+                "guid": "202a093a-385b-4cd3-a563-4c9638027d57",
+                "id": "40",
+                "name": "My Dashboard",
+                "type": "url",
+                "url": "https://bugzilla.mozilla.org/page.cgi?id=mydashboard.html"
+            }, {
+                "date_added": "13245582497000000",
+                "guid": "f4b8d5ab-d5ec-4dd4-bc52-937f182df475",
+                "id": "41",
+                "name": "Bug List: add",
+                "type": "url",
+                "url": "https://bugzilla.mozilla.org/buglist.cgi?quicksearch=add&list_id=15428155"
+            }, {
+                "date_added": "13245583530000000",
+                "guid": "3f00ec6d-6507-4d92-aa3b-2bd59e2f48cd",
+                "id": "42",
+                "name": "Bugzilla:FAQ - MozillaWiki",
+                "type": "url",
+                "url": "https://wiki.mozilla.org/Bugzilla:FAQ#Can_I_try_out_Bugzilla_somewhere.3F"
+            }, {
+                "date_added": "13245583564000000",
+                "guid": "6cb6baa2-ccd6-4513-b084-aba359f7a976",
+                "id": "43",
+                "name": "Forums — Mozilla",
+                "type": "url",
+                "url": "https://www.mozilla.org/en-US/about/forums/#support-bugzilla"
+            }, {
+                "date_added": "13245583607000000",
+                "guid": "80154abb-6f91-425a-bc79-21cdead75d37",
+                "id": "44",
+                "name": "2. User Guide — Bugzilla 5.0.4+ documentation",
+                "type": "url",
+                "url": "https://bugzilla.readthedocs.io/en/5.0/using/index.html"
+            }, {
+                "date_added": "13245998337000000",
+                "guid": "c17112cb-ec1e-4b84-83aa-1b00c2390b70",
+                "id": "45",
+                "name": "Downloading and starting the sample applications",
+                "type": "url",
+                "url": "https://oslc.github.io/developing-oslc-applications/integrating_products_with_oslc/running_the_examples"
+            }, {
+                "date_added": "13246883710000000",
+                "guid": "0f435fe8-37f8-4627-b7ee-1f23bb1f5223",
+                "id": "46",
+                "name": "Source Code Phần mềm quản lý trường học bằng PHP",
+                "type": "url",
+                "url": "https://123click.org/source-code-phan-mem-quan-ly-truong-hoc-bang-php.html#link_download"
+            }],
+            "date_added": "13247564653648198",
+            "date_modified": "0",
+            "guid": "c66d3ac2-52b0-452d-a296-fd58d33bf75d",
+            "id": "38",
+            "name": "temp_seminar",
+            "type": "folder"
+        }, {
+            "children": [{
+                "date_added": "13246176945000000",
+                "guid": "0fe43fe3-f467-4723-a676-fa19279f42be",
+                "id": "48",
+                "name": "Villa with Garden view IIIB - Biệt Thự cho thuê tại Hồ Chí Minh, Vietnam",
+                "type": "url",
+                "url": "https://www.luxstay.com/vi/rooms/27496?checkin=2020-10-17&checkout=2020-10-18&guests=6"
+            }, {
+                "date_added": "13246177050000000",
+                "guid": "534feac8-c948-40db-9db3-f3c384d1d5bd",
+                "id": "49",
+                "name": "Penthouse - Villa 3 Bedrooms - Yểng House – Căn hộ cho thuê tại Phú Hữu, Hồ Chí Minh, Việt Nam",
+                "type": "url",
+                "url": "https://www.airbnb.com.vn/rooms/40877626?adults=7&check_in=2020-10-17&check_out=2020-10-18&source_impression_id=p3_1601703406_Z1%2F1CzdC%2BzRcHOQ1"
+            }],
+            "date_added": "13247564653648563",
+            "date_modified": "0",
+            "guid": "a3f9d291-fc78-447c-ab37-1a71e177eab4",
+            "id": "47",
+            "name": "hoplopthang10",
+            "type": "folder"
+        }, {
+            "date_added": "13247234348000000",
+            "guid": "8f50f9b9-1555-4562-b135-293361f66598",
+            "id": "50",
+            "name": "How to do named command line arguments in Bash Scripting better way? - Stack Overflow",
+            "type": "url",
+            "url": "https://stackoverflow.com/questions/50633719/how-to-do-named-command-line-arguments-in-bash-scripting-better-way"
+        }, {
+            "date_added": "13250102788702801",
+            "guid": "60a607d1-0961-48c0-91cc-fd39e91d9bd8",
+            "id": "326",
+            "name": "(26) Jack Stauber - Pop Food (2017) (Full Album) - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=40R49TvD_FM"
+        }, {
+            "date_added": "13251278205641437",
+            "guid": "b7f3cd6f-9aef-4841-968a-0c9ea8289a1a",
+            "id": "364",
+            "name": "Ruot-sach-trang-2020.pdf",
+            "type": "url",
+            "url": "https://www.gso.gov.vn/wp-content/uploads/2020/04/Ruot-sach-trang-2020.pdf"
+        }, {
+            "date_added": "13248353765848225",
+            "guid": "c92ab5c4-a930-4afb-bb82-2867fa3fd2e7",
+            "id": "283",
+            "name": "Clean Coder Blog",
+            "type": "url",
+            "url": "https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html"
+        }, {
+            "date_added": "13255976593607887",
+            "guid": "9d429daa-c520-4924-ba42-15695038f6d2",
+            "id": "444",
+            "name": "(1) Full Tour: How Alitu makes for Quick & Easy Podcasting - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=JMwxpx2wk88"
+        }],
+        "date_added": "13247564653645201",
+        "date_modified": "13259239434477330",
+        "guid": "34b52157-a801-4de9-85c3-23f19670804c",
+        "id": "5",
+        "name": "archive",
+        "type": "folder"
+    }, {
+        "children": [{
+            "date_added": "13237715753000000",
+            "guid": "eaea9448-9cae-43d5-9962-e76f26734dd1",
+            "id": "52",
+            "name": "javascript - Tree-shaking with rollup - Stack Overflow",
+            "type": "url",
+            "url": "https://stackoverflow.com/questions/55339256/tree-shaking-with-rollup"
+        }, {
+            "date_added": "13237716421000000",
+            "guid": "03f8dd60-4405-457e-875e-837c8d3c8fdf",
+            "id": "53",
+            "name": "rollupjs - Rollup + Typescript output JS file per component - Stack Overflow",
+            "type": "url",
+            "url": "https://stackoverflow.com/questions/60448485/rollup-typescript-output-js-file-per-component/62607144#62607144"
+        }, {
+            "date_added": "13238482245000000",
+            "guid": "ac5b29e5-6b38-4ce5-b6c4-7976b4bee679",
+            "id": "54",
+            "name": "React native feature by coolcorexix · Pull Request #130 · balajmarius/svg2jsx",
+            "type": "url",
+            "url": "https://github.com/balajmarius/svg2jsx/pull/130"
+        }, {
+            "date_added": "13239170723000000",
+            "guid": "82a1a0a6-dfe9-4a8f-aacf-d7c00ecc2457",
+            "id": "55",
+            "name": "Monorepos in JavaScript, Anti-Pattern | by Paul Sweeney | Medium",
+            "type": "url",
+            "url": "https://medium.com/@PepsRyuu/monorepos-in-javascript-anti-pattern-917603da59c8"
+        }, {
+            "date_added": "13240944482000000",
+            "guid": "d28f852a-61ef-4805-90a7-c46ca95accde",
+            "id": "56",
+            "name": "React component for icons and spot · Issue #520 · StackExchange/Stacks",
+            "type": "url",
+            "url": "https://github.com/StackExchange/Stacks/issues/520"
+        }, {
+            "date_added": "13247120587000000",
+            "guid": "c7e9a321-3d20-4a90-8aef-22ffdede0d87",
+            "id": "57",
+            "name": "Always get Invalid token (http status: 401) for self-hosted Sentry · Issue #844 · getsentry/sentry-cli",
+            "type": "url",
+            "url": "https://github.com/getsentry/sentry-cli/issues/844"
+        }, {
+            "date_added": "13250681942324367",
+            "guid": "78da057e-47d7-4ae9-b6c7-69289ebac40b",
+            "id": "338",
+            "name": "python 3.x - Error: No module named Elasticsearch - Stack Overflow",
+            "type": "url",
+            "url": "https://stackoverflow.com/questions/50888478/error-no-module-named-elasticsearch/64983167#64983167"
+        }, {
+            "date_added": "13252917356261168",
+            "guid": "25d21822-642c-47c1-83ff-6c2f4991edd1",
+            "id": "394",
+            "name": "Make a component like bread-crumb menu · Issue #369 · microsoft/vscode-extension-samples",
+            "type": "url",
+            "url": "https://github.com/microsoft/vscode-extension-samples/issues/369"
+        }, {
+            "date_added": "13252933867190372",
+            "guid": "4fba0dcb-7040-42d5-bb0c-a094c1305d37",
+            "id": "395",
+            "name": "Shortcut for Peek Call Hierarchy · Issue #113184 · microsoft/vscode",
+            "type": "url",
+            "url": "https://github.com/microsoft/vscode/issues/113184"
+        }, {
+            "date_added": "13254568101442380",
+            "guid": "572009a0-88f5-4d77-81b0-f0a0a85dc366",
+            "id": "414",
+            "name": "Uncaught SyntaxError: Unexpected token 'default' · Issue #11419 · storybookjs/storybook",
+            "type": "url",
+            "url": "https://github.com/storybookjs/storybook/issues/11419"
+        }, {
+            "date_added": "13255336771588256",
+            "guid": "4987ae0e-bd6b-49d8-8461-a3db1e6a94d1",
+            "id": "423",
+            "name": "API registerCallHierarchyProvider does not work as expected and flakily · Issue #114481 · microsoft/vscode",
+            "type": "url",
+            "url": "https://github.com/microsoft/vscode/issues/114481"
+        }, {
+            "date_added": "13256669142226542",
+            "guid": "214f9238-f9da-48ee-8483-d230e84d0f54",
+            "id": "466",
+            "name": "javascript - Rollup bundle node_modules into app when using Typescript - Stack Overflow",
+            "type": "url",
+            "url": "https://stackoverflow.com/questions/61758653/rollup-bundle-node-modules-into-app-when-using-typescript?rq=1"
+        }, {
+            "date_added": "13257071637297158",
+            "guid": "571539ba-7368-4898-8871-06c22f7fa171",
+            "id": "470",
+            "name": "laravel - Tailwind CSS responsive breakpoint overrides not working - Stack Overflow",
+            "type": "url",
+            "url": "https://stackoverflow.com/questions/56739465/tailwind-css-responsive-breakpoint-overrides-not-working/66074697#66074697"
+        }, {
+            "date_added": "13259734479160130",
+            "guid": "21b56f01-830a-4b08-b79a-f7aa0bebfaa7",
+            "id": "530",
+            "name": "Library not work on NextJs · Issue #10 · shunjizhan/React-Folder-Tree",
+            "type": "url",
+            "url": "https://github.com/shunjizhan/React-Folder-Tree/issues/10"
+        }],
+        "date_added": "13247564653648780",
+        "date_modified": "13259736683106432",
+        "guid": "290eeeec-095f-4dec-be8a-4a6e4fe7d562",
+        "id": "51",
+        "name": "i wait for regconition",
+        "type": "folder"
+    }, {
+        "children": [{
+            "date_added": "13219149622000000",
+            "guid": "8c6cce3c-78e9-4b05-9419-4179d2274d3b",
+            "id": "73",
+            "name": "Handling Time Zone in JavaScript - TOAST UI - Medium",
+            "type": "url",
+            "url": "https://medium.com/@toastui/handling-time-zone-in-javascript-547e67aa842d"
+        }, {
+            "date_added": "13241500609000000",
+            "guid": "21dba2f5-3a1e-4f2d-be5f-bca589b9f136",
+            "id": "94",
+            "name": "(30) 10 Things I Regret About Node.js - Ryan Dahl - JSConf EU - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=M3BM9TB-8yA"
+        }, {
+            "date_added": "13243781928000000",
+            "guid": "55048a78-3b41-41a0-9de1-28aa7aead85e",
+            "id": "96",
+            "name": "Jerry Hargrove - Cloud Diagrams & Notes",
+            "type": "url",
+            "url": "https://www.awsgeek.com/"
+        }, {
+            "date_added": "13246525667000000",
+            "guid": "387c4726-5b4a-4c9e-96c0-dac52f1079d4",
+            "id": "99",
+            "name": "Effects of Smoking and Need for Cessation: Biochemical and Pharmacological Feedback",
+            "type": "url",
+            "url": "https://www.longdom.org/open-access/effects-of-smoking-and-need-for-cessation-biochemical-and-pharmacological-feedback-2167-0501.1000145.pdf"
+        }, {
+            "date_added": "13246884755000000",
+            "guid": "d2551c89-f5b0-4e76-93ff-abd0193daa5d",
+            "id": "101",
+            "name": "Head First Statistics: A Brain-Friendly Guide 1, Griffiths, Dawn - Amazon.com",
+            "type": "url",
+            "url": "https://www.amazon.com/Head-First-Statistics-Brain-Friendly-Guide-ebook-dp-B00B797ELQ/dp/B00B797ELQ/ref=mt_other?_encoding=UTF8&me=&qid="
+        }, {
+            "date_added": "13247572522112252",
+            "guid": "675dac5c-3793-4a9c-a666-8e7deb690452",
+            "id": "255",
+            "name": "(1372) Revolution OS HD - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=4vW62KqKJ5A"
+        }, {
+            "date_added": "13251795974628361",
+            "guid": "ee82381b-817f-46fc-b00d-74536da8c559",
+            "id": "374",
+            "name": "(27) 5 THINGS I WISH I KNEW When I Started Calisthenics - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=8-49TscRd0M"
+        }, {
+            "date_added": "13251955212378547",
+            "guid": "b4cc6aaf-2ecf-498f-a089-662bd123fb7c",
+            "id": "380",
+            "name": "Social Network for Programmers and Developers",
+            "type": "url",
+            "url": "https://morioh.com/p/a1fd57a4ce37?f=5c21fb01c16e2556b555ab32"
+        }, {
+            "date_added": "13253170881860093",
+            "guid": "2106ba41-edfa-400a-9c72-c0413b8bc995",
+            "id": "400",
+            "name": "Trò chuyện tỉnh thức, với Johnny Trí Nguyễn - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=MHLwBcHFdz4"
+        }, {
+            "date_added": "13257171196538292",
+            "guid": "b3926ad9-db04-4e61-bef3-d3181faa7955",
+            "id": "473",
+            "name": "flyingzumwalt",
+            "type": "url",
+            "url": "https://flyingzumwalt.com/"
+        }, {
+            "date_added": "13258006861017521",
+            "guid": "aef0e333-a553-434a-b706-b7f0383ed1ef",
+            "id": "489",
+            "name": "Scapes: Seascape’s Homegrown NFTs | by Seascape Network | Seascape Network | Feb, 2021 | Medium",
+            "type": "url",
+            "url": "https://medium.com/seascape-network/scapes-seascapes-homegrown-nfts-e2aea0f5554e"
+        }, {
+            "date_added": "13259042407668606",
+            "guid": "2ee8bc04-2c32-4b63-ac0a-a1882655d6e8",
+            "id": "512",
+            "name": "The Pseudo-“Banksy NFT” and Intriguing Aspects of Appropriation Art | by NFT Art Review | Feb, 2021 | Medium",
+            "type": "url",
+            "url": "https://nftartreview.medium.com/the-pseudo-banksy-nft-and-intriguing-aspects-of-appropriation-art-b29a4258f611"
+        }, {
+            "date_added": "13259042601378340",
+            "guid": "7d994d28-823b-456f-b3ba-bc4dd7542a16",
+            "id": "513",
+            "name": "arweave",
+            "type": "url",
+            "url": "https://www.arweave.org/"
+        }, {
+            "date_added": "13259053858224475",
+            "guid": "478a3508-f36b-4297-9f65-af0fc06b14c6",
+            "id": "514",
+            "name": "The Decentralized Storage War: Filecoin vs. Arweave | CoinMarketCap",
+            "type": "url",
+            "url": "https://coinmarketcap.com/alexandria/article/the-decentralized-storage-war-filecoin-vs-arweave"
+        }, {
+            "date_added": "13259127922468042",
+            "guid": "41f94356-ab97-4f06-8855-c71df02b5d9b",
+            "id": "517",
+            "name": "Marty Lobdell - Study Less Study Smart - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=IlU-zDU6aQ0"
+        }, {
+            "date_added": "13259214446278189",
+            "guid": "6ca7fc6a-7265-49b7-934e-5d00e55e3024",
+            "id": "521",
+            "name": "How to start a movement | Derek Sivers - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=V74AxCqOTvg"
+        }, {
+            "date_added": "13259217895090948",
+            "guid": "35870419-c84a-4b7e-af82-d8cec27625b4",
+            "id": "522",
+            "name": "Binance has no Soul | Market Monday LITE (02/22) - Bankless",
+            "type": "url",
+            "url": "https://newsletter.banklesshq.com/p/binance-has-no-soul-market-monday-3ac"
+        }, {
+            "date_added": "13259300492101270",
+            "guid": "62d5d9c3-bc93-4d40-bf27-b1e333466ec9",
+            "id": "525",
+            "name": "How I Use VOLCA KEYS // A Tutorial with Demo Sounds - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=s6ICcbyTU0g"
+        }, {
+            "date_added": "13259741833174841",
+            "guid": "fdbe9668-8a59-4d44-a5df-4c7c8f5b06c8",
+            "id": "532",
+            "name": "Under the hood of React’s hooks system | by Eytan Manor | The Guild | Medium",
+            "type": "url",
+            "url": "https://medium.com/the-guild/under-the-hood-of-reacts-hooks-system-eb59638c9dba"
+        }, {
+            "date_added": "13259750666727063",
+            "guid": "4f3d5b96-90b2-4166-9634-ec606d01f547",
+            "id": "533",
+            "name": "The BIGGEST Problem of Blockchain Technology (Not What You Think) - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=9__pLF0MtmY"
+        }],
+        "date_added": "13247564653650483",
+        "date_modified": "13259750666727063",
+        "guid": "09e770db-64a2-4a91-b7f4-9709b9df45a5",
+        "id": "72",
+        "name": "To read ",
+        "type": "folder"
+    }, {
+        "children": [{
+            "children": [{
+                "date_added": "13236664512000000",
+                "guid": "5360115c-b43a-4d41-9565-f4d640bb8959",
+                "id": "132",
+                "name": "Semantic Versioning 2.0.0 | Semantic Versioning",
+                "type": "url",
+                "url": "https://semver.org/"
+            }],
+            "date_added": "13247564653654680",
+            "date_modified": "0",
+            "guid": "d418cead-d595-4f45-9184-82a1062f789e",
+            "id": "131",
+            "name": "npm-package",
+            "type": "folder"
+        }, {
+            "children": [{
+                "date_added": "13236880908000000",
+                "guid": "5ba74383-4c7e-4762-b648-e72ff44156af",
+                "id": "134",
+                "name": "Custom Fonts in React Native for iOS & Android Builds",
+                "type": "url",
+                "url": "https://medium.com/@kswanie21/custom-fonts-in-react-native-tutorial-for-ios-android-76ceeaa0eb78"
+            }, {
+                "date_added": "13238696241000000",
+                "guid": "5d8de4d8-c1ea-41b0-a3dd-f78d1b96280d",
+                "id": "135",
+                "name": "react-native-reanimated/ChatHeadsExample.js at master · software-mansion/react-native-reanimated",
+                "type": "url",
+                "url": "https://github.com/software-mansion/react-native-reanimated/blob/master/Example/src/ChatHeadsExample.js"
+            }, {
+                "date_added": "13255933808690672",
+                "guid": "9c2ce5e3-a080-402d-b3d2-30c2ea7cd9f8",
+                "id": "441",
+                "name": "Why Flutter Isn’t the Next Big Thing | by Michael Long | Better Programming | Medium",
+                "type": "url",
+                "url": "https://medium.com/better-programming/why-flutter-isnt-the-next-big-thing-e268488521f4"
+            }],
+            "date_added": "13247564653654733",
+            "date_modified": "13255934236979972",
+            "guid": "5439ec52-6091-49de-b515-d94ba1ec4c83",
+            "id": "133",
+            "name": "react-native",
+            "type": "folder"
+        }, {
+            "children": [{
+                "date_added": "13236713154000000",
+                "guid": "ae2f7412-50f0-4fe2-a6ad-598cd39549af",
+                "id": "137",
+                "name": "Rollup not tree-shaking from \"d3\" package · Issue #3076 · d3/d3",
+                "type": "url",
+                "url": "https://github.com/d3/d3/issues/3076#issuecomment-286360048"
+            }, {
+                "date_added": "13231924813000000",
+                "guid": "4798a744-5d24-44ba-ba22-565ef515a87f",
+                "id": "138",
+                "name": "Babel vs Webpack | What are the differences?",
+                "type": "url",
+                "url": "https://stackshare.io/stackups/babel-vs-webpack"
+            }, {
+                "date_added": "13228197711000000",
+                "guid": "3bd75f5b-2df8-4bc6-89e9-ad52c72b8a69",
+                "id": "139",
+                "name": "How webpack decides what to bundle | blog.jakoblind.no",
+                "type": "url",
+                "url": "https://blog.jakoblind.no/how-webpack-decides-what-to-bundle/"
+            }, {
+                "date_added": "13232198147000000",
+                "guid": "4d684c0c-11cf-4caa-a827-7c53d1f226a1",
+                "id": "140",
+                "name": "Tree Shaking | webpack",
+                "type": "url",
+                "url": "https://webpack.js.org/guides/tree-shaking/"
+            }, {
+                "date_added": "13236713612000000",
+                "guid": "54dff4be-75c6-4d7e-88e9-b88da5d50c67",
+                "id": "141",
+                "name": "Rollup not tree-shaking from \"d3\" package · Issue #3076 · d3/d3",
+                "type": "url",
+                "url": "https://github.com/d3/d3/issues/3076"
+            }, {
+                "date_added": "13236948899000000",
+                "guid": "2121755b-8c1f-4cd8-ac33-5468d1f974b8",
+                "id": "142",
+                "name": "rollup.js",
+                "type": "url",
+                "url": "https://rollupjs.org/guide/en/"
+            }, {
+                "date_added": "13236764034000000",
+                "guid": "de07f645-8c7c-401f-a96e-ce5bcc72c0c9",
+                "id": "143",
+                "name": "Tree shaking not working for ES module library · Issue #9337 · webpack/webpack",
+                "type": "url",
+                "url": "https://github.com/webpack/webpack/issues/9337"
+            }, {
+                "date_added": "13236751534000000",
+                "guid": "e7d06f0d-de52-4af1-981b-c22231ff4db5",
+                "id": "144",
+                "name": "Bundle still contains all exports after sideEffects: false · Issue #7190 · webpack/webpack",
+                "type": "url",
+                "url": "https://github.com/webpack/webpack/issues/7190"
+            }, {
+                "date_added": "13256192699716203",
+                "guid": "d53f76d8-15fb-490a-aa36-192a9549fb0b",
+                "id": "456",
+                "name": "Differential Serving - DEV Community 👩‍💻👨‍💻",
+                "type": "url",
+                "url": "https://dev.to/thejohnstew/differential-serving-3dkf"
+            }],
+            "date_added": "13247564653654862",
+            "date_modified": "13256734715161517",
+            "guid": "b3376746-8a34-40b0-8f46-375c7790d48e",
+            "id": "136",
+            "name": "js-build-tool",
+            "type": "folder"
+        }, {
+            "children": [{
+                "date_added": "13236854979000000",
+                "guid": "8ba56d1b-7929-48cc-adce-4cf9bc690a67",
+                "id": "146",
+                "name": "Grid for layout, Flexbox for components",
+                "type": "url",
+                "url": "https://ishadeed.com/article/grid-layout-flexbox-components/"
+            }, {
+                "date_added": "13239170726000000",
+                "guid": "57143702-c775-42b8-83c9-f16d68f62f15",
+                "id": "147",
+                "name": "Understanding CSS Display: None, Block, Inline and Inline-Block | by Cem Eygi | Better Programming | Medium",
+                "type": "url",
+                "url": "https://medium.com/better-programming/understanding-css-display-none-block-inline-and-inline-block-63f6510df93"
+            }, {
+                "date_added": "13248085229471785",
+                "guid": "ae138d98-cb37-4019-b2d0-5fd6d3ba1cbe",
+                "id": "272",
+                "name": "Best Practices for Web Font Preloading + How It Works",
+                "type": "url",
+                "url": "https://wp-rocket.me/blog/font-preloading-best-practices/"
+            }, {
+                "date_added": "13248347586054788",
+                "guid": "c0b6f080-9cb1-42a1-aec9-07ac6ac5409a",
+                "id": "282",
+                "name": "How to create extra space in HTML or a web page",
+                "type": "url",
+                "url": "https://www.computerhope.com/issues/ch001662.htm#:~:text=To%20create%20extra%20spaces%20before,breaking%20space)%20extended%20HTML%20character.&text=If%20you%20are%20using%20a,or%20editing%20the%20HTML%20code."
+            }, {
+                "date_added": "13248775174369341",
+                "guid": "ba4c1d2b-0502-40b8-a195-a9bca39db982",
+                "id": "293",
+                "name": ":empty - CSS: Cascading Style Sheets | MDN",
+                "type": "url",
+                "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:empty"
+            }, {
+                "date_added": "13238570924000000",
+                "guid": "f4f8aed9-2440-4939-b54e-406159c8d940",
+                "id": "88",
+                "name": "Tìm hiểu về CSS: 3D Minh họa - Viblo",
+                "type": "url",
+                "url": "https://viblo.asia/p/tim-hieu-ve-css-3d-minh-hoa-6J3Zgz7MKmB"
+            }, {
+                "date_added": "13249993511907527",
+                "guid": "10ea4b98-8b4a-4c7a-9f20-94256cd2c08e",
+                "id": "322",
+                "name": "CSS Selectors Reference",
+                "type": "url",
+                "url": "https://www.w3schools.com/cssref/css_selectors.asp"
+            }, {
+                "date_added": "13249893246235927",
+                "guid": "8688649e-6870-43c9-8d87-834645f74c6f",
+                "id": "319",
+                "name": "Use and Reuse Everything in SVG… Even Animations! | CSS-Tricks",
+                "type": "url",
+                "url": "https://css-tricks.com/use-and-reuse-everything-in-svg-even-animations/"
+            }, {
+                "date_added": "13256122524214485",
+                "guid": "d3d7c99f-6d08-4f1e-afc0-a6332be7c2c6",
+                "id": "452",
+                "name": "\"margin-top\" and \"margin-bottom\" overlapping, why? - It_qna",
+                "type": "url",
+                "url": "https://itqna.net/questions/702/margin-top-and-margin-bottom-overlapping-why"
+            }],
+            "date_added": "13247564653655225",
+            "date_modified": "13256132208701015",
+            "guid": "366f2497-3336-4822-a941-ed0dab76ae1e",
+            "id": "145",
+            "name": "css",
+            "type": "folder"
+        }, {
+            "children": [{
+                "date_added": "13232168585000000",
+                "guid": "017dfe5e-4dd2-4004-b7b7-147b4e4b9899",
+                "id": "149",
+                "name": "Why the GOV.UK Design System team changed the input type for numbers - Technology in government",
+                "type": "url",
+                "url": "https://technology.blog.gov.uk/2020/02/24/why-the-gov-uk-design-system-team-changed-the-input-type-for-numbers/"
+            }, {
+                "date_added": "13227261469000000",
+                "guid": "0de18da0-5130-46a5-9c87-1b17ac325eeb",
+                "id": "150",
+                "name": "7 Principles of Icon Design - UX Collective",
+                "type": "url",
+                "url": "https://uxdesign.cc/7-principles-of-icon-design-e7187539e4a2"
+            }, {
+                "date_added": "13228894519000000",
+                "guid": "4975c6cd-6379-408c-b2c1-c36b0643e89a",
+                "id": "151",
+                "name": "Download 30,000 Free Icons. The World's Largest Icon Pack.",
+                "type": "url",
+                "url": "https://streamlineicons.com/"
+            }, {
+                "date_added": "13228887105000000",
+                "guid": "8c39ac4f-a4b5-4ffe-8e27-4fdfa8e0ff67",
+                "id": "152",
+                "name": "Susan Kare, Iconographer (EG8) on Vimeo",
+                "type": "url",
+                "url": "https://vimeo.com/97583369"
+            }, {
+                "date_added": "13236174510000000",
+                "guid": "64f52aee-6543-4540-9947-6c713d7f2153",
+                "id": "153",
+                "name": "Finding the Best Free Fonts for Numbers - Graphiq Blog",
+                "type": "url",
+                "url": "https://blog.graphiq.com/finding-the-best-free-fonts-for-numbers-25c54002a895"
+            }, {
+                "date_added": "13238570240000000",
+                "guid": "16ce1f84-ca30-47ab-a61a-f4d2bf288416",
+                "id": "154",
+                "name": "Khám phá những công nghệ được sử dụng trong Facebook giao diện mới - Viblo",
+                "type": "url",
+                "url": "https://viblo.asia/p/kham-pha-nhung-cong-nghe-duoc-su-dung-trong-facebook-giao-dien-moi-RnB5pMvGKPG?fbclid=IwAR3ycUSucezieaI6VBP46b4v1jAQVZhB1f0gEdUs8lhe5T6FTaphTd_KIEc"
+            }, {
+                "date_added": "13239170716000000",
+                "guid": "74048a9a-7361-434b-8e88-92ca9b84b424",
+                "id": "155",
+                "name": "7 Basic Rules for Button Design. by Nick Babich | by Nick Babich | UX Planet",
+                "type": "url",
+                "url": "https://uxplanet.org/7-basic-rules-for-button-design-63dcdf5676b4"
+            }, {
+                "date_added": "13246456301000000",
+                "guid": "aedb88a7-9791-4dde-9f0c-0da4789c0f29",
+                "id": "156",
+                "name": "Type Recommendations | Vietnamese Typography",
+                "type": "url",
+                "url": "https://vietnamesetypography.com/type-recommendations/"
+            }, {
+                "date_added": "13241500715000000",
+                "guid": "60e93e45-8b19-41cf-96d8-83d69e2f28ba",
+                "id": "95",
+                "name": "Home | Vietnamese Typography",
+                "type": "url",
+                "url": "https://vietnamesetypography.com/"
+            }, {
+                "date_added": "13258439147179621",
+                "guid": "f0baf451-6c87-43ca-bf07-eba553b9da5a",
+                "id": "498",
+                "name": "ARTECHOUSE NYC | Machine Hallucination • Artist Insight: Refik Anadol - YouTube",
+                "type": "url",
+                "url": "https://www.youtube.com/watch?v=8et1aGdI0HU&ab_channel=ARTECHOUSE"
+            }],
+            "date_added": "13247564653655342",
+            "date_modified": "13258810143146824",
+            "guid": "d3dee0c3-34af-46fa-8e4f-222facace48b",
+            "id": "148",
+            "name": "design",
+            "type": "folder"
+        }, {
+            "children": [{
+                "date_added": "13227162782000000",
+                "guid": "5fcab324-441e-49f5-9420-b6852a1a0fbd",
+                "id": "158",
+                "name": "'import' vs 'import *' in Babel",
+                "type": "url",
+                "url": "http://www.thedreaming.org/2017/04/28/es6-imports-babel/"
+            }, {
+                "date_added": "13227337301000000",
+                "guid": "bd572900-55eb-446d-82a0-6a01e37f3641",
+                "id": "159",
+                "name": "Optional chaining - JavaScript | MDN",
+                "type": "url",
+                "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining"
+            }, {
+                "date_added": "13230987108000000",
+                "guid": "da7f276d-f0b7-48ee-99c2-38708c1f332c",
+                "id": "160",
+                "name": "TypeScript and Babel 7 | TypeScript",
+                "type": "url",
+                "url": "https://devblogs.microsoft.com/typescript/typescript-and-babel-7/"
+            }, {
+                "date_added": "13227164839000000",
+                "guid": "e5672c68-f4c5-4c1f-aa35-84d07f044fe6",
+                "id": "161",
+                "name": "Lazy loading your node modules - Josh Bavari's Thoughts",
+                "type": "url",
+                "url": "http://jbavari.github.io/blog/2015/08/25/lazy-loading-your-node-modules/"
+            }, {
+                "date_added": "13230891564000000",
+                "guid": "1b39ac6a-6cc3-401b-8500-61fd21fe1c42",
+                "id": "162",
+                "name": "TypeScript With Babel: A Beautiful Marriage",
+                "type": "url",
+                "url": "https://iamturns.com/typescript-babel/"
+            }, {
+                "date_added": "13231331384000000",
+                "guid": "7def0b53-8847-4b53-aac7-6be866342c27",
+                "id": "163",
+                "name": "ES modules: A cartoon deep-dive - Mozilla Hacks - the Web developer blog",
+                "type": "url",
+                "url": "https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/"
+            }, {
+                "date_added": "13236948928000000",
+                "guid": "e3c53aac-9eef-4b96-93e2-5848ae65d495",
+                "id": "164",
+                "name": "String not assignable to string enum even when value is known at compile time and is part of the enum. · Issue #14352 · microsoft/TypeScript",
+                "type": "url",
+                "url": "https://github.com/Microsoft/TypeScript/issues/14352"
+            }, {
+                "date_added": "13237470426000000",
+                "guid": "355547c2-fc22-4c30-9bcc-a82de5f2e4db",
+                "id": "165",
+                "name": "How Yarn Lock Files Work and Upgrading Dependencies",
+                "type": "url",
+                "url": "https://www.robertcooper.me/how-yarn-lock-files-work-and-upgrading-dependencies"
+            }, {
+                "date_added": "13236676227000000",
+                "guid": "11fc9b65-ca4d-4b18-a719-90871ecadc01",
+                "id": "166",
+                "name": "Introduction to JavaScript Source Maps - HTML5 Rocks",
+                "type": "url",
+                "url": "https://www.html5rocks.com/en/tutorials/developertools/sourcemaps/"
+            }, {
+                "date_added": "13236428379000000",
+                "guid": "56f665f7-cbb9-4501-b616-653edcabe5d2",
+                "id": "167",
+                "name": "Reduce JavaScript Payloads with Tree Shaking  |  Web Fundamentals",
+                "type": "url",
+                "url": "https://developers.google.com/web/fundamentals/performance/optimizing-javascript/tree-shaking"
+            }, {
+                "date_added": "13242982909000000",
+                "guid": "1c4fd05a-94e4-45ab-b1d9-f8ef262a5838",
+                "id": "168",
+                "name": "React Higher-Order Components in TypeScript | by James Ravenscroft | Medium",
+                "type": "url",
+                "url": "https://medium.com/@jrwebdev/react-higher-order-component-patterns-in-typescript-42278f7590fb"
+            }, {
+                "date_added": "13245235124000000",
+                "guid": "26be6575-8b41-406c-8f28-559b3ea7ffb4",
+                "id": "169",
+                "name": "ES6 In Depth: Destructuring - Mozilla Hacks - the Web developer blog",
+                "type": "url",
+                "url": "https://hacks.mozilla.org/2015/05/es6-in-depth-destructuring/"
+            }, {
+                "date_added": "13217500194000000",
+                "guid": "8b4e1b7c-9710-465b-8410-9b3c15dda048",
+                "id": "170",
+                "name": "Implementing Heaps in JavaScript - Bits and Pieces",
+                "type": "url",
+                "url": "https://blog.bitsrc.io/implementing-heaps-in-javascript-c3fbf1cb2e65"
+            }, {
+                "date_added": "13246888380000000",
+                "guid": "d5e8d54e-a251-4a1b-8629-89f00672aa93",
+                "id": "171",
+                "name": "Babel with TypeScript on Node.js Tutorial | Software Brothers",
+                "type": "url",
+                "url": "https://softwarebrothers.co/blog/babel-with-typescript-on-node-js-from-scratch-jscasts-episode-13/"
+            }, {
+                "date_added": "13251628677447305",
+                "guid": "059bc940-8bc3-4f14-85c3-6e41ff15d4c0",
+                "id": "369",
+                "name": "Can I dynamically add properties to an interface in Typescript?",
+                "type": "url",
+                "url": "https://www.vincecampanale.com/blog/2018/01/12/dynamically-properties-to-typescript-interfaces/"
+            }, {
+                "date_added": "13255934236979972",
+                "guid": "1a8831d1-36f8-4672-a46f-10f34f081fdc",
+                "id": "442",
+                "name": "30 Programming Memes That Will Lighten Your Mood - part 1 | JavaScript In Plain English",
+                "type": "url",
+                "url": "https://medium.com/javascript-in-plain-english/30-programming-memes-that-will-lighten-your-mood-265b4fe50229"
+            }, {
+                "date_added": "13255673491204242",
+                "guid": "6f5653cd-9e1e-4132-ae89-c8ff01393e7a",
+                "id": "437",
+                "name": "We rendered a million web pages to learn how the web breaks | by Lars Eidnes | DailyJS | Medium",
+                "type": "url",
+                "url": "https://medium.com/dailyjs/we-rendered-a-million-web-pages-to-learn-how-the-web-breaks-fdf12f5c505a"
+            }, {
+                "date_added": "13259142969754741",
+                "guid": "bb1080c8-e522-45db-973f-45f14adc200b",
+                "id": "518",
+                "name": "What causes ReferenceError on live web sites? | CatchJS",
+                "type": "url",
+                "url": "https://catchjs.com/Docs/ReferenceError"
+            }],
+            "date_added": "13247564653655767",
+            "date_modified": "13259214446278189",
+            "guid": "2b5f713d-62c0-4e40-bbbb-82a31b894420",
+            "id": "157",
+            "name": "ninja-js",
+            "type": "folder"
+        }, {
+            "children": [{
+                "date_added": "13218546032000000",
+                "guid": "10e2f573-a41e-4694-9d88-22b9ff9c5a96",
+                "id": "173",
+                "name": "(14) Greg Young - CQRS and Event Sourcing - Code on the Beach 2014 - YouTube",
+                "type": "url",
+                "url": "https://www.youtube.com/watch?v=JHGkaShoyNs"
+            }, {
+                "date_added": "13235993050000000",
+                "guid": "be14bbd7-6978-4825-9375-295a1a2c5b94",
+                "id": "174",
+                "name": "What is Copy-on-write?",
+                "type": "url",
+                "url": "https://www.computerhope.com/jargon/c/copy-on-write.htm#:~:text=Copy%2Don%2Dwrite%20or%20CoW,new%20bytes%20are%20actually%20written."
+            }, {
+                "date_added": "13228915369000000",
+                "guid": "7d69f3d0-9c27-43fc-a46e-0e0e774d863d",
+                "id": "175",
+                "name": "A (Relatively Easy To Understand) Primer on Elliptic Curve Cryptography",
+                "type": "url",
+                "url": "https://blog.cloudflare.com/a-relatively-easy-to-understand-primer-on-elliptic-curve-cryptography/"
+            }, {
+                "date_added": "13230970349000000",
+                "guid": "c534f0fc-e0e9-4e5c-8249-6f6d11aa554f",
+                "id": "176",
+                "name": "Web Skills",
+                "type": "url",
+                "url": "https://andreasbm.github.io/web-skills/"
+            }, {
+                "date_added": "13241874785000000",
+                "guid": "0aaf04bf-8140-4d91-b93f-dc4ec13473d4",
+                "id": "177",
+                "name": "The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!) – Joel on Software",
+                "type": "url",
+                "url": "https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/"
+            }, {
+                "date_added": "13246361624000000",
+                "guid": "593dd43e-c820-4da1-b844-1f5601a0f065",
+                "id": "178",
+                "name": "Type Systems: Structural vs. Nominal typing explained | by Jamie Kyle | Medium",
+                "type": "url",
+                "url": "https://medium.com/@thejameskyle/type-systems-structural-vs-nominal-typing-explained-56511dd969f4"
+            }, {
+                "date_added": "13246387980000000",
+                "guid": "788b46d4-653b-41b3-b940-89c58acc336e",
+                "id": "179",
+                "name": "Complete Binary Tree",
+                "type": "url",
+                "url": "https://www.programiz.com/dsa/complete-binary-tree"
+            }, {
+                "date_added": "13246519577000000",
+                "guid": "53f2490b-d42a-49f3-9b79-f4cd38429f26",
+                "id": "180",
+                "name": "Git - Revision Selection",
+                "type": "url",
+                "url": "https://git-scm.com/book/en/v2/Git-Tools-Revision-Selection"
+            }, {
+                "date_added": "13247210090000000",
+                "guid": "74b9517a-e71e-431a-8c4a-5bad815dbb86",
+                "id": "105",
+                "name": "Modern-Day Architecture Design Patterns for Software Professionals | by Tanmay Deshpande | Better Programming | Oct, 2020 | Medium",
+                "type": "url",
+                "url": "https://medium.com/better-programming/modern-day-architecture-design-patterns-for-software-professionals-9056ee1ed977"
+            }, {
+                "date_added": "13238653490000000",
+                "guid": "ed5c7216-2d73-4abb-8b4b-f416e40af2e3",
+                "id": "91",
+                "name": "Immutable.js, persistent data structures and structural sharing",
+                "type": "url",
+                "url": "https://medium.com/@dtinth/immutable-js-persistent-data-structures-and-structural-sharing-6d163fbd73d2"
+            }],
+            "date_added": "13247564653656335",
+            "date_modified": "13248353765848225",
+            "guid": "96c88793-749d-47ae-9622-8c74e133bb8d",
+            "id": "172",
+            "name": "computer-science",
+            "type": "folder"
+        }, {
+            "children": [{
+                "date_added": "13203140295000000",
+                "guid": "a0e5e9f7-8006-4304-9207-cdbc02943907",
+                "id": "182",
+                "name": "Not Having a Passion in Life Is the New Taboo – Human Parts",
+                "type": "url",
+                "url": "https://humanparts.medium.com/not-having-a-passion-in-life-is-the-new-taboo-af8b7b10e692"
+            }, {
+                "date_added": "13231265033000000",
+                "guid": "7d6c1f0b-f4f0-4e07-af97-5ec2e99ce6e6",
+                "id": "183",
+                "name": "(89) What Battle Rap Taught Me | Jonathan Park | TEDxRutgers - YouTube",
+                "type": "url",
+                "url": "https://www.youtube.com/watch?v=nBdlz7NOXHc"
+            }, {
+                "date_added": "13227247655000000",
+                "guid": "121808ca-5cb9-4e86-9ac4-709b205312c9",
+                "id": "184",
+                "name": "(2010) Vue.js: The Documentary - YouTube",
+                "type": "url",
+                "url": "https://www.youtube.com/watch?v=OrxmtDw4pVI"
+            }, {
+                "date_added": "13231415908000000",
+                "guid": "fdb8e429-b27c-472d-89ad-d60d7f6c53f6",
+                "id": "185",
+                "name": "495. VIRUS CORONA BÁO HIỆU SỰ KẾT THÚC CỦA KỶ NGUYÊN TÂN TỰ DO. KỶ NGUYÊN TIẾP THEO SẼ LÀ GÌ? – BA SÀM",
+                "type": "url",
+                "url": "https://basamnguyenhuuvinh.wordpress.com/2020/04/06/495-virus-corona-bao-hieu-su-ket-thuc-cua-ky-nguyen-tan-tu-do-ky-nguyen-tiep-theo-se-la-gi/?fbclid=IwAR1aGk3qvw_F_z_dCAzqFJ_cDFx0h2aEG4wsRXv6hG9DopKfWhmsh1HlSYo"
+            }, {
+                "date_added": "13229427171000000",
+                "guid": "e2fbcfc1-5c1a-49b0-9b2d-1225e10504d6",
+                "id": "186",
+                "name": "Travis Scott x Nike Air Max 270 React Release Date | HYPEBEAST",
+                "type": "url",
+                "url": "https://hypebeast.com/2020/3/travis-scott-nike-air-max-270-react-release-date-ct2864-200-info?utm_term=Autofeed&utm_campaign=facebook_post&utm_medium=social&utm_source=Facebook&fbclid=IwAR1_mJiNZD-DaJdr1fpuYN23WIGpfhZNstsoG85H408mhbSra21fTVTD6M0#Echobox=1584934843"
+            }, {
+                "date_added": "13228894486000000",
+                "guid": "5bf37083-ea7c-4892-a5aa-51eeafa6e345",
+                "id": "187",
+                "name": "Spotify – The Black Dog",
+                "type": "url",
+                "url": "https://open.spotify.com/artist/7qdsk0UXx2jCX7jbp6rxeq?si=R2z1R-xpT9K3Cmfp40lcrQ"
+            }, {
+                "date_added": "13230924196000000",
+                "guid": "f61bbcae-d074-4b39-910f-87f7af9912b0",
+                "id": "188",
+                "name": "Yuval Noah Harari: the world after coronavirus | Free to read | Financial Times",
+                "type": "url",
+                "url": "https://www.ft.com/content/19d90308-6858-11ea-a3c9-1fe6fedcca75?fbclid=IwAR1tExVZfcHIcAwA20AJPkZCMS4bS-QUfC7dBhst2OAV09RC8kr4jRvLGyw"
+            }, {
+                "date_added": "13236405645000000",
+                "guid": "c5e7b423-458a-4861-b4ed-42ea03a33aaa",
+                "id": "189",
+                "name": "Cyberpunk Is Closer Than You Think: CD Projekt RED Announces The Winners Of Its Photo Competition",
+                "type": "url",
+                "url": "https://designyoutrust.com/2020/01/cyberpunk-is-closer-than-you-think-cd-projekt-red-announces-the-winners-of-its-photo-competition/"
+            }, {
+                "date_added": "13237455368000000",
+                "guid": "e4837cd5-fcc2-4af3-b47f-3bd17c422904",
+                "id": "190",
+                "name": "(54) Kanye West On Transforming His Wyoming Ranch Into a Yeezy Campus | GQ - YouTube",
+                "type": "url",
+                "url": "https://www.youtube.com/watch?v=9HiT3b-FJ_A"
+            }, {
+                "date_added": "13237716253000000",
+                "guid": "754c6381-0d3e-4268-8952-b95603d71b8d",
+                "id": "191",
+                "name": "How do I include a JavaScript file in another JavaScript file? - Stack Overflow",
+                "type": "url",
+                "url": "https://stackoverflow.com/questions/950087/how-do-i-include-a-javascript-file-in-another-javascript-file/950146#950146"
+            }, {
+                "date_added": "13238571025000000",
+                "guid": "c3179ae2-7c1a-49b7-ae97-829ceea56f16",
+                "id": "192",
+                "name": "(174) A Day in the Life of a SoundCloud Developer in Berlin | DevCities - YouTube",
+                "type": "url",
+                "url": "https://www.youtube.com/watch?v=H6tLIfPJm2w"
+            }, {
+                "date_added": "13241809169000000",
+                "guid": "588ed4e6-8b3a-4660-8835-8b84aa6b3235",
+                "id": "193",
+                "name": "(85) Mặt trái của ngành Công nghiệp SELF HELP - Bạn đã từng DÍNH CHƯỞNG?! | Nguyễn Hữu Trí - YouTube",
+                "type": "url",
+                "url": "https://www.youtube.com/watch?v=neCD6DXIJew"
+            }, {
+                "date_added": "13245388759000000",
+                "guid": "69ed3f10-644e-480f-9cf9-0242cd65d64a",
+                "id": "194",
+                "name": "Vì sao nhiều người có IQ cao nhưng sự nghiệp lại trì trệ, khó phất lên? Định nghĩa của Steve Jobs về “trí thông minh” sẽ thay đổi quan điểm của bạn",
+                "type": "url",
+                "url": "https://cafef.vn/vi-sao-nhieu-nguoi-co-iq-cao-nhung-su-nghiep-lai-tri-tre-kho-phat-len-dinh-nghia-cua-steve-jobs-ve-tri-thong-minh-se-thay-doi-quan-diem-cua-ban-20200921171105287.chn?fbclid=IwAR1x0m0lSEM-CCAEPQ0Rbhk14quLxVBFqwHm7MANvRQOrDhzBuyuoG4rdlM"
+            }, {
+                "date_added": "13246042889000000",
+                "guid": "1cceaad3-63ac-44e7-b0a6-01676c36306e",
+                "id": "195",
+                "name": "(200) How to Find Your Developer Community - YouTube",
+                "type": "url",
+                "url": "https://www.youtube.com/watch?v=tYIArmenkLo"
+            }, {
+                "date_added": "13238571030000000",
+                "guid": "0b33a6ad-453d-4d0e-aff7-65d53a914648",
+                "id": "89",
+                "name": "(174) GraphQL: The Documentary - YouTube",
+                "type": "url",
+                "url": "https://www.youtube.com/watch?v=783ccP__No8"
+            }, {
+                "date_added": "13246088787000000",
+                "guid": "9f64259d-4123-4b76-9802-f20e78f94301",
+                "id": "97",
+                "name": "(5) The Sacred Art of the Japanese Tattoo - YouTube",
+                "type": "url",
+                "url": "https://www.youtube.com/watch?v=oy6rdkBC13Y&feature=emb_logo"
+            }, {
+                "date_added": "13249369299885508",
+                "guid": "d5f1d9b6-5774-490c-9bdb-5772defab849",
+                "id": "307",
+                "name": "Yugam on CodePen",
+                "type": "url",
+                "url": "https://codepen.io/pizza3/pens/public?cursor=ZD0xJm89MCZwPTEmdj00NzQ0NDg0MA=="
+            }, {
+                "date_added": "13252522435411892",
+                "guid": "dafecb11-4326-4441-8c38-aaa5dd5a096c",
+                "id": "389",
+                "name": "THE NODEY PROCESS Episode 3 - FINDING SAIGON (eng, french & viet subs) - YouTube",
+                "type": "url",
+                "url": "https://www.youtube.com/watch?v=gE6ZwK6hu-M"
+            }, {
+                "date_added": "13253790488723168",
+                "guid": "1c2d4bf5-420b-4198-a5e2-8d533b57fb46",
+                "id": "408",
+                "name": "(55) [18+] BÌNH NGÔ ĐẠI CHIẾN (The Pacification Of The Wu) | VIỆT SỬ KIÊU HÙNG - YouTube",
+                "type": "url",
+                "url": "https://www.youtube.com/watch?v=vyJFz33l6BU"
+            }, {
+                "date_added": "13255588222231897",
+                "guid": "df91d01b-8500-42f5-95d4-73b625175432",
+                "id": "429",
+                "name": "Websites | Zack Scholl",
+                "type": "url",
+                "url": "https://schollz.com/websites/"
+            }, {
+                "date_added": "13256203431265894",
+                "guid": "418cb55c-fffa-4008-9ffe-df8bb9571585",
+                "id": "458",
+                "name": "Nujabes - Wikipedia",
+                "type": "url",
+                "url": "https://en.wikipedia.org/wiki/Nujabes"
+            }, {
+                "date_added": "13259242552268646",
+                "guid": "e2054116-e336-465f-b1e7-4ef4f1ca2e1a",
+                "id": "524",
+                "name": "Understanding Travis Scott - YouTube",
+                "type": "url",
+                "url": "https://www.youtube.com/watch?v=OoQ4BcWI46M"
+            }],
+            "date_added": "13247564653656591",
+            "date_modified": "13259300492101270",
+            "guid": "4625fa1d-0dd3-42ba-b713-8eb634fc4862",
+            "id": "181",
+            "name": "inspiration",
+            "type": "folder"
+        }, {
+            "children": [{
+                "date_added": "13227252551000000",
+                "guid": "3b0b9f9a-a19f-4d73-99af-65ef65cde0d4",
+                "id": "197",
+                "name": "Jenkins vs Github Actions comparison of Continuous Integration servers",
+                "type": "url",
+                "url": "https://knapsackpro.com/ci_comparisons/jenkins/vs/github-actions"
+            }, {
+                "date_added": "13227702977000000",
+                "guid": "246c7537-26fb-48d1-9fd8-4681db998a3d",
+                "id": "198",
+                "name": "A Guide to Monorepos for Front-end Code | Toptal",
+                "type": "url",
+                "url": "https://www.toptal.com/front-end/guide-to-monorepos"
+            }, {
+                "date_added": "13230538529000000",
+                "guid": "70bc4738-4cca-4b5d-aa22-cc3f2b2d1a83",
+                "id": "199",
+                "name": "Goodbye, Clean Code — Overreacted",
+                "type": "url",
+                "url": "https://overreacted.io/goodbye-clean-code/"
+            }, {
+                "date_added": "13227704247000000",
+                "guid": "11e74df1-25af-4022-b375-f799a47ca3e4",
+                "id": "200",
+                "name": "Why Lerna and Yarn Workspaces is a Perfect Match for Building Mono-Repos – A Close Look at Features and Performance – Sebastian Weber – Frontend Developer and UX Guy",
+                "type": "url",
+                "url": "https://doppelmutzi.github.io/monorepo-lerna-yarn-workspaces/"
+            }, {
+                "date_added": "13227721638000000",
+                "guid": "7a592c38-3123-4433-a0fa-113332147654",
+                "id": "201",
+                "name": "Monorepos in the Wild - Markus Oberlehner - Medium",
+                "type": "url",
+                "url": "https://medium.com/@maoberlehner/monorepos-in-the-wild-33c6eb246cb9"
+            }, {
+                "date_added": "13229061585000000",
+                "guid": "d61b25d0-cccf-4731-8b0b-909331b57f7c",
+                "id": "202",
+                "name": "5 VS Code Extensions That’ll Change Your Dev Life - Better Programming - Medium",
+                "type": "url",
+                "url": "https://medium.com/better-programming/5-vs-code-extensions-thatll-change-your-dev-life-9786756a8121"
+            }, {
+                "date_added": "13227346876000000",
+                "guid": "61520bc7-ef10-4b9a-874e-7f368f8e0e54",
+                "id": "203",
+                "name": "Development at the Speed and Scale of Google",
+                "type": "url",
+                "url": "https://www.infoq.com/presentations/Development-at-Google/"
+            }, {
+                "date_added": "13237552840000000",
+                "guid": "2772ba2b-4508-46b9-9a5a-dfb09b723cfe",
+                "id": "204",
+                "name": "Understanding Rebase (And Merge) in Git",
+                "type": "url",
+                "url": "https://www.git-tower.com/blog/understanding-rebase-merge-in-git/"
+            }, {
+                "date_added": "13237291543000000",
+                "guid": "388800d3-9eb9-4269-b65d-ae982f209fbb",
+                "id": "205",
+                "name": "Semantic Commit Messages",
+                "type": "url",
+                "url": "https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716"
+            }, {
+                "date_added": "13227721652000000",
+                "guid": "16e19035-510b-4540-8b56-bf3fff0f62bb",
+                "id": "206",
+                "name": "Scaling Mercurial at Facebook - Facebook Engineering",
+                "type": "url",
+                "url": "https://engineering.fb.com/core-data/scaling-mercurial-at-facebook/"
+            }, {
+                "date_added": "13245265194000000",
+                "guid": "0d58b1d4-9225-4521-96b4-ed27dcfba8be",
+                "id": "207",
+                "name": "Get Faster - VSCode navigation without a mouse - DEV",
+                "type": "url",
+                "url": "https://dev.to/vaidotas/get-faster-vscode-navigation-without-a-mouse-3d0m#:~:text=If%20you%20want%20to%20jump,Control%20CTRL%2BSHIFT%2BG%20."
+            }, {
+                "date_added": "13246428282000000",
+                "guid": "3f4640b0-a040-4287-a5e0-fa1b3a4786ec",
+                "id": "208",
+                "name": "This Visual Studio Code Shortcut Changed My Life | by Jamie Morris | Better Programming | Medium",
+                "type": "url",
+                "url": "https://medium.com/better-programming/this-visual-studio-code-shortcut-changed-my-life-f6f18be7b1bb"
+            }, {
+                "date_added": "13246429093000000",
+                "guid": "3024fe5a-8bd7-4b4a-9bc3-45187752e0db",
+                "id": "209",
+                "name": "You’re Missing Out on a Better Mac Terminal Experience | by Owen Caulfield | Medium",
+                "type": "url",
+                "url": "https://medium.com/@caulfieldOwen/youre-missing-out-on-a-better-mac-terminal-experience-d73647abf6d7"
+            }, {
+                "date_added": "13246515230000000",
+                "guid": "111aaf7a-4168-48cd-a48b-283463f23eb4",
+                "id": "210",
+                "name": "Here are some super secret VS Code hacks to boost your productivity",
+                "type": "url",
+                "url": "https://www.freecodecamp.org/news/here-are-some-super-secret-vs-code-hacks-to-boost-your-productivity-20d30197ac76/"
+            }, {
+                "date_added": "13247641550304271",
+                "guid": "2a6316df-d22e-4edc-8baa-50a61198e70c",
+                "id": "257",
+                "name": "Keyboard accessibility in Slack | Slack",
+                "type": "url",
+                "url": "https://slack.com/intl/en-sg/help/articles/115003340723-Keyboard-accessibility-in-Slack-#:~:text=channel%20or%20DM-,Press%20F6%20to%20move%20to%20the%20message%20window.,Enter%20to%20make%20a%20selection."
+            }, {
+                "date_added": "13247896820278699",
+                "guid": "02e00226-1552-4116-bbf7-d5e84e2380ab",
+                "id": "264",
+                "name": "Deleting Multiple Branches in Git | by Raja Sekar Durairaj | Medium",
+                "type": "url",
+                "url": "https://medium.com/@rajsek/deleting-multiple-branches-in-git-e07be9f5073c"
+            }, {
+                "date_added": "13247899393887186",
+                "guid": "02ce046a-52f9-4942-a90c-d8e45656b125",
+                "id": "265",
+                "name": "Mac keyboard shortcuts – Apple Support",
+                "type": "url",
+                "url": "https://support.apple.com/en-au/HT201236"
+            }, {
+                "date_added": "13248158444781746",
+                "guid": "f2317258-d791-4a8c-91eb-a3bbe9efbaa6",
+                "id": "273",
+                "name": "Custom VS Code Title Bar, for Front-End and Back-End Projects (macOS Guide) | by Andrew Baisden | Medium",
+                "type": "url",
+                "url": "https://medium.com/@andrewbaisden/custom-vs-code-title-bar-for-front-end-and-back-end-projects-macos-guide-be555d255e98"
+            }, {
+                "date_added": "13248775017337290",
+                "guid": "21b16ab5-fca0-41b1-a43c-2e832da106d8",
+                "id": "292",
+                "name": "Sleep a Mac from the Command Line",
+                "type": "url",
+                "url": "https://osxdaily.com/2012/07/22/sleep-a-mac-from-the-command-line/#:~:text=Sleep%20can%20be%20invoked%20instantly,run%20in%20Mac%20OS%20X."
+            }, {
+                "date_added": "13246444772000000",
+                "guid": "0e8b0804-ebe1-4602-919f-e20a991b536a",
+                "id": "98",
+                "name": "10 Extremely Helpful Visual Studio Code Plugins for Programmers | by Daan | Better Programming | Medium",
+                "type": "url",
+                "url": "https://medium.com/better-programming/10-extremely-helpful-visual-studio-code-plugins-for-programmers-c8520a3dc4b8"
+            }, {
+                "date_added": "13252749654223052",
+                "guid": "ac4ed61e-2b50-4a3d-965e-a9cc195c0c98",
+                "id": "391",
+                "name": "Show hidden files and folders on a Mac – Here’s how it’s done! - IONOS",
+                "type": "url",
+                "url": "https://www.ionos.com/digitalguide/server/configuration/showing-hidden-files-on-a-mac/"
+            }, {
+                "date_added": "13252843324955892",
+                "guid": "6f0c1a25-76fa-446b-b374-28d5e821d0eb",
+                "id": "393",
+                "name": "Lesson #47: \"CHỬI THẲNG MẶT nhưng không gây MẤT LÒNG?!\" | Nguyễn Hữu Trí - YouTube",
+                "type": "url",
+                "url": "https://www.youtube.com/watch?v=fQN4rr0ogVQ"
+            }, {
+                "date_added": "13254981109249207",
+                "guid": "68a51122-106e-48d6-8e26-c220cc1f999b",
+                "id": "418",
+                "name": "Maximizing Developer Effectiveness",
+                "type": "url",
+                "url": "https://martinfowler.com/articles/developer-effectiveness.html#DayInTheLifeInAHighlyEffectiveEnvironment"
+            }, {
+                "date_added": "13256108471245497",
+                "guid": "2e7a2c9a-c831-4447-84a8-9fdf60e2db65",
+                "id": "450",
+                "name": "Visual Studio Code Extensions to Enhance Productivity in 2021 | by Vonage Dev | Jan, 2021 | codeburst",
+                "type": "url",
+                "url": "https://codeburst.io/visual-studio-code-extensions-to-enhance-productivity-in-2021-5418c688c19f"
+            }, {
+                "date_added": "13258632673412933",
+                "guid": "0af85c7d-57d4-457b-aa45-49508fe22f7e",
+                "id": "505",
+                "name": "Export your Medium posts to Markdown | by 🅼🅰🅲🆁🅾🅿🆄🆂 | Medium",
+                "type": "url",
+                "url": "https://medium.com/@macropus/export-your-medium-posts-to-markdown-b5ccc8cb0050"
+            }],
+            "date_added": "13247564653657148",
+            "date_modified": "13258641437642444",
+            "guid": "98bfbdd8-d568-4936-bd2e-61ba6f97c719",
+            "id": "196",
+            "name": "DX-workspace",
+            "type": "folder"
+        }, {
+            "children": [{
+                "date_added": "13234420727000000",
+                "guid": "56f6adc5-8996-460f-b9e2-127571f8f34a",
+                "id": "212",
+                "name": "Lucy | How does React decide to re-render a component?",
+                "type": "url",
+                "url": "https://lucybain.com/blog/2017/react-js-when-to-rerender/"
+            }, {
+                "date_added": "13229146008000000",
+                "guid": "de323326-928b-4435-8b2c-8517a60bed14",
+                "id": "213",
+                "name": "Inside Fiber: in-depth overview of the new reconciliation algorithm in React - React inDepth",
+                "type": "url",
+                "url": "https://indepth.dev/inside-fiber-in-depth-overview-of-the-new-reconciliation-algorithm-in-react/"
+            }, {
+                "date_added": "13234349413000000",
+                "guid": "84207378-2361-4a51-98a3-73d10372a2ac",
+                "id": "214",
+                "name": "Use React.memo() wisely",
+                "type": "url",
+                "url": "https://dmitripavlutin.com/use-react-memo-wisely/"
+            }, {
+                "date_added": "13230539430000000",
+                "guid": "ef7f3c66-d085-4121-bd91-e67f8df27283",
+                "id": "215",
+                "name": "(13) Dan Abramov - Live React: Hot Reloading with Time Travel at react-europe 2015 - YouTube",
+                "type": "url",
+                "url": "https://www.youtube.com/watch?v=xsSnOQynTHs"
+            }, {
+                "date_added": "13231579779000000",
+                "guid": "65f243bb-a392-40fc-a3c6-d6f473c24ec8",
+                "id": "216",
+                "name": "Idiomatic Redux: The Tao of Redux, Part 1 - Implementation and Intent · Mark's Dev Blog",
+                "type": "url",
+                "url": "https://blog.isquaredsoftware.com/2017/05/idiomatic-redux-tao-of-redux-part-1/"
+            }, {
+                "date_added": "13241500584000000",
+                "guid": "2e04f563-01b2-486d-8fce-99f581d83db2",
+                "id": "217",
+                "name": "Why React projects still use Redux in 2020? - DEV Community 👩‍💻👨‍💻",
+                "type": "url",
+                "url": "https://dev.to/alexandrudanpop/why-react-projects-still-use-redux-in-2020-395p"
+            }, {
+                "date_added": "13242153720000000",
+                "guid": "5b5764fd-ebde-49d6-b32b-db9409c8dc22",
+                "id": "218",
+                "name": "React v17.0 Release Candidate: No New Features – React Blog",
+                "type": "url",
+                "url": "https://reactjs.org/blog/2020/08/10/react-v17-rc.html"
+            }, {
+                "date_added": "13242760961000000",
+                "guid": "ba3744ca-6972-4405-abef-4f76e59008b9",
+                "id": "219",
+                "name": "[useReducer] Inconsistent behavior of `dispatch` on first call and laters · Issue #17460 · facebook/react",
+                "type": "url",
+                "url": "https://github.com/facebook/react/issues/17460"
+            }, {
+                "date_added": "13243689944000000",
+                "guid": "5a210251-ccc2-4e44-ae0c-4975ad85c7fb",
+                "id": "220",
+                "name": "MobX with React",
+                "type": "url",
+                "url": "https://mobx-react.js.org/recipes-migration"
+            }, {
+                "date_added": "13238593442000000",
+                "guid": "bfd46195-4692-4f8e-9947-3e9ad11124f7",
+                "id": "90",
+                "name": "Immutability in React with Immer - LogRocket Blog",
+                "type": "url",
+                "url": "https://blog.logrocket.com/immutability-in-react-with-immer/"
+            }, {
+                "date_added": "13230060291000000",
+                "guid": "382422a4-6d62-4091-ac49-5ccde21aeb36",
+                "id": "77",
+                "name": "The how and why on React’s usage of linked list in Fiber to walk the component’s tree - React inDepth",
+                "type": "url",
+                "url": "https://indepth.dev/the-how-and-why-on-reacts-usage-of-linked-list-in-fiber-to-walk-the-components-tree/"
+            }, {
+                "date_added": "13249453822828084",
+                "guid": "ee54af33-76cc-423f-9bae-886e58447c48",
+                "id": "314",
+                "name": "TrueProfile.io® - Document, Certificate & Licence Verification",
+                "type": "url",
+                "url": "http://localhost:9000/businesspartner/login?redirect=%2Fbusinesspartner%2Fverification%2Fcandidates"
+            }, {
+                "date_added": "13250575136171325",
+                "guid": "ac6c3998-70a0-460f-8d6d-52345e45a213",
+                "id": "334",
+                "name": "7 Architectural Attributes of a Reliable React Component",
+                "type": "url",
+                "url": "https://dmitripavlutin.com/7-architectural-attributes-of-a-reliable-react-component/"
+            }, {
+                "date_added": "13251789428434703",
+                "guid": "d9e16d99-82cd-4977-a2fd-fc5e625836f3",
+                "id": "372",
+                "name": "Refs and the DOM – React",
+                "type": "url",
+                "url": "https://reactjs.org/docs/refs-and-the-dom.html"
+            }, {
+                "date_added": "13252143878836282",
+                "guid": "466f1c45-8727-4cb5-817a-03660fe26342",
+                "id": "383",
+                "name": "eslint-plugin-react/no-unused-prop-types.md at master · yannickcr/eslint-plugin-react",
+                "type": "url",
+                "url": "https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unused-prop-types.md"
+            }, {
+                "date_added": "13251115589184672",
+                "guid": "0a91e784-a2e0-41b2-a8b7-dc8c4670b824",
+                "id": "353",
+                "name": "Cheng Lou - Taming the Meta Language - React Conf 2017 - YouTube",
+                "type": "url",
+                "url": "https://www.youtube.com/watch?v=_0T5OSSzxms&list=PLb0IAmt7-GS3fZ46IGFirdqKTIxlws7e0&index=34"
+            }, {
+                "date_added": "13258528725585658",
+                "guid": "829e957c-838c-4a54-9576-20b3a6b2931e",
+                "id": "501",
+                "name": "Lin Clark - A Cartoon Intro to Fiber - React Conf 2017 - YouTube",
+                "type": "url",
+                "url": "https://www.youtube.com/watch?v=ZCuYPiUIONs"
+            }],
+            "date_added": "13247564653657592",
+            "date_modified": "13258528736545630",
+            "guid": "350612a5-e29f-44b4-8f30-9c8afc2c2307",
+            "id": "211",
+            "name": "react-js",
+            "type": "folder"
+        }, {
+            "children": [{
+                "date_added": "13218048165000000",
+                "guid": "4d122832-d4c2-4ade-b9ee-bcee874add50",
+                "id": "222",
+                "name": "Deploying your first production EOS DAPP — Steemit",
+                "type": "url",
+                "url": "https://steemit.com/eos/@eos-asia/deploying-your-first-production-eos-dapp"
+            }, {
+                "date_added": "13250744783313284",
+                "guid": "e56f4cc6-4296-4670-a905-a895c82b9ce4",
+                "id": "346",
+                "name": "What Is BNB? | Binance Academy",
+                "type": "url",
+                "url": "https://academy.binance.com/en/articles/what-is-bnb"
+            }, {
+                "date_added": "13251227748325252",
+                "guid": "e2d74891-aa55-474a-9d6f-c0205a0f1e36",
+                "id": "358",
+                "name": "Bitcoin's Logo: The Story of the Big Orange “B” - Decrypt",
+                "type": "url",
+                "url": "https://decrypt.co/43923/bitcoins-logo-the-story-of-the-big-orange-b"
+            }, {
+                "date_added": "13251268889065235",
+                "guid": "6771c9e3-3fd8-428f-a11c-a45c980ea6c2",
+                "id": "359",
+                "name": "Nigeria Is Emerging as a True Bitcoin Nation - Decrypt",
+                "type": "url",
+                "url": "https://decrypt.co/49487/nigeria-is-emerging-as-a-true-bitcoin-nation"
+            }, {
+                "date_added": "13251269027352158",
+                "guid": "0ba7f926-cb99-49a4-bb8d-a4ddbd04d9b4",
+                "id": "360",
+                "name": "Yellow Card | Webapp",
+                "type": "url",
+                "url": "https://web.yellowcard.io/auth/signup"
+            }, {
+                "date_added": "13251269047854285",
+                "guid": "40759db2-340f-4aa4-b346-5e6999c9c3ab",
+                "id": "363",
+                "name": "Why Africa is the new crucible of crypto - Decrypt",
+                "type": "url",
+                "url": "https://decrypt.co/18132/why-africa-is-the-new-crucible-of-crypto"
+            }, {
+                "date_added": "13251269043329571",
+                "guid": "57ab640c-0929-4671-b86c-ee09c42e61d5",
+                "id": "362",
+                "name": "Nigerians Are Using Bitcoin to Bypass Trade Hurdles With China - CoinDesk",
+                "type": "url",
+                "url": "https://www.coindesk.com/nigeria-using-bitcoin-trade-with-china"
+            }, {
+                "date_added": "13257229577403128",
+                "guid": "bcd6a373-afce-4779-84f6-08512d6be188",
+                "id": "474",
+                "name": "What Is DeFi? - CoinDesk",
+                "type": "url",
+                "url": "https://www.coindesk.com/what-is-defi"
+            }, {
+                "date_added": "13258196267939413",
+                "guid": "8a9852b7-9f99-4e81-9643-ebafe5cbee95",
+                "id": "493",
+                "name": "Polygon | Ethereum's Internet of Blockchains",
+                "type": "url",
+                "url": "https://polygon.technology/"
+            }, {
+                "date_added": "13258202480632002",
+                "guid": "ff19de7e-99e1-4df4-a270-4136a9e7928a",
+                "id": "495",
+                "name": "Bringing Bitcoin to DeFi - Badger",
+                "type": "url",
+                "url": "https://badger.finance/"
+            }, {
+                "date_added": "13257508828215420",
+                "guid": "c3203d1b-01f3-4a6b-8c65-7900c7d235f7",
+                "id": "483",
+                "name": "NFT Issuance Landscape — Mirror",
+                "type": "url",
+                "url": "https://coopahtroopa.mirror.xyz/PF42Z9oE_r6yhZN9jZrrseXfHaZALj9JIfMplshlgQ0"
+            }],
+            "date_added": "13247564653657863",
+            "date_modified": "13259133167573278",
+            "guid": "fc202c11-251c-4b82-9654-c1d955181524",
+            "id": "221",
+            "name": "blockchain",
+            "type": "folder"
+        }, {
+            "children": [{
+                "date_added": "13225891790000000",
+                "guid": "b1bc2924-b705-403b-b34e-e942cb84284a",
+                "id": "224",
+                "name": "cypress-example-recipes/unit-test-stubbing-dependencies-spec.js at master · cypress-io/cypress-example-recipes",
+                "type": "url",
+                "url": "https://github.com/cypress-io/cypress-example-recipes/blob/master/examples/stubbing-spying__functions/cypress/integration/unit-test-stubbing-dependencies-spec.js"
+            }],
+            "date_added": "13247564653657896",
+            "date_modified": "0",
+            "guid": "db1e542a-86e0-4e99-8408-177987a3c449",
+            "id": "223",
+            "name": "automation-test",
+            "type": "folder"
+        }, {
+            "children": [{
+                "date_added": "13227172451000000",
+                "guid": "be86f356-006c-4adf-ae0a-b71ed05064ee",
+                "id": "226",
+                "name": "KHÁM PHÁ KHOA HỌC",
+                "type": "url",
+                "url": "https://www.facebook.com/groups/2256833947685311/permalink/2692744260760942/"
+            }, {
+                "date_added": "13208930801000000",
+                "guid": "2795c199-ef53-45ce-9f3a-4c1ac00d0024",
+                "id": "227",
+                "name": "Will Oakland Lead the Psychedelic Revolution? - The Bold Italic",
+                "type": "url",
+                "url": "https://thebolditalic.com/will-oakland-lead-the-psychedelic-revolution-bd6a21ecbc03"
+            }, {
+                "date_added": "13232082997000000",
+                "guid": "083ca908-463d-4784-a8ee-f9a408ccee69",
+                "id": "228",
+                "name": "Espresso vs Filter: What’s The Difference? - Perfect Daily Grind",
+                "type": "url",
+                "url": "https://perfectdailygrind.com/2017/07/espresso-vs-filter-whats-the-difference/"
+            }, {
+                "date_added": "13237537059000000",
+                "guid": "966857fb-ca9e-4f26-a7d3-c6ed40b5b38f",
+                "id": "229",
+                "name": "(60) Jimmy Kimmel’s Full Interview with Kanye West - YouTube",
+                "type": "url",
+                "url": "https://www.youtube.com/watch?v=PmZjaYdS3fA"
+            }, {
+                "date_added": "13089696569000000",
+                "guid": "4ba21ca4-f9c7-4e1c-8395-354ed2476d08",
+                "id": "230",
+                "name": "how-to-imagine-the-tenth-dimension - YouTube",
+                "type": "url",
+                "url": "https://www.youtube.com/watch?v=0ca4miMMaCE"
+            }, {
+                "date_added": "13239428430000000",
+                "guid": "df7fda00-5358-40fe-a162-7016ee5f083d",
+                "id": "231",
+                "name": "Tự do không đồng nghĩa với hạnh phúc: Cuộc hành trình từ kẻ nô lệ đến người trưởng thành",
+                "type": "url",
+                "url": "http://tramdoc.vn/tin-tuc/tu-do-khong-dong-nghia-voi-hanh-phuc-cuoc-hanh-trinh-tu-ke-no-le-den-nguoi-truong-thanh-n4YQ7W.html?fbclid=IwAR3M7EHc-WT0J0WL9VwA8T8bzoIhVDCu44neiCwEPyCy0Y5slMjBUUGEUas"
+            }, {
+                "date_added": "13239428476000000",
+                "guid": "c6da709f-c825-4078-a686-23a84a594892",
+                "id": "232",
+                "name": "Freedom From & Freedom To | The Art of Manliness",
+                "type": "url",
+                "url": "https://www.artofmanliness.com/articles/freedom-from-freedom-to/"
+            }, {
+                "date_added": "13240512966000000",
+                "guid": "b8e646d1-ee4c-4337-b3db-553b2ea2cc22",
+                "id": "233",
+                "name": "How To Make Banh Mi with Andrea Nguyen - YouTube",
+                "type": "url",
+                "url": "https://www.youtube.com/watch?v=k4HA1ejw_hA"
+            }, {
+                "date_added": "13239429651000000",
+                "guid": "bd9bf7a0-c3f7-49dd-b81c-af6b8fe538c5",
+                "id": "234",
+                "name": "(3) Facebook",
+                "type": "url",
+                "url": "https://www.facebook.com/Codongpage/posts/2651587141796424/"
+            }, {
+                "date_added": "13241032208000000",
+                "guid": "c93e1cfe-1e8f-4eda-ae19-913afd7a3c48",
+                "id": "235",
+                "name": "Tâm lý học đám đông: Nếu đám đông lập tài khoản Facebook, thì đây là Profile của nó",
+                "type": "url",
+                "url": "http://tramdoc.vn/tin-tuc/tam-ly-hoc-dam-dong-neu-dam-dong-lap-tai-khoan-facebook-thi-day-la-profile-cua-no-nZNrQW.html?fbclid=IwAR0ulZQzg-rHfR5__QijN9XiNuaTEObEtRAlArpZ4XoTjrsnWBlF59ZlXjY"
+            }, {
+                "date_added": "13241725903000000",
+                "guid": "9f894762-7e40-4718-8eb7-60cfc53eec67",
+                "id": "236",
+                "name": "Một Microsoft lỗi thời \"lột xác\" ngoạn mục dưới thời của Satya Nadella: Lượng người dùng cao hơn Netflix, doanh thu điện toán đám mây vượt Google và trở thành công ty giá trị nhất thế giới",
+                "type": "url",
+                "url": "https://genk.vn/mot-microsoft-loi-thoi-lot-xac-ngoan-muc-duoi-thoi-cua-satya-nadella-luong-nguoi-dung-cao-hon-netflix-doanh-thu-dien-toan-dam-may-vuot-google-va-tro-thanh-cong-ty-gia-tri-nhat-the-gioi-20190504095113156.chn"
+            }, {
+                "date_added": "13229667480000000",
+                "guid": "cfb4f020-4170-4348-8aa4-b0176157a43b",
+                "id": "237",
+                "name": "Thời đại béo phì",
+                "type": "url",
+                "url": "http://tamlyhoctoipham.com/thoi-dai-beo-phi?fbclid=IwAR0mmvsYdnqgkooFWDeVCLqHvu8rZC8RGZ4Xex35gOVSeDxZ8O0IjQFS0yQ"
+            }, {
+                "date_added": "13248182654858070",
+                "guid": "aa377517-2c88-47cb-9b67-f6cbab5b9c0d",
+                "id": "274",
+                "name": "Take the 1st red pill. - Bài viết | Facebook",
+                "type": "url",
+                "url": "https://www.facebook.com/ChristanConservative/posts/702328530534252"
+            }, {
+                "date_added": "13248354864776270",
+                "guid": "dc060c02-b41f-45ee-b8c4-9bf2b2217424",
+                "id": "286",
+                "name": "Coronavirus reminds Asian Americans belonging is conditional - Los Angeles Times",
+                "type": "url",
+                "url": "https://www.latimes.com/opinion/story/2020-04-22/asian-american-discrimination-john-cho-coronavirus"
+            }, {
+                "date_added": "13248426792910032",
+                "guid": "cf2dddfb-fb5d-404f-8180-62b0924dce40",
+                "id": "288",
+                "name": "Icon - Icon Guideline ⋅ Storybook",
+                "type": "url",
+                "url": "https://hephaestus.digiflow.net/?path=/story/icon--icon-guideline"
+            }, {
+                "date_added": "13248759858808254",
+                "guid": "7c20651a-731c-4012-b1e1-9a51056c0ae2",
+                "id": "291",
+                "name": "(1425) Net Đêm #4 - VINH RÂU: \"Quyết tâm thì nhìn lên, Áp lực thì nhìn xuống\" - YouTube",
+                "type": "url",
+                "url": "https://www.youtube.com/watch?v=DImlJy3UXmc"
+            }, {
+                "date_added": "13250100932728034",
+                "guid": "35a2fcad-cba9-42d1-b1a7-e2246f08b497",
+                "id": "325",
+                "name": "(25) 14 Không kinh doanh cà phê, nếu không biết 6 điều quan trọng! I #Maxxso I #Làm_Giàu_Từ_Cà_Phê - YouTube",
+                "type": "url",
+                "url": "https://www.youtube.com/watch?v=r2T874-a2b0"
+            }, {
+                "date_added": "13247044201000000",
+                "guid": "a091221c-3cc0-4780-9dea-1bbd2b0817cc",
+                "id": "102",
+                "name": "Syphon là gì? 3 Điều về Syphon - Barista nào cũng nên biết",
+                "type": "url",
+                "url": "https://www.hoteljob.vn/tin-tuc/syphon-la-gi-3-dieu-ve-syphon-barista-nao-cung-nen-biet"
+            }, {
+                "date_added": "13252316794921782",
+                "guid": "381832fd-6a12-427c-beb4-9b23c7940ea9",
+                "id": "385",
+                "name": "(327) Geoengineering: A Horrible Idea We Might Have to Do - YouTube",
+                "type": "url",
+                "url": "https://www.youtube.com/watch?v=dSu5sXmsur4"
+            }],
+            "date_added": "13247564653657943",
+            "date_modified": "13259242618088732",
+            "guid": "ef42d440-c874-4505-8b37-5c412a6ed1b2",
+            "id": "225",
+            "name": "lunch-read",
+            "type": "folder"
+        }, {
+            "children": [{
+                "date_added": "13237803276000000",
+                "guid": "845945f9-98a3-4aff-bf20-e6c070a9f8df",
+                "id": "239",
+                "name": "Git - Contributing to a Project",
+                "type": "url",
+                "url": "https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project"
+            }],
+            "date_added": "13247564653658376",
+            "date_modified": "0",
+            "guid": "64feca1e-d34e-486a-bc7b-08917f9b9d6d",
+            "id": "238",
+            "name": "open-source",
+            "type": "folder"
+        }, {
+            "children": [{
+                "date_added": "13240989081000000",
+                "guid": "89fb00ea-ccc3-4367-b84f-916d03fec444",
+                "id": "241",
+                "name": "Dogfooding 101: A Quick Guide to Internal Beta Testing | Centercode",
+                "type": "url",
+                "url": "https://www.centercode.com/blog/2018/11/dogfooding-101"
+            }, {
+                "date_added": "13241501737000000",
+                "guid": "b170299f-3bd5-4d11-84dc-39f4b1617e72",
+                "id": "242",
+                "name": "A simple method to create useful solution architecture diagrams | by Tuan Le | Jul, 2020 | Medium",
+                "type": "url",
+                "url": "https://medium.com/@tuanvietle/a-simple-method-to-create-solution-architecture-diagrams-6a127b93a122"
+            }, {
+                "date_added": "13249367108000237",
+                "guid": "ac9e93f2-a235-440f-9137-a8694551953e",
+                "id": "306",
+                "name": "DataDome - Real-Time Bot Protection, Detection and Mitigation Solution",
+                "type": "url",
+                "url": "https://datadome.co/"
+            }, {
+                "date_added": "13250061308862654",
+                "guid": "52b3b5bb-f590-478a-9cc2-9ce62df3d592",
+                "id": "323",
+                "name": "The Best Engineering Advice I Ever Got: “I Don’t Really Care, Just Make it Work” | by Zack Shapiro | Better Programming | Nov, 2020 | Medium",
+                "type": "url",
+                "url": "https://medium.com/better-programming/the-best-engineering-advice-i-ever-got-i-dont-really-care-just-make-it-work-2e238f0cf908"
+            }],
+            "date_added": "13247564653658408",
+            "date_modified": "13255434280114676",
+            "guid": "712bf3a4-7840-46fc-847a-9126fe9f050a",
+            "id": "240",
+            "name": "product-quality",
+            "type": "folder"
+        }, {
+            "children": [{
+                "date_added": "13241501407000000",
+                "guid": "f438c168-41d2-4703-b256-aa0f3e81f084",
+                "id": "244",
+                "name": "Habits & Skills for Successful Software Engineers | Level Up Coding",
+                "type": "url",
+                "url": "https://levelup.gitconnected.com/99-of-successful-software-engineers-practice-these-10-habits-skills-52b18a2a7bdf"
+            }, {
+                "date_added": "13243017163000000",
+                "guid": "2a284d3a-7f45-4700-be8a-95a13aaf5f96",
+                "id": "245",
+                "name": "OKR: Learn Google's Goal System with Examples and Templates",
+                "type": "url",
+                "url": "https://felipecastro.com/en/okr/what-is-okr/"
+            }, {
+                "date_added": "13243059981000000",
+                "guid": "78de557e-092b-4eb7-a12e-6fda86fc2754",
+                "id": "246",
+                "name": "OKR vs KPIs: What is the Difference? - FelipeCastro.com",
+                "type": "url",
+                "url": "https://felipecastro.com/en/blog/okr-vs-kpis/"
+            }],
+            "date_added": "13247564653658479",
+            "date_modified": "0",
+            "guid": "8ab42d2d-f6a7-4fa5-8ca2-23dfd376dc4e",
+            "id": "243",
+            "name": "productivity",
+            "type": "folder"
+        }, {
+            "children": [{
+                "date_added": "13246890172000000",
+                "guid": "bb59e0e9-8757-46cf-90f3-6189de50601f",
+                "id": "248",
+                "name": "How To Install Python 3 and Set Up a Local Programming Environment on macOS | DigitalOcean",
+                "type": "url",
+                "url": "https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-local-programming-environment-on-macos"
+            }, {
+                "date_added": "13246892453000000",
+                "guid": "bb183b18-67e9-4b16-b436-ec80fa18137c",
+                "id": "249",
+                "name": "Crawling and Scraping Web Pages with Scrapy and Python 3 | DigitalOcean",
+                "type": "url",
+                "url": "https://www.digitalocean.com/community/tutorials/how-to-crawl-a-web-page-with-scrapy-and-python-3"
+            }, {
+                "date_added": "13248720239189138",
+                "guid": "835c8558-9eb4-4e16-8c88-4cd6e534de9a",
+                "id": "289",
+                "name": "PostgreSQL Python Tutorial With Practical Examples",
+                "type": "url",
+                "url": "https://www.postgresqltutorial.com/postgresql-python/"
+            }],
+            "date_added": "13247564653658573",
+            "date_modified": "13249384689621148",
+            "guid": "b05b2d5d-b25a-4ce2-9238-4ec775f42dea",
+            "id": "247",
+            "name": "python-serpent",
+            "type": "folder"
+        }, {
+            "children": [{
+                "date_added": "13248079305181326",
+                "guid": "4dd40c94-2a49-436a-a1b3-8d006c313158",
+                "id": "268",
+                "name": "Install MongoDB Community Edition on macOS — MongoDB Manual",
+                "type": "url",
+                "url": "https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/"
+            }, {
+                "date_added": "13248759730727702",
+                "guid": "097cfd57-4c80-4dbd-918d-60d5ec72d67a",
+                "id": "290",
+                "name": "Is Postgres running ?",
+                "type": "url",
+                "url": "https://mydbanotebook.org/post/troubleshooting-01/"
+            }, {
+                "date_added": "13250688110567227",
+                "guid": "973e1e10-3ffa-4a22-bede-f0467b059f4f",
+                "id": "342",
+                "name": "Understanding Bulk Indexing in Elasticsearch | Qbox HES",
+                "type": "url",
+                "url": "https://qbox.io/blog/understanding-bulk-indexing-in-elasticsearch/"
+            }, {
+                "date_added": "13250601498333332",
+                "guid": "dd55dc80-b262-4f86-b369-967d6facab85",
+                "id": "335",
+                "name": "Start searching | Elasticsearch Reference [6.8] | Elastic",
+                "type": "url",
+                "url": "https://www.elastic.co/guide/en/elasticsearch/reference/6.8/getting-started-search.html"
+            }, {
+                "date_added": "13250686447150256",
+                "guid": "028b25ef-95d4-431a-bdca-b95589ff1c3b",
+                "id": "340",
+                "name": "Grok filter plugin | Logstash Reference [6.8] | Elastic",
+                "type": "url",
+                "url": "https://www.elastic.co/guide/en/logstash/6.8/plugins-filters-grok.html"
+            }, {
+                "date_added": "13250686455190420",
+                "guid": "336b793e-8665-4d2c-925e-df179cc1cb74",
+                "id": "341",
+                "name": "Logstash Introduction | Logstash Reference [6.8] | Elastic",
+                "type": "url",
+                "url": "https://www.elastic.co/guide/en/logstash/6.8/introduction.html"
+            }, {
+                "date_added": "13250688688356170",
+                "guid": "f5cf4548-0d83-426d-8eb0-d7474bc95059",
+                "id": "343",
+                "name": "Installing Logstash | Logstash Reference [6.8] | Elastic",
+                "type": "url",
+                "url": "https://www.elastic.co/guide/en/logstash/6.8/installing-logstash.html"
+            }, {
+                "date_added": "13249629208147835",
+                "guid": "81422cb5-7a15-4fd8-8752-56dbe67b135f",
+                "id": "317",
+                "name": "Scalability and resilience: clusters, nodes, and shards | Elasticsearch Reference [7.9] | Elastic",
+                "type": "url",
+                "url": "https://www.elastic.co/guide/en/elasticsearch/reference/current/scalability.html#scalability"
+            }],
+            "date_added": "13248079344406692",
+            "date_modified": "13255430799092344",
+            "guid": "d8cbf55a-0391-43fa-b572-e5e207ac3a66",
+            "id": "269",
+            "name": "db",
+            "type": "folder"
+        }, {
+            "children": [{
+                "date_added": "13249103546770863",
+                "guid": "227b8d12-0211-4cd2-8c3f-8e28bec43beb",
+                "id": "297",
+                "name": "Why Crypto Is the Next Big Trend in Financial Planning - CoinDesk",
+                "type": "url",
+                "url": "https://www.coindesk.com/why-crypto-next-big-trend-financial-planning"
+            }, {
+                "date_added": "13249104783577133",
+                "guid": "c964409d-6c34-458c-8bac-ac91e93e0c36",
+                "id": "299",
+                "name": "Commission-free Stock Trading & Investing App | Robinhood",
+                "type": "url",
+                "url": "https://robinhood.com/us/en/"
+            }, {
+                "date_added": "13251115080759276",
+                "guid": "a08b793a-49ab-416a-8258-ce352192ef48",
+                "id": "352",
+                "name": "(76) How The Economic Machine Works by Ray Dalio - YouTube",
+                "type": "url",
+                "url": "https://www.youtube.com/watch?v=PHe0bXAIuk0"
+            }, {
+                "date_added": "13253170303078471",
+                "guid": "ca83873e-1950-4072-9067-3a2d07cb2578",
+                "id": "399",
+                "name": "Dollar-Cost Averaging (DCA) Definition",
+                "type": "url",
+                "url": "https://www.investopedia.com/terms/d/dollarcostaveraging.asp"
+            }, {
+                "date_added": "13258439566938853",
+                "guid": "25360ae0-d379-4531-b17d-a023a9e8cf2e",
+                "id": "499",
+                "name": "Nifty Gateway",
+                "type": "url",
+                "url": "https://niftygateway.com/itemdetail/primary/0x4a0ff782217f3d5a428f7b4be02a9454be993cd4/1"
+            }, {
+                "date_added": "13258448249859300",
+                "guid": "8485f105-1340-4c45-ad98-76b01effd60b",
+                "id": "500",
+                "name": "What's this Non-Fungible Token (NFTs) Craze All About, Anyway?",
+                "type": "url",
+                "url": "https://art.art/blog/whats-this-non-fungible-token-nfts-craze-all-about-anyway"
+            }, {
+                "date_added": "13258624603527416",
+                "guid": "e6422a8f-2018-4582-bc12-dc41f334dc65",
+                "id": "503",
+                "name": "Crypto Art",
+                "type": "url",
+                "url": "https://cryptoart.io/"
+            }, {
+                "date_added": "13257232197689728",
+                "guid": "56e7a967-627b-41f8-8c8c-a8cc35de3d72",
+                "id": "475",
+                "name": "What Is Yield Farming? The Rocket Fuel of DeFi, Explained - CoinDesk",
+                "type": "url",
+                "url": "https://www.coindesk.com/defi-yield-farming-comp-token-explained"
+            }, {
+                "date_added": "13259219097143098",
+                "guid": "1ed4cf14-0c55-4ae7-bf2c-877c2e0ebf73",
+                "id": "523",
+                "name": "How Binance Put the ‘Smart’ in its Smart Chain - Decrypt",
+                "type": "url",
+                "url": "https://decrypt.co/58654/how-binance-put-the-smarts-in-its-smart-chain"
+            }],
+            "date_added": "13249103575489740",
+            "date_modified": "13259242552268646",
+            "guid": "f8e9ab7b-530a-4815-a764-b2ba0591473c",
+            "id": "298",
+            "name": "investing",
+            "type": "folder"
+        }, {
+            "children": [{
+                "date_added": "13249105359416419",
+                "guid": "66dc8c24-4f92-4fd3-a1c7-e3b7a5f4a78f",
+                "id": "300",
+                "name": "(1448) Do 100 PUSH UPS A Day | Life Changing - YouTube",
+                "type": "url",
+                "url": "https://www.youtube.com/watch?v=1BpYbEi2QcI"
+            }, {
+                "date_added": "13249787387272106",
+                "guid": "e65e4870-5344-41a8-b05b-1ab7533024b1",
+                "id": "318",
+                "name": "(4) CÁCH KIỀM CHẾ CƠN GIẬN - Thích Nhất Hạnh - YouTube",
+                "type": "url",
+                "url": "https://www.youtube.com/watch?v=uyE2WpDEYRU"
+            }, {
+                "date_added": "13251696905879661",
+                "guid": "6fea4c13-e387-46f6-8ccd-ad88a3cea3cb",
+                "id": "370",
+                "name": "(22) 7Min Effective Home Chest Workout (No Equipment) - YouTube",
+                "type": "url",
+                "url": "https://www.youtube.com/watch?v=sSIccj82Dyg"
+            }, {
+                "date_added": "13251697707668808",
+                "guid": "e79694fe-397f-4e80-8b78-bddf85ddd550",
+                "id": "371",
+                "name": "(24) STOP doing PULL UPS Like This! (Do it RIGHT) - YouTube",
+                "type": "url",
+                "url": "https://www.youtube.com/watch?v=Ww-gNf0ys8M"
+            }, {
+                "date_added": "13259127873034443",
+                "guid": "f1031ee7-322c-4dfb-ab9f-099ac1becd58",
+                "id": "516",
+                "name": "The power of introverts | Susan Cain - YouTube",
+                "type": "url",
+                "url": "https://www.youtube.com/watch?v=c0KYU2j0TM4"
+            }],
+            "date_added": "13249105375128043",
+            "date_modified": "13259127922468042",
+            "guid": "9429d64b-c1a5-43ef-bbec-6029bedecd0e",
+            "id": "301",
+            "name": "health",
+            "type": "folder"
+        }, {
+            "children": [{
+                "date_added": "13250752866335997",
+                "guid": "618854f9-0a01-4784-bd34-bc3d5118513c",
+                "id": "347",
+                "name": "git - difference between origin/branch_name and branch_name? - Stack Overflow",
+                "type": "url",
+                "url": "https://stackoverflow.com/questions/26125162/difference-between-origin-branch-name-and-branch-name"
+            }, {
+                "date_added": "13250860306156652",
+                "guid": "fc82af06-b02c-40ce-886f-77d991440322",
+                "id": "349",
+                "name": "A Rebase Workflow for Git | RandyFay.com",
+                "type": "url",
+                "url": "https://randyfay.com/content/rebase-workflow-git#:~:text=The%20fundamental%20idea%20of%20rebasing,top%20of%20what's%20there%20now."
+            }, {
+                "date_added": "13251789865681608",
+                "guid": "e29c4980-9143-4d15-bbee-caedf606fd8b",
+                "id": "373",
+                "name": "Git Branch Naming Convention - DEV",
+                "type": "url",
+                "url": "https://dev.to/couchcamote/git-branching-name-convention-cch"
+            }, {
+                "date_added": "13251804451427551",
+                "guid": "ac3d72e5-6b86-44b5-8d26-f657c214bda8",
+                "id": "375",
+                "name": "How To Rename a Local and Remote Git Branch | Linuxize",
+                "type": "url",
+                "url": "https://linuxize.com/post/how-to-rename-local-and-remote-git-branch/"
+            }, {
+                "date_added": "13255434280114676",
+                "guid": "47569689-e0a1-48eb-8999-0d136cf45564",
+                "id": "426",
+                "name": "Events that trigger workflows - GitHub Docs",
+                "type": "url",
+                "url": "https://docs.github.com/en/actions/reference/events-that-trigger-workflows"
+            }],
+            "date_added": "13250752883545041",
+            "date_modified": "13255434289712771",
+            "guid": "5796ddef-c727-4e56-a553-fab411aae726",
+            "id": "348",
+            "name": "git",
+            "type": "folder"
+        }, {
+            "children": [{
+                "date_added": "13255590933852303",
+                "guid": "0e9f4eff-eb2c-4b95-9fa1-2544003ba5d5",
+                "id": "430",
+                "name": "Why The Internet Needs IPFS Before It’s Too Late | TechCrunch",
+                "type": "url",
+                "url": "https://techcrunch.com/2015/10/04/why-the-internet-needs-ipfs-before-its-too-late/"
+            }],
+            "date_added": "13255590944044372",
+            "date_modified": "13255631606756927",
+            "guid": "4e138018-e150-446c-b851-cb5aa88eadf6",
+            "id": "431",
+            "name": "network",
+            "type": "folder"
+        }, {
+            "children": [{
+                "date_added": "13255631603993738",
+                "guid": "7d5a4734-4c3c-4dcb-8284-962ede9c4213",
+                "id": "435",
+                "name": "Connection Multiplexing Explained with Examples",
+                "type": "url",
+                "url": "https://www.computernetworkingnotes.com/ccna-study-guide/connection-multiplexing-explained-with-examples.html"
+            }, {
+                "date_added": "13258029961195554",
+                "guid": "75c574cb-aea5-4b63-b01f-fa9974ae0304",
+                "id": "492",
+                "name": "241249261.pdf",
+                "type": "url",
+                "url": "http://docshare02.docshare.tips/files/24124/241249261.pdf"
+            }],
+            "date_added": "13255631622775807",
+            "date_modified": "13258196267939413",
+            "guid": "8c43aa2e-0ff9-4d0b-a0ce-750ab1693a4e",
+            "id": "436",
+            "name": "good basic theory",
+            "type": "folder"
+        }, {
+            "children": [{
+                "date_added": "13255611859678338",
+                "guid": "a0e37d60-0146-4517-9157-4b770f19c531",
+                "id": "433",
+                "name": "How IPFS Deals With Files - IPFS Camp Workshop - YouTube",
+                "type": "url",
+                "url": "https://www.youtube.com/watch?v=Z5zNPwMDYGg&feature=youtu.be"
+            }, {
+                "date_added": "13257171043045527",
+                "guid": "29113759-4812-4b1d-90b1-917fba586a6d",
+                "id": "472",
+                "name": "Comparison of IPFS and BitTorrent for Archives · Issue #208 · ipfs/notes",
+                "type": "url",
+                "url": "https://github.com/ipfs/notes/issues/208"
+            }, {
+                "date_added": "13255612329622663",
+                "guid": "022d94a4-eca8-44a5-8793-d034c64cb6dd",
+                "id": "434",
+                "name": "IPLD Tutorial | Merkle DAGs: Structuring Data for the Distributed Web (Resources) | ProtoSchool",
+                "type": "url",
+                "url": "https://proto.school/merkle-dags/resources"
+            }, {
+                "date_added": "13257328943869432",
+                "guid": "f3734366-1019-4b9e-a162-29a4a5a5affc",
+                "id": "478",
+                "name": "Streaming with IPFS. Static and Live Videos streaming with… | by Sagar Ganiga | REVOtic | Medium",
+                "type": "url",
+                "url": "https://medium.com/revotic/streaming-with-ipfs-2145e6df5a4e"
+            }, {
+                "date_added": "13257422797545241",
+                "guid": "58040762-2f38-49f0-89ed-6d4b60d3c1a1",
+                "id": "481",
+                "name": "ipfs-search/ipfs-search: Search engine for the Interplanetary Filesystem.",
+                "type": "url",
+                "url": "https://github.com/ipfs-search/ipfs-search"
+            }],
+            "date_added": "13256814392329817",
+            "date_modified": "13257443196505451",
+            "guid": "ba72c3e9-5927-4f87-a8bc-d6ee60ba7070",
+            "id": "468",
+            "name": "interplanetary",
+            "type": "folder"
+        }, {
+            "children": [{
+                "date_added": "13247723293770591",
+                "guid": "a10c9ee5-4e60-4423-b7f8-9d20a63809b0",
+                "id": "260",
+                "name": "Heirloom Coffees - Imbibe Magazine",
+                "type": "url",
+                "url": "https://imbibemagazine.com/heirloom-coffees/"
+            }, {
+                "date_added": "13251098626387233",
+                "guid": "d9df5356-608d-4b75-a1e2-ed62ffc61898",
+                "id": "351",
+                "name": "[COFFEE TIP] Body của cà phê từ đâu?",
+                "type": "url",
+                "url": "https://www.96b.co/post/coffeebody"
+            }],
+            "date_added": "13257249778031450",
+            "date_modified": "13257328861069837",
+            "guid": "671c9304-8acd-4a48-b628-74ae10263499",
+            "id": "476",
+            "name": "cuisíné",
+            "type": "folder"
+        }, {
+            "children": [{
+                "date_added": "13250233294104246",
+                "guid": "5da8ad2b-3c33-45d1-9d74-c1dd1cece643",
+                "id": "327",
+                "name": "(29) Akira - Animation the Hard Way - YouTube",
+                "type": "url",
+                "url": "https://www.youtube.com/watch?v=2ltgr21jMag"
+            }, {
+                "date_added": "13252334098145300",
+                "guid": "e21b6f2e-bcf6-44ee-a2d5-17bb71751589",
+                "id": "387",
+                "name": "Hướng dẫn phối đồ vintage ở G-LAB - Người chơi hệ đồ cũ MUA 2 TRĂM BÁN 4 TRIỆU - YouTube",
+                "type": "url",
+                "url": "https://www.youtube.com/watch?v=23WxrdU2buA"
+            }, {
+                "date_added": "13257619602559520",
+                "guid": "f8e8f374-5759-4771-b576-cb53c0f2c27e",
+                "id": "485",
+                "name": "Tội ác lớn nhất của Kim Ki-duk",
+                "type": "url",
+                "url": "https://tiasang.com.vn/-van-hoa/Toi-ac-lon-nhat-cua-Kim-Kiduk-26752"
+            }],
+            "date_added": "13257397738128026",
+            "date_modified": "13257619605428406",
+            "guid": "ed930c6c-1dc9-4303-93ac-2f414329645a",
+            "id": "479",
+            "name": "pop-cult",
+            "type": "folder"
+        }, {
+            "children": [{
+                "date_added": "13258028806478369",
+                "guid": "b37c2578-d267-41aa-9612-da68ccff4ecf",
+                "id": "490",
+                "name": "Ý Nghĩa Câu Chú:OM MANI PADME HUM",
+                "type": "url",
+                "url": "http://tuyenphap.com/y-nghia-cau-chuom-mani-padme-hum-2042"
+            }],
+            "date_added": "13258028863788360",
+            "date_modified": "13258029961195554",
+            "guid": "53beb5b7-6b13-454d-8e8d-1893e7e602b6",
+            "id": "491",
+            "name": "human-belief",
+            "type": "folder"
+        }, {
+            "children": [{
+                "date_added": "13259143097560919",
+                "guid": "c5032c54-1d7a-4d75-93e3-fdeacdc4bf58",
+                "id": "519",
+                "name": "ERGONOMIC | Định nghĩa trong Từ điển tiếng Anh Cambridge",
+                "type": "url",
+                "url": "https://dictionary.cambridge.org/vi/dictionary/english/ergonomic"
+            }],
+            "date_added": "13259143114319978",
+            "date_modified": "13259143114320072",
+            "guid": "cb81951e-ac70-47f2-821f-d49ec0d4454a",
+            "id": "520",
+            "name": "vocabulary",
+            "type": "folder"
+        }],
+        "date_added": "13247564653654402",
+        "date_modified": "13258028863788550",
+        "guid": "7c8704fc-79bc-4230-b92d-cc2f7df3ca2f",
+        "id": "130",
+        "name": "curated",
+        "type": "folder"
+    }, {
+        "children": [{
+            "date_added": "13238489240000000",
+            "guid": "532502e5-ba51-4670-8b8a-f4f68a0f1be5",
+            "id": "108",
+            "name": "ColorBox by Lyft Design",
+            "type": "url",
+            "url": "https://www.colorbox.io/"
+        }, {
+            "date_added": "13238491518000000",
+            "guid": "63ab6e73-87f1-492a-9aa5-cbf52ca7064d",
+            "id": "109",
+            "name": "Tailwind CSS - A Utility-First CSS Framework for Rapidly Building Custom Designs",
+            "type": "url",
+            "url": "https://tailwindcss.com/"
+        }, {
+            "date_added": "13200466005000000",
+            "guid": "abf82a82-0247-4409-9103-d461901e6347",
+            "id": "110",
+            "name": "React Hooks: Managing Web Sockets with useEffect and useState",
+            "type": "url",
+            "url": "https://medium.com/@rossbulat/react-hooks-managing-web-sockets-with-useeffect-and-usestate-2dfc30eeceec"
+        }, {
+            "date_added": "13237547277000000",
+            "guid": "bdbb3e54-6377-46c2-a550-750a470113a9",
+            "id": "111",
+            "name": "(61) These Awesome Weed Recipes Are a High Priority - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=1Nhw63ZiY0I&feature=share&fbclid=IwAR0gmWPcsnl6_oNMLyzfug-GDUhtkWolkEqae6eIqfl4MNAj7GHOdguvVd0"
+        }, {
+            "date_added": "13234344153000000",
+            "guid": "225e8940-84fb-40a6-9fee-5ad75a03275a",
+            "id": "112",
+            "name": "(392) How to flare - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=QQzuq9hQPt8"
+        }, {
+            "date_added": "13234551849000000",
+            "guid": "7be7827a-99ab-4818-aed8-11ef3cb9354a",
+            "id": "113",
+            "name": "(419) 3 Tips To Help Your Swipes | Beginning Breaking Tutorial - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=KjB_IvEP5KQ"
+        }, {
+            "date_added": "13241499943000000",
+            "guid": "917c69a9-2dc0-404d-8b7b-da12c51e0064",
+            "id": "114",
+            "name": "Elevator.js",
+            "type": "url",
+            "url": "https://tholman.com/elevator.js/"
+        }, {
+            "date_added": "13243831959000000",
+            "guid": "cf749c09-1b1c-4c52-bd05-747ccfa6d6d3",
+            "id": "116",
+            "name": "hapi.dev - The simple, secure framework developers trust",
+            "type": "url",
+            "url": "https://hapi.dev/"
+        }, {
+            "date_added": "13243942958000000",
+            "guid": "c34a6dc6-309b-474c-8930-68b221bb7e6a",
+            "id": "118",
+            "name": "The worst captcha ever, Squat captcha! - DEV",
+            "type": "url",
+            "url": "https://dev.to/vivirenremoto/the-hatest-captcha-ever-squat-captcha-4bei"
+        }, {
+            "date_added": "13244142992000000",
+            "guid": "9afeb7a5-4da2-41d5-bd64-7bfedecb3276",
+            "id": "119",
+            "name": "Facebook",
+            "type": "url",
+            "url": "https://www.facebook.com/NhaThieuNhiQuan8/?rf=478405005526902"
+        }, {
+            "date_added": "13244269250000000",
+            "guid": "065b6bb2-97d4-47de-bebb-e8971a7a9962",
+            "id": "120",
+            "name": "gitwatch/gitwatch: Watch a file or folder and automatically commit changes to a git repo easily.",
+            "type": "url",
+            "url": "https://github.com/gitwatch/gitwatch"
+        }, {
+            "date_added": "13245476437000000",
+            "guid": "5ee23015-82f1-411d-8ad6-56d360cecf6a",
+            "id": "123",
+            "name": "GitHub CLI 1.0 is now available - The GitHub Blog",
+            "type": "url",
+            "url": "https://github.blog/2020-09-17-github-cli-1-0-is-now-available/"
+        }, {
+            "date_added": "13245699514000000",
+            "guid": "747db374-fec0-42a6-ae07-20b7f4dfd998",
+            "id": "124",
+            "name": "streamich/react-use: React Hooks — 👍",
+            "type": "url",
+            "url": "https://github.com/streamich/react-use"
+        }, {
+            "date_added": "13246884762000000",
+            "guid": "2494e734-45f9-4381-a647-5f23799c5f65",
+            "id": "128",
+            "name": "10 Best Data Science Books for Beginners and Advanced Data Scientist [Updated]",
+            "type": "url",
+            "url": "https://hackr.io/blog/data-science-books#:~:text=4.-,Introduction%20to%20Machine%20Learning%20with%20Python%3A%20A%20Guide%20for%20Data,examples%20for%20a%20better%20understanding.&text=You%20will%20get%20a%20good%20grasp%20of%20ML%20concepts."
+        }, {
+            "date_added": "13247116910000000",
+            "guid": "39fbd75d-c9bc-452b-984b-2a6f995e37cf",
+            "id": "104",
+            "name": "Measurement, Lockhart, Paul - Amazon.com",
+            "type": "url",
+            "url": "https://www.amazon.com/Measurement-Paul-Lockhart-ebook/dp/B00AFS6LSC/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr="
+        }, {
+            "date_added": "13248290172228152",
+            "guid": "060d3e37-4961-4eb5-a4de-daf7017fc044",
+            "id": "276",
+            "name": "(1404) Cách ngâm rượu Mơ Umeshu Nhật Bản - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=bQh9S_LTVs4"
+        }, {
+            "date_added": "13248871968821676",
+            "guid": "af59810e-f7c3-4a52-a02d-64e98ae79b5e",
+            "id": "294",
+            "name": "MEGA",
+            "type": "url",
+            "url": "https://mega.nz/"
+        }, {
+            "date_added": "13249369507855898",
+            "guid": "ff27ec9e-a074-4936-b0ae-bea7fc1c3538",
+            "id": "308",
+            "name": "20 Inspirational Front-End Challenges You Can Start Coding Today | by Indrek Lasn | Better Programming | Nov, 2020 | Medium",
+            "type": "url",
+            "url": "https://medium.com/better-programming/20-inspirational-front-end-challenges-you-can-start-coding-today-1a7ebd5c5798"
+        }, {
+            "date_added": "13249371467823117",
+            "guid": "9da4ba96-de2e-43cf-8991-a912d28b1d3b",
+            "id": "310",
+            "name": "MagicaVoxel",
+            "type": "url",
+            "url": "https://ephtracy.github.io/#ss-carousel_ss"
+        }, {
+            "date_added": "13249554223109647",
+            "guid": "c0732bb3-b6d2-4a40-8d35-e0d531a21899",
+            "id": "316",
+            "name": "marked - npm",
+            "type": "url",
+            "url": "https://www.npmjs.com/package/marked"
+        }, {
+            "date_added": "13250537385171544",
+            "guid": "9df83376-0140-4ae9-9dff-e356a0e885ea",
+            "id": "329",
+            "name": "(44) Karaoke Dư Âm Tone Nam Karaoke HD full beat 2019 - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=uZKNFBflxwc"
+        }, {
+            "date_added": "13250537654004978",
+            "guid": "d40f0c21-13c6-475a-aba3-5650971f8746",
+            "id": "330",
+            "name": "(44) Karaoke | Dư Âm (Elvis Phương) - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=onz88bdTUzA"
+        }, {
+            "date_added": "13250674483107411",
+            "guid": "4b768864-1a31-4422-a079-fb12f6d01390",
+            "id": "336",
+            "name": "instapy · PyPI",
+            "type": "url",
+            "url": "https://pypi.org/project/instapy/"
+        }, {
+            "date_added": "13250674545892459",
+            "guid": "376841c9-6c03-4c9f-9a61-8a8640295d37",
+            "id": "337",
+            "name": "Settings | InstaPy",
+            "type": "url",
+            "url": "https://instapy.org/settings/"
+        }, {
+            "date_added": "13253621751776551",
+            "guid": "a1e806b8-45cd-470f-894c-e948ca9fabb8",
+            "id": "404",
+            "name": "Vibrant-Colors/node-vibrant: 🎨 Extract prominent colors from an image",
+            "type": "url",
+            "url": "https://github.com/Vibrant-Colors/node-vibrant"
+        }, {
+            "date_added": "13253682072032817",
+            "guid": "ec7de17c-0eb4-4660-b5a6-bac7c6b3d103",
+            "id": "405",
+            "name": "Upptime",
+            "type": "url",
+            "url": "https://upptime.js.org/"
+        }, {
+            "date_added": "13253817295615316",
+            "guid": "cab9e3bc-89d2-44d8-a47a-64a84248e188",
+            "id": "409",
+            "name": "(59) Hướng dẫn Guitar: NHẸ - UYÊN PÍM (chords, picking & strumming) - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=ymbmr9EUDWg"
+        }, {
+            "date_added": "13254292110012670",
+            "guid": "b36c16f6-d5e2-440a-b334-52233108e3cd",
+            "id": "412",
+            "name": "visual studio code - How do I set a keybinding for an extension in VSCode? - Stack Overflow",
+            "type": "url",
+            "url": "https://stackoverflow.com/questions/42164748/how-do-i-set-a-keybinding-for-an-extension-in-vscode"
+        }, {
+            "date_added": "13255155688713454",
+            "guid": "05d00a46-dc97-4dc1-be01-6e865d774830",
+            "id": "420",
+            "name": "koekeishiya/yabai: A tiling window manager for macOS based on binary space partitioning",
+            "type": "url",
+            "url": "https://github.com/koekeishiya/yabai"
+        }, {
+            "date_added": "13255170588977783",
+            "guid": "784d6069-4815-4ffd-babd-2d41e55e6dc5",
+            "id": "422",
+            "name": "Nested schema objects with required properties in dependencies validate incorrectly · Issue #902 · rjsf-team/react-jsonschema-form",
+            "type": "url",
+            "url": "https://github.com/rjsf-team/react-jsonschema-form/issues/902"
+        }, {
+            "date_added": "13255423783789830",
+            "guid": "0d2f79af-b7ce-4b84-ade6-97f47119e2a8",
+            "id": "425",
+            "name": "Remote Job and Startup Job Search | AngelList Talent",
+            "type": "url",
+            "url": "https://angel.co/"
+        }, {
+            "date_added": "13232168601000000",
+            "guid": "4819b07c-ff18-4bcf-9f6b-943b216dfee9",
+            "id": "79",
+            "name": "GoogleChrome/lighthouse-ci: Automate running Lighthouse for every commit, viewing the changes, and preventing regressions",
+            "type": "url",
+            "url": "https://github.com/GoogleChrome/lighthouse-ci"
+        }, {
+            "date_added": "13255976700482669",
+            "guid": "ab944e7d-066e-419d-a699-9e797c180849",
+            "id": "446",
+            "name": "jerryscript-project/jerryscript: Ultra-lightweight JavaScript engine for the Internet of Things.",
+            "type": "url",
+            "url": "https://github.com/jerryscript-project/jerryscript"
+        }, {
+            "date_added": "13256065605209505",
+            "guid": "285169c7-f0b6-459a-b913-42243ceba580",
+            "id": "447",
+            "name": "Rarible - create and sell digital collectibles secured with blockchain",
+            "type": "url",
+            "url": "https://app.rarible.com/"
+        }, {
+            "date_added": "13256192374409409",
+            "guid": "9fe6a0c3-2692-4656-80c0-8df7a29322cb",
+            "id": "455",
+            "name": "The Sandbox - Blockchain Gaming Platform Teaser Trailer - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=oi1mis3DGZE"
+        }, {
+            "date_added": "13257422773034534",
+            "guid": "aa873db8-3afa-4c53-a82b-ba95b5eeb466",
+            "id": "480",
+            "name": "ipfs-search.com",
+            "type": "url",
+            "url": "https://ipfs-search.com/#/search?kind=video&search=soul"
+        }, {
+            "date_added": "13221500870000000",
+            "guid": "6696596a-a5cb-4588-9a15-2a6769aa4c45",
+            "id": "74",
+            "name": "i18n - npm",
+            "type": "url",
+            "url": "https://www.npmjs.com/package/i18n"
+        }, {
+            "date_added": "13258000763804147",
+            "guid": "ed70cfdc-6210-4e97-8b99-373cfd15b780",
+            "id": "488",
+            "name": "Terror Reid - Chernobyl (Instrumental by GNS) - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=YOLZBEQxkVU"
+        }],
+        "date_added": "13247564653652910",
+        "date_modified": "13258006861017521",
+        "guid": "54d872ac-8ae7-4cc4-bc19-79d3b42c3eef",
+        "id": "106",
+        "name": "To try out",
+        "type": "folder"
+    }, {
+        "children": [{
+            "date_added": "13246892457000000",
+            "guid": "70bfadc1-43f2-43cb-a431-76c869bd1dda",
+            "id": "129",
+            "name": "Scrapy 2.3 documentation — Scrapy 2.3.0 documentation",
+            "type": "url",
+            "url": "https://docs.scrapy.org/en/latest/"
+        }, {
+            "date_added": "13238485033000000",
+            "guid": "b888de0f-993c-4e30-a949-f2c39b7ec75a",
+            "id": "85",
+            "name": "Stacks",
+            "type": "url",
+            "url": "https://stackoverflow.design/"
+        }, {
+            "date_added": "13252071908298647",
+            "guid": "7197ec5b-e60a-4343-bcca-78e07983759d",
+            "id": "382",
+            "name": "react-json-parser - npm",
+            "type": "url",
+            "url": "https://www.npmjs.com/package/react-json-parser"
+        }, {
+            "date_added": "13251829417850224",
+            "guid": "378a2630-e89f-4f9d-8c2d-fbd5811188f4",
+            "id": "377",
+            "name": "Your First Extension | Visual Studio Code Extension API",
+            "type": "url",
+            "url": "https://code.visualstudio.com/api/get-started/your-first-extension"
+        }, {
+            "date_added": "13251915052893326",
+            "guid": "1f389bbe-1808-4b39-a197-dafce9c854be",
+            "id": "379",
+            "name": "Chakroun-Anas/turbo-console-log",
+            "type": "url",
+            "url": "https://github.com/Chakroun-Anas/turbo-console-log"
+        }, {
+            "date_added": "13256212694950566",
+            "guid": "d2cd3107-3fc3-4a22-ba0c-20a4a329366a",
+            "id": "460",
+            "name": "5 quán bar phong cách speakeasy nên thử tại Sài Gòn - KAMEREON",
+            "type": "url",
+            "url": "https://blog.kamereo.vn/vi/5-quan-bar-phong-cach-speakeasy-nen-thu-tai-sai-gon/"
+        }, {
+            "date_added": "13254284313918831",
+            "guid": "b34b3cc1-e89a-4a70-8a32-1d987c01cfa8",
+            "id": "411",
+            "name": "(88) Điệu Surf (Blue) | Tiết điệu Guitar #6 | @Thuận Guitar - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=LRq6CMH7_DI"
+        }, {
+            "date_added": "13257443196505451",
+            "guid": "d30511d8-fd9b-4fe7-b428-9057aee57d61",
+            "id": "482",
+            "name": "Spring, Summer, Fall, Winter and Spring 2003 multisubs CC - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=iBptr1OWYZI"
+        }, {
+            "date_added": "13255958368487032",
+            "guid": "3d34b49a-6d19-42c5-a092-a49013f540c3",
+            "id": "443",
+            "name": "DEV API (beta)",
+            "type": "url",
+            "url": "https://docs.dev.to/api/"
+        }],
+        "date_added": "13249543222472248",
+        "date_modified": "13259239437488844",
+        "guid": "d5abb97a-1d36-411e-9798-d5f7bb67ff68",
+        "id": "315",
+        "name": "tried",
+        "type": "folder"
+    }, {
+        "children": [{
+            "children": [{
+                "date_added": "13247114414000000",
+                "guid": "5e69c3cf-dd32-4bf6-850d-28f54853ffff",
+                "id": "253",
+                "name": "Bình Trà Thông Minh Samadoyo SAG08 (500ml) | Tiki.vn",
+                "type": "url",
+                "url": "https://tiki.vn/binh-tra-thong-minh-samadoyo-sag08-500ml-p426651.html?spid=2125567&utm_source=google&utm_medium=cpc&utm_campaign=SEA_NBR_GGL_SMA_DTP_ALL_VN_ALL_UNK_UNK_C.ALL_X.10625984610_Y.106657549162_V.2125567_W.c_A.913756055743_O.UNK&gclid=Cj0KCQjwoJX8BRCZARIsAEWBFMJNPXktKEYTjuayyifiiPXnAMTENrnJId49-w5q_xMdFYAuSjUVc7gaAli-EALw_wcB"
+            }, {
+                "date_added": "13248326544313340",
+                "guid": "d165f029-0b73-4ef8-a573-0a27cb6bbb62",
+                "id": "280",
+                "name": "Phễu lọc cà phê bằng nhựa Hario V60 size 01 | Tiki.vn",
+                "type": "url",
+                "url": "https://tiki.vn/pheu-ca-phe-hario-v60-nhua-vd-01-3-mau-p7585233.html?spid=7585235&src=search"
+            }, {
+                "date_added": "13248326556873173",
+                "guid": "3a30684e-4eb0-4bd1-b11f-37fc1f556c7e",
+                "id": "281",
+                "name": "Giấy Lọc Cà Phê Hario V60 Size 02 - 40 tờ - VCF-02- 40W | Tiki.vn",
+                "type": "url",
+                "url": "https://tiki.vn/giay-loc-ca-phe-hario-v60-size-02-40-to-vcf-02-40w-p8085585.html?spid=55060339"
+            }, {
+                "date_added": "13249317621426537",
+                "guid": "241fb002-a884-4bff-acb5-fe6151d6bcda",
+                "id": "304",
+                "name": "Chuyên phân phối ly uống cafe đẹp, chất lượng tốt nhất thị trường – ly Thủy Tinh Nhập Khẩu",
+                "type": "url",
+                "url": "https://lythuytinh.vn/collections/ly-cafe-da-cafe-capuchino"
+            }, {
+                "date_added": "13252318339338303",
+                "guid": "77f45d05-cb87-4856-be1c-19126ab76c22",
+                "id": "386",
+                "name": "(327) Bóng đèn thông minh đáng mua nhất hiện nay, giá 350k - YouTube",
+                "type": "url",
+                "url": "https://www.youtube.com/watch?v=oZBXcMM0I4A"
+            }, {
+                "date_added": "13253019059089612",
+                "guid": "0718825d-fa57-4420-bccc-97931b48e149",
+                "id": "397",
+                "name": "Chỉ cần 500triêu sở hữu ngay lô đất cửa ngõ Quy Nhơn. Bình Định.",
+                "type": "url",
+                "url": "https://batdongsan.com.vn/ban-dat-duong-quoc-lo-19b-xa-nhon-ly-prj-ky-co-gateway/chi-can-500trieu-so-huu-ngay-cua-ngo-quy-binh-dinh-lh-0333177038-pr26892958"
+            }, {
+                "date_added": "13253772531913687",
+                "guid": "e0c75580-fc61-44eb-93d1-8c592177786b",
+                "id": "407",
+                "name": "collections",
+                "type": "url",
+                "url": "https://www.beeple-collect.com/collections-1"
+            }, {
+                "date_added": "13253869946288392",
+                "guid": "6c2d148f-f46c-45f8-b730-b3fb50129f11",
+                "id": "410",
+                "name": "Ananas Track 6 OG - Low Top",
+                "type": "url",
+                "url": "https://ananas.vn/product-detail/a6t001/"
+            }, {
+                "date_added": "13254838307925261",
+                "guid": "31603821-a12f-41fd-9b9f-0baa583990c6",
+                "id": "417",
+                "name": "BTCUSD 34850.64 ▼ −8.71% Vô danh",
+                "type": "url",
+                "url": "https://vn.tradingview.com/chart/q213utIo/"
+            }, {
+                "date_added": "13256724255532271",
+                "guid": "70d89d16-8b80-415b-861a-093df103a66e",
+                "id": "467",
+                "name": "Dat Bike Weaver - Google Search",
+                "type": "url",
+                "url": "https://www.google.com/search?q=Dat+Bike+Weaver&oq=Dat+Bike+Weaver&aqs=chrome..69i57j69i60&sourceid=chrome&ie=UTF-8"
+            }, {
+                "date_added": "13257328861069837",
+                "guid": "0e96a403-4861-4abb-9c29-51c7700ed940",
+                "id": "477",
+                "name": "Watch Perfect Blue | Prime Video",
+                "type": "url",
+                "url": "https://www.amazon.com/Perfect-Blue-Junko-Iwao/dp/B07NP8SN2Z/ref=pd_rhf_ee_s_pd_crcd_0_1/141-0093513-8858457?_encoding=UTF8&pd_rd_i=B07NP8SN2Z&pd_rd_r=48203929-9a47-4386-be1e-d09ca43ce11a&pd_rd_w=nY6K8&pd_rd_wg=Yb8sV&pf_rd_p=8019ba47-0a12-4976-b76b-5c932d60db6f&pf_rd_r=7A7RC6RMA0VW4GCK3GPN&psc=1&refRID=7A7RC6RMA0VW4GCK3GPN"
+            }],
+            "date_added": "13247564653658656",
+            "date_modified": "13257328943869432",
+            "guid": "18f12076-a310-4c83-a793-00399c503731",
+            "id": "250",
+            "name": "To buy",
+            "type": "folder"
+        }, {
+            "children": [{
+                "date_added": "13247044458000000",
+                "guid": "9bc97e43-0116-4769-b0d1-ddc1a17e5e8b",
+                "id": "251",
+                "name": "Cân Điện Tử Hario V60 | Tiki.vn",
+                "type": "url",
+                "url": "https://tiki.vn/can-dien-tu-hario-v60-vst-2000b-p8959310.html?spid=8959311"
+            }, {
+                "date_added": "13247044478000000",
+                "guid": "58e3eaf9-19ad-4a71-aef9-ef2cc9eef1da",
+                "id": "252",
+                "name": "Cối Xay Cà Phê Hario Coffee Mill Skerton Plus | Tiki.vn",
+                "type": "url",
+                "url": "https://tiki.vn/coi-xay-ca-phe-hario-coffee-mill-skerton-plus-p15637351.html?spid=32012687"
+            }, {
+                "date_added": "13257071949233332",
+                "guid": "25da4ac6-501f-4718-9e15-c8637c8807d3",
+                "id": "471",
+                "name": "Unit 1 - \"Course 1: Introduction and Interface\" (c17vfx) | Domestika",
+                "type": "url",
+                "url": "https://www.domestika.org/en/courses/2315-course-1-introduction-and-interface/units/7401-welcome"
+            }],
+            "date_added": "13248326241070078",
+            "date_modified": "13257071958891275",
+            "guid": "96c07d07-5146-41be-b9f1-667ac8062751",
+            "id": "278",
+            "name": "bought",
+            "type": "folder"
+        }, {
+            "date_added": "13250689038286638",
+            "guid": "0252b307-be30-4d5b-8491-a3bb2316d1dd",
+            "id": "344",
+            "name": "Buy and Sell Bitcoin on P2P | Local Bitcoin Exchange | Binance",
+            "type": "url",
+            "url": "https://c2c.binance.com/en/trade/buy/BNB"
+        }],
+        "date_added": "13248326230413645",
+        "date_modified": "13250703859249526",
+        "guid": "340aba0a-6dad-4a62-924c-f93088cd730b",
+        "id": "277",
+        "name": "deniro",
+        "type": "folder"
+    }, {
+        "children": [{
+            "date_added": "13248354164234994",
+            "guid": "a3a78a03-6a4d-4e84-a28c-ca6ba115e375",
+            "id": "285",
+            "name": "Data Driven Investor – Medium",
+            "type": "url",
+            "url": "https://medium.com/datadriveninvestor"
+        }],
+        "date_added": "13248354162859042",
+        "date_modified": "13248354864776270",
+        "guid": "c7f6e0a7-8118-4c73-9611-7694b1124927",
+        "id": "284",
+        "name": "channel to track",
+        "type": "folder"
+    }, {
+        "children": [{
+            "date_added": "13250538522271378",
+            "guid": "631c4def-42c5-43bf-9614-07692fc4d73c",
+            "id": "331",
+            "name": "(44) DOPE LEMON - Dope & Smoke (Official Audio) - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=9OzmlCmTvc4"
+        }, {
+            "date_added": "13251190802175390",
+            "guid": "baf0b9c1-84b5-4f50-acbe-99eaab62d49a",
+            "id": "354",
+            "name": "Travis Scott - SEE YOU IN UTOPIA (Full Mixtape) - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=mXi_knMCV80"
+        }, {
+            "date_added": "13251873654712127",
+            "guid": "bac3bf5b-9eb5-4a45-92f8-48c85079caf6",
+            "id": "378",
+            "name": "(30) SMVL - RAP (Official MV) - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=9JzWstmFZi8"
+        }, {
+            "date_added": "13252257408777847",
+            "guid": "cb9af862-f4f0-4a47-9c83-56066a1fe706",
+            "id": "384",
+            "name": "(322) Chill Songs | Weed Playlist (XXX Mix) - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=FG_p72APvhs"
+        }, {
+            "date_added": "13253081995256633",
+            "guid": "1cb6df5a-4dbd-4382-adcc-28f718d9b8ce",
+            "id": "398",
+            "name": "(17) Tame Impala - Nangs (Music Video) - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=XK7bE6rFM6M"
+        }, {
+            "date_added": "13253559786693920",
+            "guid": "cd8054d4-77cc-428f-b7e1-bb56163fae17",
+            "id": "402",
+            "name": "Kid Cudi, Eminem - The Adventures Of Moon Man & Slim Shady (Lyric Video) - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=s1-D8UOq7iA"
+        }, {
+            "date_added": "13253610809297233",
+            "guid": "56915ceb-04a5-4bc6-a97e-9ebbb779eafa",
+            "id": "403",
+            "name": "(39) Mr.Kitty - After Dark - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=waAlgFq9Xq8"
+        }, {
+            "date_added": "13253697037896997",
+            "guid": "c380e8c6-e4b1-4548-b427-87bd10ce8a1a",
+            "id": "406",
+            "name": "(46) the weeknd - tears in the rain (slowed + reverb) - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=E6Tdi17VfK0"
+        }, {
+            "date_added": "13254808639738533",
+            "guid": "8e8c8420-17b0-4702-a6e6-5969b4cffe9f",
+            "id": "415",
+            "name": "(135) Japanese City Pop, Soul and Jazz Vinyl Set - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=O-28qkBb0H8"
+        }, {
+            "date_added": "13255599408604143",
+            "guid": "f7a99f63-d22c-407a-8964-bc78e31e0458",
+            "id": "432",
+            "name": "Fatima Yamaha - What's A Girl To Do (Done031) - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=7Ej6g3KhinM&list=FLdkDb9uWHXtVuJ8u86OSqTA&index=329"
+        }, {
+            "date_added": "13255885201594308",
+            "guid": "883448d5-9d55-4290-aa50-80b3d61d9d13",
+            "id": "440",
+            "name": "California Dreaming - Faye Wong in Chungking Express - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=7ol9qzDsCCQ"
+        }, {
+            "date_added": "13256103267499812",
+            "guid": "dd86ede2-02d2-4125-aeb7-23cb15ce596d",
+            "id": "448",
+            "name": "Jakob Ogawa - You Might Be Sleeping [w. Clairo] - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=LSL59cd3m9A"
+        }, {
+            "date_added": "13256103316991392",
+            "guid": "7e8407ee-5228-48fd-ab7e-2b876bf74042",
+            "id": "449",
+            "name": "Tahiti 80 - Hurts (Official Music Video) - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=wpKWAfoW9dY"
+        }, {
+            "date_added": "13256132208701015",
+            "guid": "c914a53f-54d1-4688-947c-56f03cc90c83",
+            "id": "453",
+            "name": "Daniel Caesar - Get You ft. Kali Uchis [Official Video] - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=uQFVqltOXRg&list=TLPQMjYwMTIwMjEhA_maFoT09w&index=7"
+        }, {
+            "date_added": "13256135803701788",
+            "guid": "1f4ee3b7-e939-47e9-ac9f-520209b3a77c",
+            "id": "454",
+            "name": "Dreamgirl - Teenage Blue - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=rkI034qKG7o"
+        }, {
+            "date_added": "13256193182541039",
+            "guid": "97bccce8-b63d-407b-9778-17f7030316dc",
+            "id": "457",
+            "name": "imma heartbreaker acoustic cover w/ @aloluday - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=wb0Mf5dMyOo"
+        }, {
+            "date_added": "13256362240789866",
+            "guid": "08154ac9-b39e-4ced-9f8f-e7208fd6163f",
+            "id": "464",
+            "name": "FML OG Version - Kanye West feat. Travis Scott, The Weeknd & Bon Iver - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=XxfR3QhXJnA"
+        }, {
+            "date_added": "13256379616256618",
+            "guid": "08ff960b-039b-4b02-bb65-41d4a42b4000",
+            "id": "465",
+            "name": "CHIULINH - Trịnh Công Sơn | 84GRND - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=KprkiLGcgWM"
+        }, {
+            "date_added": "13257683914929788",
+            "guid": "a86ea4ae-09c9-4e50-8b64-de42adf70490",
+            "id": "486",
+            "name": "Masego - Veg Out (Wasting Thyme) [Lyric Video] - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=MPE4GTnMCx0"
+        }, {
+            "date_added": "13258879127758551",
+            "guid": "c8eddad3-8ac5-4ac1-bdcc-93aea8374e4d",
+            "id": "510",
+            "name": "Susumu Hirasawa - The Girl In Byakkoya - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=21JuYIPHMF8"
+        }, {
+            "date_added": "13258911293013422",
+            "guid": "f6f1fdac-756f-44d7-a1ae-33451c7ecc41",
+            "id": "511",
+            "name": "Mac Miller - Good News - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=aIHF7u9Wwiw"
+        }, {
+            "date_added": "13259317302869773",
+            "guid": "cb07f0f3-cba4-4b78-a7be-b332cdf8f57a",
+            "id": "527",
+            "name": "(2018) Chiulinh x Kim Nguyen - GRLS (FULL ALBUM) - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=hToKItsufZw"
+        }],
+        "date_added": "13250538531620954",
+        "date_modified": "13259662449731778",
+        "guid": "e578b3a0-e41e-4c42-8a53-ada5bc65b826",
+        "id": "332",
+        "name": "nhạc hay",
+        "type": "folder"
+    }, {
+        "children": [{
+            "date_added": "13258641437642444",
+            "guid": "e410b7fa-0e75-43e2-bab9-8dc13cdbf261",
+            "id": "506",
+            "name": "Slash-escape Text - Online Text Tools",
+            "type": "url",
+            "url": "https://onlinetexttools.com/escape-text"
+        }],
+        "date_added": "13258641452493116",
+        "date_modified": "13258641452493593",
+        "guid": "280cbd8c-53bc-43fb-83b3-0b6b9f167efb",
+        "id": "507",
+        "name": "cool tools",
+        "type": "folder"
+    }],
+    "date_added": "13247564642762761",
+    "date_modified": "13252389421133005",
+    "guid": "00000000-0000-4000-a000-000000000002",
+    "id": "1",
+    "name": "Bookmarks",
+    "type": "folder"
+}
