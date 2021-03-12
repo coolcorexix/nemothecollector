@@ -3,7 +3,10 @@ export function filterBookmarks(keyword: string, input: {
     url?: string;
     children?: {name?: string , url?: string, children?: any}[];
 }) {
-    let temp = null;
+    let temp: {
+        name?: string;
+        children?: any;
+    } = {};
     const rs = [];
     function recursiveSearch(keyword: string, input: {
         name?: string;
@@ -11,7 +14,6 @@ export function filterBookmarks(keyword: string, input: {
         children?: {name?: string , url?: string, children?: any}[];
     }) {
         if (input.name.includes(keyword)) {
-            console.log(input.name);
             rs.push(input); 
             return;
         } else {
