@@ -27,13 +27,16 @@ export function PinnedSlider(props: IProps) {
                     return (<div
                         key={index}
                     >
-                            <img
-
+                        <div
+                            className='h-80 flex flex-col justify-center'
+                        >
+                             <img
                                 src={imgSrc}
                                 style={{
-                                objectFit: 'contain',
+                                    objectFit: 'contain',
                                 }}
                             />
+                        </div>
                         </div>)
                 })
             }
