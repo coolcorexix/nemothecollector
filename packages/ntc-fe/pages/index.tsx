@@ -24,6 +24,19 @@ export default function Home() {
             {quickBio}
           </span>
         </div>
+        <SectionContainer>
+          <SectionHeader>
+            Pieces:
+          </SectionHeader>
+          <div className='text-3xl'>
+            <a className='mx-5' href='/read2'>
+              🔖
+            </a>
+            <a href='/bakery'>
+              🍰
+            </a>
+          </div>
+        </SectionContainer>
 
         <SectionContainer>
           <SectionHeader>
