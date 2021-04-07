@@ -5,6 +5,7 @@ import { SectionContainer } from 'src/components/SectionContainer';
 import { PinnedSlider } from 'src/components/PinnedSlider';
 import {quickBio} from 'src/home-page-data/quick-bio';
 import {pinnedContent} from 'src/home-page-data/pinned-content';
+import { Icon } from 'src/icon-build';
 
 
 export default function Home() {
@@ -20,6 +21,9 @@ export default function Home() {
           <span className='block font-bold text-xl'>
             It's me  Nêmô, your boi! 🌱🌿🌸
           </span>
+          <div>
+            <Icon name='Achievements' />
+          </div>
           <span className='block text-sm'>
             {quickBio}
           </span>

@@ -1,0 +1,1 @@
+import t from"react";function e(e){return t.createElement("svg",{xmlns:"http://www.w3.org/2000/svg",width:e.width,height:e.height,fill:"none",viewBox:"0 0 18 18"},t.createElement("path",{fill:"#000",d:"M16.01 14.62l-1.4 1.4L9 10.45l-5.59 5.59-1.4-1.41 7-7 7 7v-.01zm0-5l-1.4 1.4L9 5.45l-5.59 5.59-1.4-1.41 7-7 7 7v-.01z"}))}export default e;

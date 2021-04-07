@@ -1,0 +1,1 @@
+import e,{lazy as r,Suspense as t}from"react";import{IconErrorBoundary as n}from"./IconErrorBoundary.js";import o from"./generated-icons.js";const c=e=>null,a=a=>{const l=r(o[a.name]||o["icon-placeholder"]);return e.createElement(n,Object.assign({},a),e.createElement(t,{fallback:e.createElement(c,null)},e.createElement(l,Object.assign({},a))))};export{a as Icon};

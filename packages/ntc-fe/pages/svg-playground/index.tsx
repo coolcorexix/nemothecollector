@@ -187,6 +187,14 @@ export default function SvgPlayground() {
             maxWidth: 1024,
             margin: 'auto',
         }}>
+            <div
+                className='background'
+                style={{
+                    width: '200px',
+                    height: '200px',
+                    background: '#89CFF0',
+                }}
+            />
             <h1>My first SVG</h1>
             {
                 renderSomethingLikeCloud()
