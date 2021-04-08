@@ -1,7 +1,7 @@
 import React from 'react';
 import { PageContainer } from 'src/components/PageContainer';
 import { SectionContainer } from 'src/components/SectionContainer';
-import { EatItem } from './EatItem';
+import EatItem from './EatItem';
 function BakeryPage(props) {
     return (
         <PageContainer>

@@ -11,7 +11,7 @@ export const data = {
     price: '35,000đ / 1 mẩu 5cm x 5cm',
 }
 
-export function EatItem(props) {
+function EatItem(props) {
     return (
         <div className='w-6/12 text-lg'>
             <img
@@ -39,3 +39,5 @@ export function EatItem(props) {
         </div>
     );
 }
+
+export default EatItem;
