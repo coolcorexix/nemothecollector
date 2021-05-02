@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "update-bookmarks": "sh scripts/update_bookmarks.sh"
   },
   "dependencies": {
     "@tailwindcss/postcss7-compat": "^2.0.2",

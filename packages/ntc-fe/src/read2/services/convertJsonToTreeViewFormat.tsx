@@ -1,4 +1,3 @@
-import React from 'react';
 const data = require('./bookmarks.json');
 
 export function convertJsonToTreeViewFormat() {
@@ -27,7 +26,7 @@ export function convertJsonToTreeViewFormat() {
         return input;
     }
 
-    const output = recursiveTransforming(data);
+    const output = recursiveTransforming(data.roots.bookmark_bar);
     return {
         output,
         noBm,

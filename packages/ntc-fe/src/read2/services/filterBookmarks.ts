@@ -13,7 +13,7 @@ export function filterBookmarks(keyword: string, input: {
         url?: string;
         children?: {name?: string , url?: string, children?: any}[];
     }) {
-        if (input.name.includes(keyword)) {
+        if (input.name.toLowerCase().includes(keyword.toLowerCase())) {
             rs.push(input); 
             return;
         } else {
