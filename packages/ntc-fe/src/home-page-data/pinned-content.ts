@@ -1,9 +1,6 @@
 export const pinnedContent = {
-    caption: 'Healthy comtemplation at Cốc',
+    caption: 'Finished a 10km marathon with my boo',
     images: [
-        'https://i.imgur.com/ejUGraN.jpg',
-        'https://i.imgur.com/g3k2oDF.jpeg',
-        'https://i.imgur.com/GadLLvJ.jpeg',
-        'https://i.imgur.com/x74fT8R.jpg',
+        'https://i.imgur.com/37JXBpC.jpeg'
     ],
 }
