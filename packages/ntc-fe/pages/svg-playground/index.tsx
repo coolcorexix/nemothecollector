@@ -187,6 +187,25 @@ export default function SvgPlayground() {
             maxWidth: 1024,
             margin: 'auto',
         }}>
+            <div
+                className='background'
+                style={{
+                    overflow: 'hidden',
+                    position: 'relative',
+                    width: '200px',
+                    height: '200px',
+                    background: '#89CFF0',
+                }}
+            >
+                <img
+                    style={{
+                        zIndex: -1,
+                    }}
+                    
+                    src={'https://i.imgur.com/xX8xTga.jpg'}
+                />
+
+            </div>
             <h1>My first SVG</h1>
             {
                 renderSomethingLikeCloud()
