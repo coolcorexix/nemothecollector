@@ -199,7 +199,10 @@ export default function SvgPlayground() {
             >
                 <img
                     style={{
-                        zIndex: -1,
+                        objectFit: 'cover',
+                        position: 'absolute',
+                        width: 200,
+                        height: 200
                     }}
                     
                     src={'https://i.imgur.com/xX8xTga.jpg'}
