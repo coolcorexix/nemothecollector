@@ -1,1 +1,0 @@
-import e from"react";function t(t){return e.createElement("svg",{xmlns:"http://www.w3.org/2000/svg",width:t.width,height:t.height,fill:"none",viewBox:"0 0 36 36"},e.createElement("path",{fill:"#000",fillRule:"evenodd",d:"M6 14l8 8L30 6v8L14 30l-8-8v-8z",clipRule:"evenodd"}))}export default t;

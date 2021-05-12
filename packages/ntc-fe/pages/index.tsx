@@ -1,11 +1,15 @@
 import Head from 'next/head';
+import dynamic from 'next/dynamic';
 import SiteItems from '../src/home-page-data/site-items-data';
 import { SectionHeader} from 'src/components/SectionHeader';
 import { SectionContainer } from 'src/components/SectionContainer';
 import { PinnedSlider } from 'src/components/PinnedSlider';
 import {quickBio} from 'src/home-page-data/quick-bio';
 import {pinnedContent} from 'src/home-page-data/pinned-content';
-import { Icon } from 'src/icon-build';
+
+const Icon = dynamic(async () => ((await import('reactjs-stack-icons')).Icon), {
+  ssr: false,
+});
 
 
 export default function Home() {
@@ -22,7 +26,7 @@ export default function Home() {
             It's me  Nêmô, your boi! 🌱🌿🌸
           </span>
           <div>
-            <Icon name='Achievements' />
+            <Icon name='Achievements' width={24} height={24} />
           </div>
           <span className='block text-sm'>
             {quickBio}
