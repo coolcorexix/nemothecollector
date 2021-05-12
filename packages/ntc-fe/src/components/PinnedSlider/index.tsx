@@ -28,7 +28,7 @@ export function PinnedSlider(props: IProps) {
                         key={index}
                     >
                         <div
-                            className='h-80 flex flex-col justify-center'
+                            className='flex flex-col justify-center'
                         >
                              <img
                                 src={imgSrc}

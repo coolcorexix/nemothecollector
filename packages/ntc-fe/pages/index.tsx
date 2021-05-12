@@ -5,6 +5,7 @@ import { SectionContainer } from 'src/components/SectionContainer';
 import { PinnedSlider } from 'src/components/PinnedSlider';
 import {quickBio} from 'src/home-page-data/quick-bio';
 import {pinnedContent} from 'src/home-page-data/pinned-content';
+import { NoisyImage } from 'src/NoisyImage';
 
 
 export default function Home() {
@@ -25,15 +26,9 @@ export default function Home() {
           </span>
         </div>
         <SectionContainer>
-          <SectionHeader>
-            Pieces:
-          </SectionHeader>
           <div className='text-3xl'>
             <a className='mx-5' href='/read2'>
               🔖
-            </a>
-            <a href='/bakery'>
-              🍰
             </a>
           </div>
         </SectionContainer>
@@ -49,7 +44,8 @@ export default function Home() {
             listImgSrc={pinnedContent.images}
           />
         </SectionContainer>
-        <div>
+        <div className='flex flex-col sm:flex-row justify-between '>        
+        <SectionContainer>
           <SectionHeader>
             Platforms:
           </SectionHeader>
@@ -68,50 +64,12 @@ export default function Home() {
               </div>
             })
           }
-        </div>
-        <div>
+          </SectionContainer>
+          <NoisyImage
+            imgUrl='https://i.imgur.com/p75lwaN.png'
+          />
 
         </div>
-        
-
-
-        {/* <div className='flex w-full'>
-          <ClickableItemBox className='w-1/4 mb-4'>
-            <a href="/search" >
-              <h3>Bookmarks &rarr;</h3>
-              <p>I save all my good read here and hastily tagging them 🤓</p>
-            </a>
-          </ClickableItemBox>
-          <ClickableItemBox className='w-1/4 mb-4'>
-            <a href="/svg-playground" >
-              <h3 className='font-bold'>SVG Playground &rarr;</h3>
-              <p>Some of my work on SVG and CSS to avoid cost using paid app 😢</p>
-            </a>
-          </ClickableItemBox>
-        </div> */}
-
-
-        {/* 
-          
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-
-          >
-            <h3>Source code &rarr;</h3>
-            <p>See which trash can be recycled, which can be better trash</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-
-          >
-            <h3><code >ping me</code> &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div> */}
       </main>
     </div>
   )
