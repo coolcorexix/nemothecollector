@@ -1,6 +1,7 @@
 const data = require('./bookmarks.json');
 
 export function convertJsonToTreeViewFormat() {
+    const blacklistedLevel1Folders=['Workplace',];
     let noBm = 0;
     function recursiveTransforming(input: {
         name?: string;
@@ -11,6 +12,11 @@ export function convertJsonToTreeViewFormat() {
         url?: string;
         children?: {name?: string, url?: string, children?: any}[];
     }{
+        if (blacklistedLevel1Folders.includes(input.name)) {
+            return {
+                name: input.name,
+            }
+        }
         if (input.children) {
             return {
                 ...input,
@@ -27,6 +33,9 @@ export function convertJsonToTreeViewFormat() {
     }
 
     const output = recursiveTransforming(data.roots.bookmark_bar);
+    blacklistedLevel1Folders.forEach(toBlacklistFolderName => {
+        output.children = output.children.filter(child => child.name !== toBlacklistFolderName); 
+    })
     return {
         output,
         noBm,

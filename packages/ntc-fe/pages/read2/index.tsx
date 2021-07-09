@@ -3,13 +3,13 @@ import FolderTree from './react-folder-tree.bundle';
 import { SearchBar } from 'src/components/SearchBar';
 import { convertJsonToTreeViewFormat } from 'src/read2/services/convertJsonToTreeViewFormat';
 import { filterBookmarks } from 'src/read2/services/filterBookmarks';
-const a = convertJsonToTreeViewFormat();
+const treeViewFormat = convertJsonToTreeViewFormat();
 export default function Read2() {
   const [keyword, setKeyword] = React.useState('');
   const [searchResult, setSearchResult] = React.useState([]);
   React.useEffect(() => {
     if (keyword) {
-      setSearchResult(filterBookmarks(keyword, a.output));
+      setSearchResult(filterBookmarks(keyword, treeViewFormat.output));
     }
   }, [keyword]);
   return (
@@ -19,7 +19,7 @@ export default function Read2() {
             onChange={keyword => {
               setKeyword(keyword);
             }}
-            placeholder={`${a.noBm} bookmarks`}
+            placeholder={`${treeViewFormat.noBm} bookmarks`}
           />
         </div>
         {
@@ -44,7 +44,7 @@ export default function Read2() {
             }
           </> :
           <FolderTree
-            data={a.output}
+            data={treeViewFormat.output}
             renderItem={props => {
               if (props.url) {
                 return (<a href={props.url} target='_blank'>

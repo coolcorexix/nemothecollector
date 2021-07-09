@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "update-bookmarks": "sh scripts/update_bookmarks.sh"
+    "update-bookmarks-mac": "sh scripts/update_bookmarks_mac.sh",
+    "update-bookmarks-ubuntu": "sh scripts/update_bookmarks_ubuntu.sh"
   },
   "dependencies": {
     "@tailwindcss/postcss7-compat": "^2.0.2",

@@ -1,4 +1,4 @@
-export function filterBookmarks(keyword: string, input: {
+export function filterBookmarks(keyword: string, bookmarksInput: {
     name?: string;
     url?: string;
     children?: {name?: string , url?: string, children?: any}[];
@@ -13,7 +13,7 @@ export function filterBookmarks(keyword: string, input: {
         url?: string;
         children?: {name?: string , url?: string, children?: any}[];
     }) {
-        if (input.name.toLowerCase().includes(keyword.toLowerCase())) {
+        if (input.name.toLowerCase().includes(keyword.toLowerCase().trim())) {
             rs.push(input); 
             return;
         } else {
@@ -27,6 +27,6 @@ export function filterBookmarks(keyword: string, input: {
             }
         }
     }
-    recursiveSearch(keyword, input);
+    recursiveSearch(keyword, bookmarksInput);
     return rs;
 }
