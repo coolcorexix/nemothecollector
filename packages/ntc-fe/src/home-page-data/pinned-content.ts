@@ -1,6 +1,7 @@
 export const pinnedContent = {
-    caption: 'Finished a 10km marathon with my boo',
+    caption: 'A time of loss. RIP Mầm and Mường.',
     images: [
-        'https://i.imgur.com/37JXBpC.jpeg'
+        'https://i.imgur.com/iY5yfC2.jpeg',
+        'https://i.imgur.com/inK6vMF.jpeg'
     ],
 }
