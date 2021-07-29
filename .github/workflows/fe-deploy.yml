@@ -28,6 +28,10 @@ jobs:
       - run: npx playwright install
       - run: yarn fe dev &
       - run: yarn fe-at playwright-test
+      - uses: actions/upload-artifact@v2
+        with:
+          name: my-artifact
+          path: packages/ntc-fe-automation-test/test-results 
   deploy:
     needs: test
     runs-on: ubuntu-latest
@@ -40,10 +44,6 @@ jobs:
           vercel-args: "--prod"
           vercel-org-id: ${{secrets.VERCEL_ORGID}}
           vercel-project-id: ${{secrets.VERCEL_PROJECTID}}
-      - uses: actions/upload-artifact@v2
-        with:
-          name: my-artifact
-          path: packages/ntc-fe-automation-test/test-results 
   screenshot:
     needs: deploy
     runs-on: macos-latest
