@@ -10,18 +10,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: borales/actions-yarn@v2.3.0
+      - uses: actions/setup-node@v2
         with:
-          cmd: install
-      - uses: borales/actions-yarn@v2.3.0
-        with:
-          cmd: npx playwright install
-      - uses: borales/actions-yarn@v2.3.0
-        with:
-          cmd: fe dev &
-      - uses: borales/actions-yarn@v2.3.0
-        with:
-          cmd: fe-at playwright-test
+          node-version: '14.1.0'
+      - run: yarn install
+      - run: npx playwright install
+      - run: yarn fe dev &
+      - run: yarn fe-at playwright-test
   deploy:
     needs: test
     runs-on: ubuntu-latest
