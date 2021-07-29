@@ -9,6 +9,7 @@
   ],
   "scripts": {
     "fe": "yarn workspace ntc-fe",
+    "fe-at": "yarn workspace ntc-fe-automation-test",
     "be": "yarn workspace ntc-be",
     "ss": "yarn workspace screenshot-service"
   }
