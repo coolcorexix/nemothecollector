@@ -29,6 +29,10 @@ jobs:
           vercel-args: "--prod"
           vercel-org-id: ${{secrets.VERCEL_ORGID}}
           vercel-project-id: ${{secrets.VERCEL_PROJECTID}}
+      - uses: actions/upload-artifact@v2
+        with:
+          name: my-artifact
+          path: packages/ntc-fe-automation-test/test-results 
   screenshot:
     needs: deploy
     runs-on: macos-latest
