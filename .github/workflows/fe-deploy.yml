@@ -1,11 +1,24 @@
 name: deploy nextjs
 on:
   push:
-    paths:
-      - 'packages/ntc-fe/**/*'
-    branches:
-      - mainster
+    # paths:
+    #   - 'packages/ntc-fe/**/*'
+    # branches:
+    #   - mainster
 jobs:
+  test:
+    runs-on: ubuntu-lastest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: borales/actions-yarn@v2.3.0
+        with:
+          cmd: install
+      - uses: borales/actions-yarn@v2.3.0
+        with:
+          cmd: fe dev
+      - uses: borales/actions-yarn@v2.3.0
+        with:
+          cmd: fe-at playwright-test
   deploy:
     runs-on: ubuntu-latest
     steps:
