@@ -54,7 +54,7 @@ export default function RealHomePage() {
                 <br />
                 Maybe a NFT.
                 <br />
-                Maybe goth culture.
+                Maybe pop culture.
             </span>
           </div>
       </div>
