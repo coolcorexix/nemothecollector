@@ -29,6 +29,7 @@ jobs:
       - run: yarn fe dev &
       - run: yarn fe-at playwright-test
       - uses: actions/upload-artifact@v2
+        if: ${{ failure() }}
         with:
           name: my-artifact
           path: packages/ntc-fe-automation-test/test-results 
