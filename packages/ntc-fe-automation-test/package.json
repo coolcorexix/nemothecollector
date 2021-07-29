@@ -2,5 +2,12 @@
   "name": "ntc-fe-automation-test",
   "version": "0.0.1",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "playwright-test": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.13.0",
+    "playwright": "^1.13.0"
+  }
 }
