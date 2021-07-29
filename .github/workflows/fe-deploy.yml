@@ -15,7 +15,7 @@ jobs:
           cache-name: cache-node-modules
         with:
           path: './'
-          key: ${{ runner.os }}-modules-${{ cwd() }}
+          key: ${{ runner.os }}-modules-${{ hashFile('yarn.lock') }}
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
