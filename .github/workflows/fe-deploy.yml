@@ -1,10 +1,10 @@
 name: deploy nextjs
 on:
   push:
-    paths:
-      - 'packages/ntc-fe/**/*'
-    branches:
-      - mainster
+    # paths:
+    #   - 'packages/ntc-fe/**/*'
+    # branches:
+    #   - mainster
 jobs:
   deploy:
     runs-on: ubuntu-latest
