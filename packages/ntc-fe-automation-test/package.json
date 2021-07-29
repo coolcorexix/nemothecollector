@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "playwright-test": "playwright test"
+    "playwright-test": "npx playwright test"
   },
   "devDependencies": {
     "@playwright/test": "^1.13.0",
