@@ -12,14 +12,10 @@ jobs:
       - name: Get yarn cache directory path
         id: yarn-cache-dir-path
         run: echo "::set-output name=dir::$(yarn cache dir)"
-      - name: Cache node_modules
-        uses: actions/cache@v2
+      - uses: actions/cache@v2
         with:
           path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/.yarn-metadata.json') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-${{ hashFiles('**/.yarn-metadata.json') }}
-            ${{ runner.os }}-yarn-
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
