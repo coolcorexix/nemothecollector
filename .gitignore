@@ -4,3 +4,10 @@ packages/tiki-crawler/tiki-crawler-env/lib/python3.8
 packages/tiki-crawler/__pycache__
 postgredb
 .vercel
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*

@@ -1,3 +1,9 @@
+# Cherries 🍒 on this cake 🧁:
+-   Fast webpage set up with NextJs
+-   Automation test with Playwright
+-   CI test-deploy-screenshot with github action
+-   Public workspaces with Yarn v2 
+
 # nemothecollector
 
 ## To start a js repo
