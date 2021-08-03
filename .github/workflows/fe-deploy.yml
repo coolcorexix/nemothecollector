@@ -21,7 +21,7 @@ jobs:
         with:
           node-version: '14.1.0'
       - name: install-dependencies
-        run: yarn --prefer-offline 
+        run: yarn
       - run: npx playwright install
       - run: yarn fe build
       - run: yarn fe start &
