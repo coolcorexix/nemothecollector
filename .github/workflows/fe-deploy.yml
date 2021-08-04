@@ -1,10 +1,12 @@
 name: deploy nextjs
 on:
   push:
-    # paths:
-    #   - 'packages/ntc-fe/**/*'
-    # branches:
-    #   - mainster
+    paths:
+      - 'packages/ntc-fe/**/*'
+      - 'packages/ntc-fe-automation-test/**/*'
+    branches:
+      - mainster
+      - add-playwright-to-githubaction
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -26,6 +28,14 @@ jobs:
       - run: yarn fe build
       - run: yarn fe start &
       - run: yarn fe-at playwright-test
+      - name: send message
+        uses: appleboy/discord-action@master
+        with:
+          webhook_id: ${{ secrets.DISCORD_WEBHOOK_ID }}
+          webhook_token: ${{ secrets.DISCORD_WEBHOOK_TOKEN }}
+          color: "#48f442"
+          message: "A new commit has been pushed with custom color."
+          file: "./packages/ntc-fe-automation-test/sth-to-show.jpg"
       - uses: actions/upload-artifact@v2
         if: ${{ failure() }}
         with:
