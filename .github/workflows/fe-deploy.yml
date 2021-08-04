@@ -18,7 +18,7 @@ jobs:
           key: ${{ runner.os }}-yarn-${{ hashFiles('yarn.lock') }}
       - uses: actions/setup-node@v2
         with:
-          node-version: '14.9.0'
+          node-version: '14.17.0'
       - name: install-dependencies
         run: yarn
       - run: npx playwright install
