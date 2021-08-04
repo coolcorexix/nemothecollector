@@ -26,6 +26,7 @@ jobs:
       - run: yarn fe start &
       - run: yarn fe-at playwright-test
       - name: send message
+        if: ${{ failure() }}
         uses: appleboy/discord-action@master
         with:
           webhook_id: ${{ secrets.DISCORD_WEBHOOK_ID }}
