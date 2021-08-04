@@ -3,8 +3,10 @@ on:
   push:
     paths:
       - 'packages/ntc-fe/**/*'
+      - 'packages/ntc-fe-automation-test/**/*'
     branches:
       - mainster
+      - add-playwright-to-githubaction
 jobs:
   test:
     runs-on: ubuntu-latest
