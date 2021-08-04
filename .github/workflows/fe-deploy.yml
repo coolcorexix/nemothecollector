@@ -25,15 +25,20 @@ jobs:
       - run: yarn fe build
       - run: yarn fe start &
       - run: yarn fe-at playwright-test
+      - uses: papeloto/action-zip@v1
+        if: ${{ always() }}
+        with:
+          files: packages/ntc-fe-automation-test/mock-test-result
+          dest: mock-test-result.zip
       - name: send message
-        if: ${{ failure() }}
+        if: ${{ always() }}
         uses: appleboy/discord-action@master
         with:
           webhook_id: ${{ secrets.DISCORD_WEBHOOK_ID }}
           webhook_token: ${{ secrets.DISCORD_WEBHOOK_TOKEN }}
           color: "#48f442"
           message: "A new commit has been pushed with custom color."
-          file: "./packages/ntc-fe-automation-test/mock-test-result/1"
+          file: "mock-test-result.zip"
       - uses: actions/upload-artifact@v2
         if: ${{ failure() }}
         with:
