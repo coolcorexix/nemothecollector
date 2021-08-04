@@ -1,9 +1,6 @@
 name: deploy nextjs
 on:
   push:
-    paths:
-      - 'packages/ntc-fe/**/*'
-      - 'packages/ntc-fe-automation-test/**/*'
     branches:
       - mainster
       - add-playwright-to-githubaction
