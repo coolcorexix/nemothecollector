@@ -33,7 +33,7 @@ jobs:
           webhook_token: ${{ secrets.DISCORD_WEBHOOK_TOKEN }}
           color: "#48f442"
           message: "A new commit has been pushed with custom color."
-          file: "./packages/ntc-fe-automation-test/mock-test-result/**/*"
+          file: "./packages/ntc-fe-automation-test/mock-test-result"
       - uses: actions/upload-artifact@v2
         if: ${{ failure() }}
         with:
