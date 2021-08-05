@@ -1,6 +1,6 @@
 name: deploy nextjs
 on:
-  push:
+  [push, pull_request]
     branches:
       - mainster
       - add-playwright-to-githubaction
@@ -26,10 +26,10 @@ jobs:
       - run: yarn fe start &
       - run: yarn fe-at playwright-test
       - uses: papeloto/action-zip@v1
-        if: ${{ always() }}
+        if: ${{ failure() }}
         with:
           files: packages/ntc-fe-automation-test/mock-test-result
-          dest: mock-test-result.zip
+          dest: test-results.zip
       - name: send message
         if: ${{ failure() }}
         uses: appleboy/discord-action@master
