@@ -34,7 +34,7 @@ jobs:
       - uses: papeloto/action-zip@v1
         if: ${{ failure() }}
         with:
-          files: packages/ntc-fe-automation-test/mock-test-result
+          files: packages/ntc-fe-automation-test/test-results
           dest: test-results.zip
       - name: send message
         if: ${{ failure() }}
