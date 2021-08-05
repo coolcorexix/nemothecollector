@@ -6,7 +6,7 @@ on:
   merge:
     branches:
       - mainster
-  jobs:
+jobs:
   test:
     runs-on: ubuntu-latest
     steps:
