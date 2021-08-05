@@ -6,7 +6,5 @@ test('basic test', async ({ page }) => {
     });
     expect(await page.screenshot({
         fullPage: true,
-    })).toMatchSnapshot('sth-to-show.png', {
-        threshold: 0.2,
-    });
+    })).toMatchSnapshot('sth-to-show.png');
 });
