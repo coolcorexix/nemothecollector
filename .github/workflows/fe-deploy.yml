@@ -3,8 +3,10 @@ on:
   push:
     branches:
       - mainster
-      - add-playwright-to-githubaction
-jobs:
+  merge:
+    branches:
+      - mainster
+  jobs:
   test:
     runs-on: ubuntu-latest
     steps:
@@ -56,8 +58,7 @@ jobs:
           vercel-args: "--prod"
           vercel-org-id: ${{secrets.VERCEL_ORGID}}
           vercel-project-id: ${{secrets.VERCEL_PROJECTID}}
-      - name: send message
-        if: ${{ failure() }}
+      - name: send message 
         uses: appleboy/discord-action@master
         with:
           webhook_id: ${{ secrets.DISCORD_WEBHOOK_ID }}
