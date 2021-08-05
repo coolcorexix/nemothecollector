@@ -3,9 +3,6 @@ on:
   push:
     branches:
       - mainster
-  merge:
-    branches:
-      - mainster
 jobs:
   test:
     runs-on: ubuntu-latest
