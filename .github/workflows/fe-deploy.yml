@@ -1,8 +1,8 @@
 name: deploy nextjs
   on: [push, pull_request]
-    branches:
-      - mainster
-      - add-playwright-to-githubaction
+  branches:
+    - mainster
+    - add-playwright-to-githubaction
 jobs:
   test:
     runs-on: ubuntu-latest
