@@ -3,8 +3,10 @@ on:
   push:
     branches:
       - mainster
-      - add-playwright-to-githubaction
-jobs:
+  merge:
+    branches:
+      - mainster
+  jobs:
   test:
     runs-on: ubuntu-latest
     steps:

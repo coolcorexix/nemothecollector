@@ -13,7 +13,7 @@ jobs:
         with:
           webhook_id: ${{ secrets.DISCORD_WEBHOOK_ID }}
           webhook_token: ${{ secrets.DISCORD_WEBHOOK_TOKEN }}
-          message: Running test on branch ${{ github.event.pull_request.head.ref }}
+          message: /${{ github.event.pull_request.head.ref }}/ Running test on branch 
       - uses: actions/checkout@v2
       - name: Get yarn cache directory path
         id: yarn-cache-dir-path
@@ -43,7 +43,7 @@ jobs:
           webhook_id: ${{ secrets.DISCORD_WEBHOOK_ID }}
           webhook_token: ${{ secrets.DISCORD_WEBHOOK_TOKEN }}
           color: "#D22B2B"
-          message: Github action does not pass test on branch ${{ github.event.pull_request.head.ref }} 😢
+          message:  /${{ github.event.pull_request.head.ref }}/ Github action does not pass test 😢
           file: "test-results.zip"
       - uses: actions/upload-artifact@v2
         if: ${{ failure() }}
