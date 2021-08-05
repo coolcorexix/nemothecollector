@@ -31,19 +31,19 @@ jobs:
           files: packages/ntc-fe-automation-test/mock-test-result
           dest: mock-test-result.zip
       - name: send message
-        if: ${{ always() }}
+        if: ${{ failure() }}
         uses: appleboy/discord-action@master
         with:
           webhook_id: ${{ secrets.DISCORD_WEBHOOK_ID }}
           webhook_token: ${{ secrets.DISCORD_WEBHOOK_TOKEN }}
-          color: "#48f442"
-          message: "A new commit has been pushed with custom color."
-          file: "mock-test-result.zip"
+          color: "#D22B2B"
+          message: "Github action does not pass test 😢"
+          file: "test-results.zip"
       - uses: actions/upload-artifact@v2
         if: ${{ failure() }}
         with:
           name: my-artifact
-          path: packages/ntc-fe-automation-test/test-results 
+          path: packages/ntc-fe-automation-test/test-results
   deploy:
     needs: test
     runs-on: ubuntu-latest
@@ -56,6 +56,14 @@ jobs:
           vercel-args: "--prod"
           vercel-org-id: ${{secrets.VERCEL_ORGID}}
           vercel-project-id: ${{secrets.VERCEL_PROJECTID}}
+      - name: send message
+        if: ${{ failure() }}
+        uses: appleboy/discord-action@master
+        with:
+          webhook_id: ${{ secrets.DISCORD_WEBHOOK_ID }}
+          webhook_token: ${{ secrets.DISCORD_WEBHOOK_TOKEN }}
+          color: "#48f442"
+          message: "New update deployed 🚀"
   screenshot:
     needs: deploy
     runs-on: macos-latest

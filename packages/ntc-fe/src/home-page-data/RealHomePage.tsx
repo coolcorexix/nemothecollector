@@ -48,7 +48,7 @@ export default function RealHomePage() {
           </div>
           <div className='w-1/2 p-4 flex self-center' >
             <span className='text-2xl font-bold'>
-                Something cools here.
+                Something cools here. 😊
                 <br />
                 I am not what it is yet.
                 <br />
