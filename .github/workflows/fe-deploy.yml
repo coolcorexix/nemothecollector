@@ -1,6 +1,10 @@
 name: deploy nextjs
 on:
   push:
+    path:
+    - '.github/workflows/fe-deploy.yml'
+    - 'packages/ntc-fe/**/*'
+    - 'packages/ntc-web3-storage-uploader/**/*'
     branches:
       - mainster
       - add-playwright-to-githubaction

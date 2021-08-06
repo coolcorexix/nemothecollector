@@ -10,6 +10,7 @@
     "fe": "yarn workspace ntc-fe",
     "fe-at": "yarn workspace ntc-fe-automation-test",
     "be": "yarn workspace ntc-be",
-    "ss": "yarn workspace screenshot-service"
+    "ss": "yarn workspace screenshot-service",
+    "w3u": "yarn workspace ntc-web3-storage-uploader"
   }
 }

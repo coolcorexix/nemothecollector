@@ -1,0 +1,21 @@
+{
+    "name": "ntc-web3-storage-uploader",
+    "version": "0.0.0",
+    "type": "module",
+    "description": "Get started using web3.storage in Node.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "minimist": "^1.2.5",
+        "web3.storage": "^3.1.0"
+    },
+    "author": "YOUR NAME",
+    "license": "(Apache-2.0 AND MIT)",
+    "devDependencies": {
+        "@types/node": "^16.4.13",
+        "ts-node": "^10.1.0",
+        "tslib": "^2.3.0",
+        "typescript": "^4.3.5"
+    }
+}
