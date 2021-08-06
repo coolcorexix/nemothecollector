@@ -1,3 +1,4 @@
+import React from 'react';
 import Head from 'next/head';
 import { SectionHeader} from 'src/components/SectionHeader';
 import { SectionContainer } from 'src/components/SectionContainer';
@@ -6,8 +7,12 @@ import { NoisyImage } from 'src/NoisyImage';
 import {quickBio} from './quick-bio';
 import {pinnedContent} from './pinned-content';
 import SiteItems from './site-items-data';
+import { retrieve } from 'src/ipfs/retrieve';
 
 export default function RealHomePage() {
+  React.useEffect(() => {
+    retrieve('bafybeihii7bf736sytzzmgiujlkxaxvx7zo2nwywdit3dwiq7q2wbw354q');
+  }, []);
   return (
     <div>
       <Head>
@@ -46,7 +51,16 @@ export default function RealHomePage() {
                   />
                 </SectionContainer>
           </div>
-          <div className='w-1/2 p-4 flex self-center' >
+          <div className='w-1/2 p-4 flex flex-col self-center' >
+            <div className='mb-2' > 
+              <audio controls>
+                <source
+                  type='audio/mpeg'
+                  src='https://bafybeihii7bf736sytzzmgiujlkxaxvx7zo2nwywdit3dwiq7q2wbw354q.ipfs.dweb.link/' 
+                />
+
+              </audio>
+            </div>
             <span className='text-2xl font-bold'>
                 Something cool here.
                 <br />
