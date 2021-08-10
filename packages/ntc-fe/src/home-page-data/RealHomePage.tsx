@@ -8,11 +8,9 @@ import {quickBio} from './quick-bio';
 import {pinnedContent} from './pinned-content';
 import SiteItems from './site-items-data';
 import { retrieve } from 'src/ipfs/retrieve';
+import { NFTAudioPlayer } from './NFTAudioPlayer';
 
 export default function RealHomePage() {
-  React.useEffect(() => {
-    retrieve('bafybeihii7bf736sytzzmgiujlkxaxvx7zo2nwywdit3dwiq7q2wbw354q');
-  }, []);
   return (
     <div>
       <Head>
@@ -36,6 +34,13 @@ export default function RealHomePage() {
                     <a className='mx-5' href='/read2'>
                       🔖
                     </a>
+                    <a 
+                      className='mx-5' 
+                      target='_blank' 
+                      href='https://github.com/coolcorexix/nemothecollector'
+                    >
+                      🔍
+                    </a>
                   </div>
                 </SectionContainer>
         
@@ -53,23 +58,8 @@ export default function RealHomePage() {
           </div>
           <div className='w-1/2 p-4 flex flex-col self-center' >
             <div className='mb-2' > 
-              <audio controls>
-                <source
-                  type='audio/mpeg'
-                  src='https://bafybeihii7bf736sytzzmgiujlkxaxvx7zo2nwywdit3dwiq7q2wbw354q.ipfs.dweb.link/' 
-                />
-
-              </audio>
+              <NFTAudioPlayer />
             </div>
-            <span className='text-2xl font-bold'>
-                Something cool here.
-                <br />
-                I am not what it is yet.
-                <br />
-                Maybe a NFT.
-                <br />
-                Maybe pop culture.
-            </span>
           </div>
       </div>
         <div className='flex flex-col sm:flex-row justify-between '>        

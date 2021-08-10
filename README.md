@@ -4,6 +4,11 @@
 -   CI test-deploy-screenshot with github action
 -   Public workspaces with Yarn v2 
 
+# Features 🤓 
+-   Update bookmark from MacOs/Ubuntu script
+-   IPFS hosting
+-   Many of my doodling art (handrawn, animated svg,..) all over the places
+
 # nemothecollector
 
 ## To start a js repo
