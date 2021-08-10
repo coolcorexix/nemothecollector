@@ -1,3 +1,4 @@
+import React from 'react';
 import Head from 'next/head';
 import { SectionHeader} from 'src/components/SectionHeader';
 import { SectionContainer } from 'src/components/SectionContainer';
@@ -6,6 +7,8 @@ import { NoisyImage } from 'src/NoisyImage';
 import {quickBio} from './quick-bio';
 import {pinnedContent} from './pinned-content';
 import SiteItems from './site-items-data';
+import { retrieve } from 'src/ipfs/retrieve';
+import { NFTAudioPlayer } from './NFTAudioPlayer';
 
 export default function RealHomePage() {
   return (
@@ -31,6 +34,13 @@ export default function RealHomePage() {
                     <a className='mx-5' href='/read2'>
                       🔖
                     </a>
+                    <a 
+                      className='mx-5' 
+                      target='_blank' 
+                      href='https://github.com/coolcorexix/nemothecollector'
+                    >
+                      🔍
+                    </a>
                   </div>
                 </SectionContainer>
         
@@ -46,16 +56,10 @@ export default function RealHomePage() {
                   />
                 </SectionContainer>
           </div>
-          <div className='w-1/2 p-4 flex self-center' >
-            <span className='text-2xl font-bold'>
-                Something cool here.
-                <br />
-                I am not what it is yet.
-                <br />
-                Maybe a NFT.
-                <br />
-                Maybe pop culture.
-            </span>
+          <div className='w-1/2 p-4 flex flex-col self-center' >
+            <div className='mb-2' > 
+              <NFTAudioPlayer />
+            </div>
           </div>
       </div>
         <div className='flex flex-col sm:flex-row justify-between '>        

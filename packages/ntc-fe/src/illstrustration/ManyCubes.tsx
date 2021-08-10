@@ -4,7 +4,7 @@ import { base03, dark100, dark1000, dark10000 } from 'src/theme/colors';
 export function ManyCubes() { 
     const [isInMorph, setIsInMorph] = useState(false);
     return (
-        <svg height={200} width={200} onClick={() => setIsInMorph(true)} className={isInMorph ? 'in-morph' : ''} viewBox='-21 -10 300 300'>
+        <svg height={150} width={150} onClick={() => setIsInMorph(true)} className={isInMorph ? 'in-morph' : ''} viewBox='-21 -10 150 150'>
             <svg style={{display: 'none'}} viewBox="0 -20 300 100">
                 <path d='M0,-11.55 l300,0' stroke='black' strokeWidth={1}/>
                 <g id='cube' strokeWidth={1} fillOpacity={1} stroke={base03}>
