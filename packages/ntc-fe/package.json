@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "prettier-watch": "onchange \"**/*\" -- prettier --write --ignore-unknown {{changed}}",
+    "prettier-check": "prettier --check ./**/*",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",

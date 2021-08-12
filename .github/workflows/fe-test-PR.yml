@@ -5,6 +5,30 @@ on:
       - mainster
       - add-playwright-to-githubaction
 jobs:
+  install dependencies:
+    runs-on: ubuntu-20.04
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v2
+      with:
+        node-version: '14.17.0'
+    - name: Get yarn cache directory path
+      id: yarn-cache-dir-path
+      run: echo "::set-output name=dir::$(yarn cache dir)"
+    - uses: actions/cache@v2
+      with:
+        path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+        key: ${{ runner.os }}-yarn-${{ hashFiles('yarn.lock') }}
+    - name: install-dependencies
+      run: yarn
+  check-prettier:
+    runs-on: ubuntu-20.04
+    steps:
+    - uses: actions/setup-node@v2
+            with:
+              node-version: '14.17.0'
+    - runs: yarn fe prettier-check
+
   test:
     runs-on: ubuntu-20.04
     steps:
@@ -13,20 +37,7 @@ jobs:
         with:
           webhook_id: ${{ secrets.DISCORD_WEBHOOK_ID }}
           webhook_token: ${{ secrets.DISCORD_WEBHOOK_TOKEN }}
-          message: /${{ github.event.pull_request.head.ref }}/ Running test on branch 
-      - uses: actions/checkout@v2
-      - name: Get yarn cache directory path
-        id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn cache dir)"
-      - uses: actions/cache@v2
-        with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('yarn.lock') }}
-      - uses: actions/setup-node@v2
-        with:
-          node-version: '14.17.0'
-      - name: install-dependencies
-        run: yarn
+          message: /${{ github.event.pull_request.head.ref }}/ Running test on branch
       - run: npx playwright install
       - run: yarn fe build
       - run: yarn fe start &
