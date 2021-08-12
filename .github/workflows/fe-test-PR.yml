@@ -27,7 +27,7 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: "14.17.0"
-      - runs: yarn fe prettier-check
+      - run: yarn fe prettier-check
   test:
     runs-on: ubuntu-20.04
     steps:
