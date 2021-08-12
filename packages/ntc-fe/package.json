@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "prettier-watch": "onchange \"**/*\" -- prettier --write --ignore-unknown {{changed}}",
+    "prettier-check": "prettier --check ./**/*.{js,jsx,ts,tsx,json}",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "update-bookmarks-mac": "sh scripts/update_bookmarks_mac.sh",
     "just a comment for below": "# have to press twice, don't know why",
-    "update-bookmarks-ubuntu": "sh scripts/update_bookmarks_ubuntu.sh"
+    "update-bookmarks-ubuntu": "sh scripts/update_bookmarks_ubuntu.sh && sh scripts/update_bookmarks_ubuntu.sh"
   },
   "dependencies": {
     "@tailwindcss/postcss7-compat": "^2.0.2",
