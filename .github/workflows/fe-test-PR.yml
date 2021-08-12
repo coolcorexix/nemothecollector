@@ -25,7 +25,6 @@ jobs:
     needs: install-dependencies
     runs-on: ubuntu-20.04
     steps:
-      - uses: actions/checkout@v2
       - run: yarn fe prettier-check
       - name: send message
         if: ${{ failure() }}
