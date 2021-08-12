@@ -1,1 +1,1 @@
-export type TypeItemStockStatus = | 'IN STOCK' | 'SOLD OUT' | 'IN R&D';
+export type TypeItemStockStatus = 'IN STOCK' | 'SOLD OUT' | 'IN R&D';

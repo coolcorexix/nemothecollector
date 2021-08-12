@@ -5,5 +5,7 @@
     "python.linting.pylintArgs": [
         "--disable=C0103"
     ],
-    "python.pythonPath": "/usr/local/bin/python3"
+    "python.pythonPath": "/usr/local/bin/python3",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": "true"
 }

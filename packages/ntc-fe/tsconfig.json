@@ -1,16 +1,9 @@
 {
   "extends": "../../tsconfig.base.json",
-  "include": [
-    "./src/**/*",
-    "./pages/**/*"
-  ],
+  "include": ["./src/**/*", "./pages/**/*"],
   "compilerOptions": {
     "baseUrl": "./",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "skipLibCheck": true,
     "strict": false,
     "forceConsistentCasingInFileNames": true,
@@ -18,7 +11,5 @@
     "isolatedModules": true,
     "jsx": "preserve"
   },
-  "exclude": [
-    "node_modules"
-  ]
+  "exclude": ["node_modules"]
 }
