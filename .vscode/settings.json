@@ -7,5 +7,5 @@
     ],
     "python.pythonPath": "/usr/local/bin/python3",
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": "true"
+    "editor.formatOnSave": true
 }

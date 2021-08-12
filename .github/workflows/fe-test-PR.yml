@@ -28,8 +28,17 @@ jobs:
         with:
           node-version: "14.17.0"
       - run: yarn fe prettier-check
+      - name: send message
+        if: ${{ failure() }}
+        uses: appleboy/discord-action@master
+        with:
+          webhook_id: ${{ secrets.DISCORD_WEBHOOK_ID }}
+          webhook_token: ${{ secrets.DISCORD_WEBHOOK_TOKEN }}
+          color: "#D22B2B"
+          message: /${{ github.event.pull_request.head.ref }}/ prettier not pass 😢
   test:
     runs-on: ubuntu-20.04
+    needs: check-prettier
     steps:
       - name: send message
         uses: appleboy/discord-action@master
