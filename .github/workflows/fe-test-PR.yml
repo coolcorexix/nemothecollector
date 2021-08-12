@@ -29,7 +29,6 @@ jobs:
           message: /${{ github.event.pull_request.head.ref }}/ prettier not pass 😢
   test:
     runs-on: ubuntu-20.04
-    needs: check-prettier
     steps:
       - uses: actions/checkout@v2
       - name: Get yarn cache directory path
