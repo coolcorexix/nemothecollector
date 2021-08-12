@@ -22,6 +22,7 @@ jobs:
       - name: install-dependencies
         run: yarn
   check-prettier:
+    needs: install-dependencies
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/setup-node@v2
