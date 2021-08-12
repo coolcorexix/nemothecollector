@@ -28,7 +28,6 @@ jobs:
         with:
           node-version: "14.17.0"
       - runs: yarn fe prettier-check
-
   test:
     runs-on: ubuntu-20.04
     steps:
