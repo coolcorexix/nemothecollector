@@ -1,5 +1,5 @@
 import React from 'react';
-import { TypeCoinCode } from 'src/coinGecko/TCoinCode.type';
+import { TypeCoinCode } from 'src/coinGecko/TCoinCode.model';
 import { formatToVndDisplay } from 'src/locales/formatToVndDisplay';
 
 interface IProps {

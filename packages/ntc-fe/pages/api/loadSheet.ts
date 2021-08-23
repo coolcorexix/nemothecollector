@@ -3,7 +3,7 @@ import { CoinGeckoClient, SimplePriceResponse } from 'coingecko-api-v3';
 import axios, { AxiosResponse } from 'axios';
 import { coinGeckoReference } from 'src/coinGecko/coinGeckoReference';
 import { getCoinReferenceByCoinId } from 'src/coinGecko/getCoinReferenceByCoinId';
-import { TypeCoinCode } from 'src/coinGecko/TCoinCode.type';
+import { TypeCoinCode } from 'src/coinGecko/TCoinCode.model';
 
 const vndSymbol = 'vnd';
 
