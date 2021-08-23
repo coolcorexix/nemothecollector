@@ -18,11 +18,11 @@ export default function RealHomePage() {
       </Head>
 
       <main className="max-w-screen-sm px-2 sm:px-0 m-auto">
-        <div className="flex flex-row">
+        <div className="flex flex-row mb-2">
           <div className="w-1/2">
             <div className="flex flex-col py-4">
               <span className="block font-bold text-xl">
-                It's me Nêmô, your boi! 🌱🌿🌸
+                It's me Nêmô, your boi! 🌱🌿🌼🍂🌱
               </span>
               <span className="block text-sm">{quickBio}</span>
             </div>
@@ -36,7 +36,7 @@ export default function RealHomePage() {
                   target="_blank"
                   href="https://github.com/coolcorexix/nemothecollector"
                 >
-                  🔍
+                  ⚙️
                 </a>
               </div>
             </SectionContainer>

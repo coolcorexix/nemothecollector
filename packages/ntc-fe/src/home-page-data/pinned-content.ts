@@ -1,7 +1,9 @@
 export const pinnedContent = {
-  caption: 'A time of loss. RIP Mầm and Mường.',
+  caption: 'Let go, heal and come out as a whole',
   images: [
-    'https://i.imgur.com/iY5yfC2.jpeg',
-    'https://i.imgur.com/inK6vMF.jpeg',
+    'https://i.imgur.com/UQZHRqu.jpg',
+    'https://i.imgur.com/KfKG2s2.jpg',
+    'https://i.imgur.com/Ic0cWFf.jpg',
+    'https://i.imgur.com/CgHHmSt.jpg',
   ],
 };
