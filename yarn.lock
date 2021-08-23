@@ -3650,6 +3650,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"coingecko-api-v3@npm:^0.0.12":
+  version: 0.0.12
+  resolution: "coingecko-api-v3@npm:0.0.12"
+  checksum: aa9e9536556e7f6fe7a4d5de6c2c9a86a30cd4afe3949b4b6c0ce0549039e52f3aa67238127c2e8bde48313500d3af159b6c63e6661505eec97792776f5ac660
+  languageName: node
+  linkType: hard
+
 "color-convert@npm:^1.9.0, color-convert@npm:^1.9.3":
   version: 1.9.3
   resolution: "color-convert@npm:1.9.3"
@@ -8343,6 +8350,7 @@ __metadata:
     "@types/node": ^14.14.2
     "@types/react": ^16.9.53
     autoprefixer: ^9
+    coingecko-api-v3: ^0.0.12
     dotenv: ^10.0.0
     google-spreadsheet: ^3.1.15
     moment: ^2.29.1
