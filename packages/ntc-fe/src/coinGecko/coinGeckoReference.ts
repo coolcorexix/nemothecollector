@@ -29,4 +29,9 @@ export const coinGeckoReference = [
     logoSrcUrl: 'https://cryptologos.cc/logos/decentraland-mana-logo.svg?v=013',
     coinId: 'decentraland',
   },
+  {
+    code: 'FTM',
+    logoSrcUrl: 'https://cryptologos.cc/logos/fantom-ftm-logo.svg?v=013',
+    coinId: 'fantom',
+  },
 ];

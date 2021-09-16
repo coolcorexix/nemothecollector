@@ -1,15 +1,38 @@
-import React from 'react';
+import React, { useCallback } from 'react';
 import Head from 'next/head';
 import { SectionHeader } from 'src/components/SectionHeader';
 import { SectionContainer } from 'src/components/SectionContainer';
+import { useGoogleReCaptcha } from 'react-google-recaptcha-v3';
 import { PinnedSlider } from 'src/components/PinnedSlider';
 import { NoisyImage } from 'src/NoisyImage';
 import { quickBio } from './quick-bio';
 import { pinnedContent } from './pinned-content';
 import SiteItems from './site-items-data';
 import { NFTAudioPlayer } from './NFTAudioPlayer';
+import { useEffect } from 'react';
 
 export default function RealHomePage() {
+  const { executeRecaptcha } = useGoogleReCaptcha();
+
+  const handleReCaptchaVerify = useCallback(
+    async (actionName: string) => {
+      if (!executeRecaptcha) {
+        console.log('Execute recaptcha not yet available');
+        return;
+      }
+      executeRecaptcha(actionName);
+
+      const token = await executeRecaptcha('yourAction');
+      // Do whatever you want with the token
+    },
+    [executeRecaptcha]
+  );
+
+  useEffect(() => {
+    console.log('recaptcha loaded');
+    handleReCaptchaVerify('access_page');
+  }, [handleReCaptchaVerify]);
+
   return (
     <div>
       <Head>
@@ -26,6 +49,9 @@ export default function RealHomePage() {
               </span>
               <span className="block text-sm">{quickBio}</span>
             </div>
+            <button onClick={() => handleReCaptchaVerify('click')}>
+              Test recaptcha
+            </button>
             <SectionContainer>
               <div className="text-3xl">
                 <a className="mx-5" href="/read2">
@@ -74,6 +100,14 @@ export default function RealHomePage() {
           </SectionContainer>
           <NoisyImage imgUrl="https://i.imgur.com/p75lwaN.png" />
         </div>
+        <form
+          onSubmit={() => {
+            handleReCaptchaVerify('submit');
+          }}
+        >
+          <input id="name" />
+          <button type="submit">Submit</button>
+        </form>
       </main>
     </div>
   );

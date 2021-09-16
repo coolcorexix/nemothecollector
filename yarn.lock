@@ -5565,7 +5565,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hoist-non-react-statics@npm:^3.0.0":
+"hoist-non-react-statics@npm:^3.0.0, hoist-non-react-statics@npm:^3.3.2":
   version: 3.3.2
   resolution: "hoist-non-react-statics@npm:3.3.2"
   dependencies:
@@ -8363,6 +8363,7 @@ __metadata:
     react-dom: 17.0.1
     react-dropzone: ^11.3.1
     react-folder-tree: ^4.0.8
+    react-google-recaptcha-v3: ^1.9.5
     react-slick: ^0.28.0
     sass: ^1.29.0
     slick-carousel: ^1.8.1
@@ -9604,6 +9605,18 @@ __metadata:
     react: ^16.13.1
     react-dom: ^16.13.1
   checksum: 2e2f4ef1101abd57ad4161cc90c6177a3c6c86578b8f977d9139685b1673189201346f0f77b0b3310c517aa50df8e540c75f48862e7d19919133f454140c34fc
+  languageName: node
+  linkType: hard
+
+"react-google-recaptcha-v3@npm:^1.9.5":
+  version: 1.9.5
+  resolution: "react-google-recaptcha-v3@npm:1.9.5"
+  dependencies:
+    hoist-non-react-statics: ^3.3.2
+  peerDependencies:
+    react: ^17.0
+    react-dom: ^17.0
+  checksum: 73827f42b7f50282364bb596b3b7ade08c9907b2cad92192d92f5ef96951d7b4f55256ccc9f49dae9c87ff1b34896dbf7be00d3e93c54ec8ff98eec8e9448f99
   languageName: node
   linkType: hard
 
