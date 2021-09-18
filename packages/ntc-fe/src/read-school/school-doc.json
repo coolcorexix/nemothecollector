@@ -1,0 +1,44 @@
+{
+  "name": "School Document",
+  "children": [
+    {
+      "name": "Design Pattern - SE401.M11.PMCL",
+      "children": [
+        {
+          "name": "Drive Mẫu thiết kế ",
+          "url": "https://drive.google.com/drive/folders/1ZQk37NXvLAjPc3AA7X2hUSSkqTTW4orG?usp=sharing"
+        }
+      ]
+    },
+    {
+      "name": "Seminar - SE400.M11.PMCL",
+      "children": [
+        {
+          "name": "Drive Đề tài",
+          "url": "https://drive.google.com/drive/folders/1d9JSdiTOC42axSJ2-hwhu4zcpmF7Ck4N"
+        },
+        {
+          "name": "Drive Bài tâp tuần",
+          "url": "https://drive.google.com/drive/folders/13b5WctWTQU0aQN6lWqLDmlXliLU4FTun"
+        },
+        {
+          "name": "Hướng dẫn cách đọc bài báo khoa học",
+          "url": "https://drive.google.com/file/d/1peeqThu5U68pPo6OQMlrsxpzqwxExvHQ/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      "name": "Mobile / Pervasive - SE405.M11.PMCL",
+      "children": [
+        {
+          "name": "Github Repo frontend",
+          "url": "https://github.com/chipueatfast/erc721-score-frontend"
+        },
+        {
+          "name": "Github Repo smart contract",
+          "url": "https://github.com/chipueatfast/erc721-score-blockchain-service"
+        }
+      ]
+    }
+  ]
+}
