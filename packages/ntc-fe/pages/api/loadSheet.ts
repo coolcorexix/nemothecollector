@@ -36,7 +36,7 @@ export default async function loadSheet(req, res) {
   const totalGoldWorth = overviewSheet.getCellByA1('D7').value;
   const totalSavingAccount = overviewSheet.getCellByA1('D10').value;
   const experimentalCoinsSheet = doc.sheetsByIndex[1];
-  await experimentalCoinsSheet.loadCells('B1:B8');
+  await experimentalCoinsSheet.loadCells('B1:B9');
   const bitcoinsSheet = doc.sheetsByIndex[2];
   await bitcoinsSheet.loadCells('B49');
   const ethereumSheet = doc.sheetsByIndex[3];
@@ -50,6 +50,8 @@ export default async function loadSheet(req, res) {
     BNB: experimentalCoinsSheet.getCellByA1('B4').value,
     MANA: experimentalCoinsSheet.getCellByA1('B5').value,
     FTM: experimentalCoinsSheet.getCellByA1('B7').value,
+    BOO: experimentalCoinsSheet.getCellByA1('B8').value,
+    SOL: experimentalCoinsSheet.getCellByA1('B9').value,
   };
 
   const coinGeckoReference = await getCoinGeckoVndPrice();

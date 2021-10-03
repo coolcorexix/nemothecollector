@@ -34,4 +34,14 @@ export const coinGeckoReference = [
     logoSrcUrl: 'https://cryptologos.cc/logos/fantom-ftm-logo.svg?v=013',
     coinId: 'fantom',
   },
+  {
+    code: 'BOO',
+    logoSrcUrl: 'https://cryptologos.cc/logos/eboostcoin-ebst-logo.svg?v=013',
+    coinId: 'spookyswap',
+  },
+  {
+    code: 'SOL',
+    logoSrcUrl: 'https://cryptologos.cc/logos/solana-sol-logo.svg?v=013',
+    coinId: 'solana',
+  },
 ];
