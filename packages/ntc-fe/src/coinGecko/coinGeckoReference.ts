@@ -35,9 +35,10 @@ export const coinGeckoReference = [
     coinId: 'fantom',
   },
   {
-    code: 'BOO',
-    logoSrcUrl: 'https://cryptologos.cc/logos/eboostcoin-ebst-logo.svg?v=013',
-    coinId: 'spookyswap',
+    code: 'POLS',
+    logoSrcUrl:
+      'https://assets.coingecko.com/coins/images/12648/large/polkastarter.png?1609813702',
+    coinId: 'polkastarter',
   },
   {
     code: 'SOL',
