@@ -15,6 +15,11 @@ export const coinGeckoReference = [
     coinId: 'polkadot',
   },
   {
+    code: 'BUSD',
+    logoSrcUrl: 'https://cryptologos.cc/logos/binance-usd-busd-logo.svg?v=014',
+    coinId: 'binance-usd',
+  },
+  {
     code: 'BNB',
     logoSrcUrl: 'https://cryptologos.cc/logos/binance-coin-bnb-logo.svg?v=013',
     coinId: 'binancecoin',

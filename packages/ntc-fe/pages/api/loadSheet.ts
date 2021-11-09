@@ -49,6 +49,7 @@ export default async function loadSheet(req, res) {
     CAKE: experimentalCoinsSheet.getCellByA1('B3').value,
     BNB: experimentalCoinsSheet.getCellByA1('B4').value,
     MANA: experimentalCoinsSheet.getCellByA1('B5').value,
+    BUSD: experimentalCoinsSheet.getCellByA1('B6').value,
     FTM: experimentalCoinsSheet.getCellByA1('B7').value,
     POLS: experimentalCoinsSheet.getCellByA1('B8').value,
     SOL: experimentalCoinsSheet.getCellByA1('B9').value,
