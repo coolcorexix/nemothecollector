@@ -12,6 +12,7 @@
     "update-bookmarks-ubuntu": "sh scripts/update_bookmarks_ubuntu.sh && sh scripts/update_bookmarks_ubuntu.sh"
   },
   "dependencies": {
+    "@chainlink/contracts": "^0.2.2",
     "@tailwindcss/postcss7-compat": "^2.0.2",
     "autoprefixer": "^9",
     "coingecko-api-v3": "^0.0.12",
@@ -29,7 +30,8 @@
     "slick-carousel": "^1.8.1",
     "styled-components": "^5.2.0",
     "swr": "^0.5.6",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
+    "web3": "^1.6.1"
   },
   "devDependencies": {
     "@types/node": "^14.14.2",
