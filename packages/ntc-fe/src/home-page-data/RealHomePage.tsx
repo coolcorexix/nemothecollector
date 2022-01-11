@@ -41,8 +41,8 @@ export default function RealHomePage() {
       </Head>
 
       <main className="max-w-screen-sm px-2 sm:px-0 m-auto">
-        <div className="flex flex-row mb-2">
-          <div className="w-1/2">
+        <div className="flex flex-col sm:flex-row mb-2">
+          <div className="w-full">
             <div className="flex flex-col py-4">
               <span className="block font-bold text-xl">
                 It's me Nêmô, your boi! 🌱🌿🌼🍂🌱
@@ -70,7 +70,7 @@ export default function RealHomePage() {
               <PinnedSlider listImgSrc={pinnedContent.images} />
             </SectionContainer>
           </div>
-          <div className="w-1/2 p-4 flex flex-col self-center">
+          <div className="w-full p-4 flex flex-col self-center">
             <div className="mb-2">
               <NFTAudioPlayer />
             </div>

@@ -1,9 +1,8 @@
 export const pinnedContent = {
-  caption: 'Let go, heal and come out as a whole',
+  caption: 'Just engaged in the woods',
   images: [
-    'https://i.imgur.com/UQZHRqu.jpg',
-    'https://i.imgur.com/KfKG2s2.jpg',
-    'https://i.imgur.com/Ic0cWFf.jpg',
-    'https://i.imgur.com/CgHHmSt.jpg',
+    'https://i.imgur.com/BltltAe.jpeg',
+    'https://i.imgur.com/NevwqSB.jpeg',
+    'https://i.imgur.com/IqBnjeF.jpeg',
   ],
 };

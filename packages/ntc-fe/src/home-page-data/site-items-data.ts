@@ -14,6 +14,11 @@ export default {
     detail: 'Phạm Huy Phát',
     link: 'https://phmhuypht.medium.com/',
   },
+  twitter: {
+    display: 'Twitter',
+    detail: 'phamhuyphat',
+    link: 'https://twitter.com/phamhuyphat',
+  },
   youtube: {
     display: 'Youtube',
     detail: 'Nemo The Collector',
