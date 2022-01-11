@@ -1,0 +1,42 @@
+name: test nextjs
+on:
+  push:
+    path:
+      - ".github/workflows/fe-deploy.yml"
+      - "packages/ntc-fe/**/*"
+      - "packages/ntc-web3-storage-uploader/**/*"
+    branches:
+      - mainster
+jobs:
+  deploy:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: amondnet/vercel-action@v20
+        with:
+          vercel-token: ${{secrets.VERCEL_TOKEN}}
+          github-token: ${{secrets.GITHUB_TOKEN}}
+          vercel-args: "--prod"
+          vercel-org-id: ${{secrets.VERCEL_ORGID}}
+          vercel-project-id: ${{secrets.VERCEL_PROJECTID}}
+      - name: send message
+        uses: appleboy/discord-action@master
+        with:
+          webhook_id: ${{ secrets.DISCORD_WEBHOOK_ID }}
+          webhook_token: ${{ secrets.DISCORD_WEBHOOK_TOKEN }}
+          color: "#48f442"
+          message: "New update deployed 🚀"
+  screenshot:
+    needs: deploy
+    runs-on: macos-latest
+    strategy:
+      matrix:
+        width: [1024, 320]
+    steps:
+      - uses: swinton/screenshot-website@v1.x
+        with:
+          source: https://nemothecollector.dev/
+          destination: screenshot-${{ matrix.width }}.png
+          width: ${{ matrix.width }}
+          full-page: true
