@@ -21,10 +21,16 @@ export function PinnedSlider(props: IProps) {
       <Slider className="w-64 m-auto sm:m-0" {...sliderSetting}>
         {props.listImgSrc.map((imgSrc, index) => {
           return (
-            <div key={index}>
-              <div className="flex flex-col justify-center">
+            <div className="h-80" key={index}>
+              <div
+                style={{
+                  background: '#9986ef',
+                }}
+                className="h-full flex flex-col items-center justify-center"
+              >
                 <img
                   src={imgSrc}
+                  className="max-h-80"
                   style={{
                     objectFit: 'contain',
                   }}

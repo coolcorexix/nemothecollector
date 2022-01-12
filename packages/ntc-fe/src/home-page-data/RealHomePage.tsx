@@ -41,14 +41,14 @@ export default function RealHomePage() {
       </Head>
 
       <main className="max-w-screen-sm px-2 sm:px-0 m-auto">
+        <div className="flex flex-col py-4">
+          <span className="block font-bold text-xl">
+            It's me Nêmô, your boi! 🌱🌿🌼🍂🌱
+          </span>
+          <span className="block text-sm">{quickBio}</span>
+        </div>
         <div className="flex flex-col sm:flex-row mb-2">
           <div className="w-full">
-            <div className="flex flex-col py-4">
-              <span className="block font-bold text-xl">
-                It's me Nêmô, your boi! 🌱🌿🌼🍂🌱
-              </span>
-              <span className="block text-sm">{quickBio}</span>
-            </div>
             <SectionContainer>
               <div className="text-3xl">
                 <a className="mx-5" href="/read2">
@@ -70,13 +70,13 @@ export default function RealHomePage() {
               <PinnedSlider listImgSrc={pinnedContent.images} />
             </SectionContainer>
           </div>
-          <div className="w-full p-4 flex flex-col self-center">
+          <div className="w-full flex flex-col self-center sm:p-4">
             <div className="mb-2">
               <NFTAudioPlayer />
             </div>
           </div>
         </div>
-        <div className="flex flex-col sm:flex-row justify-between ">
+        <div className="flex flex-row justify-between ">
           <SectionContainer>
             <SectionHeader>Platforms:</SectionHeader>
             {Object.keys(SiteItems).map((si) => {
@@ -86,6 +86,7 @@ export default function RealHomePage() {
                     {SiteItems[si].display}:&nbsp;
                   </span>
                   <a
+                    target="_blank"
                     className="text-blue-800 hover:underline"
                     href={SiteItems[si].link}
                   >
@@ -95,7 +96,9 @@ export default function RealHomePage() {
               );
             })}
           </SectionContainer>
-          <NoisyImage imgUrl="https://i.imgur.com/p75lwaN.png" />
+          <div className="w-32 max-w-sm flex mb-32 flex-row justify-end sm:w-full">
+            <NoisyImage imgUrl="https://i.imgur.com/p75lwaN.png" />
+          </div>
         </div>
       </main>
     </div>

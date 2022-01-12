@@ -7,7 +7,8 @@ export function NoisyImage(props: { imgUrl: string }) {
       style={{
         overflow: 'hidden',
         position: 'relative',
-        width: '200px',
+        width: '100%',
+        maxWidth: '200px',
         height: '200px',
         background: '#89CFF0',
       }}
