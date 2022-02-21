@@ -1,8 +1,13 @@
 export default {
-  github: {
-    display: 'Github',
+  personalGithub: {
+    display: 'Personal github',
     detail: 'coolcorexix',
     link: 'https://github.com/coolcorexix',
+  },
+  companyGithub: {
+    display: 'Company github',
+    detail: 'phatNfqAsia',
+    link: '  https://github.com/phatNfqAsia',
   },
   stackoverflow: {
     display: 'Stackoverflow',

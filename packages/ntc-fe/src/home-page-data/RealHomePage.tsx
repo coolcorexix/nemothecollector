@@ -13,7 +13,6 @@ import { useEffect } from 'react';
 
 export default function RealHomePage() {
   const { executeRecaptcha } = useGoogleReCaptcha();
-
   const handleReCaptchaVerify = useCallback(
     async (actionName: string) => {
       if (!executeRecaptcha) {
