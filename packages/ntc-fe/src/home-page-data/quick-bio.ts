@@ -1,1 +1,2 @@
-export const quickBio = 'fruit-tree, how-to-look-cool obsessed';
+export const quickBio =
+  'fruit-tree, in the third-phase transfomation of a lifetime';
