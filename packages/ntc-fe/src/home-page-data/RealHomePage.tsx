@@ -42,7 +42,7 @@ export default function RealHomePage() {
       <main className="max-w-screen-sm px-2 sm:px-0 m-auto">
         <div className="flex flex-col py-4">
           <span className="block font-bold text-xl">
-            It's me Nêmô, your boi! 🌱🌿🌼🍂🌱
+            It's me Nêmô, your boi! 🌱🌿🌼🍂🌱🌿
           </span>
           <span className="block text-sm">{quickBio}</span>
         </div>

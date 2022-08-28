@@ -24,7 +24,8 @@ export function PinnedSlider(props: IProps) {
             <div className="h-80" key={index}>
               <div
                 style={{
-                  background: '#9986ef',
+                  // background: '#9986ef',
+                  background: '#4BF24B',
                 }}
                 className="h-full flex flex-col items-center justify-center"
               >
