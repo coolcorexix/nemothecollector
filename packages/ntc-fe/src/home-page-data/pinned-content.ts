@@ -1,8 +1,9 @@
 export const pinnedContent = {
-  caption: 'Just engaged in the woods',
+  caption: 'Walking away from traffic jams and other bullshits',
   images: [
-    'https://i.imgur.com/BltltAe.jpeg',
-    'https://i.imgur.com/NevwqSB.jpeg',
-    'https://i.imgur.com/IqBnjeF.jpeg',
+    'https://i.imgur.com/HZ9vBNf.jpeg',
+    'https://i.imgur.com/jcCwmaX.jpeg',
+    'https://i.imgur.com/sYzVL09.jpeg',
+    'https://i.imgur.com/VdAD3Fk.jpeg'
   ],
 };

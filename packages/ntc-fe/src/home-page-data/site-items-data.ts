@@ -4,11 +4,6 @@ export default {
     detail: 'coolcorexix',
     link: 'https://github.com/coolcorexix',
   },
-  companyGithub: {
-    display: 'Company github',
-    detail: 'phatNfqAsia',
-    link: '  https://github.com/phatNfqAsia',
-  },
   stackoverflow: {
     display: 'Stackoverflow',
     detail: 'user9814737',
@@ -23,15 +18,5 @@ export default {
     display: 'Twitter',
     detail: 'phamhuyphat',
     link: 'https://twitter.com/phamhuyphat',
-  },
-  youtube: {
-    display: 'Youtube',
-    detail: 'Nemo The Collector',
-    link: 'https://www.youtube.com/channel/UCMoE1R7I5w6VT8vsMrkg8HA',
-  },
-  soundcloud: {
-    display: 'Soundcloud',
-    detail: 'Phạm Huy Phát',
-    link: 'https://soundcloud.com/ph-m-huy-ph-t',
-  },
+  }
 };
