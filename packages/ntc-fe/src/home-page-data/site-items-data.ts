@@ -1,6 +1,6 @@
 export default {
   personalGithub: {
-    display: 'Personal github',
+    display: 'Personal Github',
     detail: 'coolcorexix',
     link: 'https://github.com/coolcorexix',
   },
