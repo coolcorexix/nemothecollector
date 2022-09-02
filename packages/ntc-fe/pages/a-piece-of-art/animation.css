@@ -1,0 +1,12 @@
+@keyframes tearmove {
+  0% {
+    transform: translate(38px, 35px) scale(0.3);
+  }
+  50% {
+    transform: translate(38px, 40px) scale(0.3);
+  }
+
+  100% {
+    transform: translate(38px, 1024px) scale(0.3);
+  }
+}
