@@ -12,7 +12,9 @@
     "update-bookmarks-ubuntu": "sh scripts/update_bookmarks_ubuntu.sh && sh scripts/update_bookmarks_ubuntu.sh"
   },
   "dependencies": {
+    "@ant-design/icons": "4.0.0",
     "@tailwindcss/postcss7-compat": "^2.0.2",
+    "antd": "^4.23.2",
     "autoprefixer": "^9",
     "coingecko-api-v3": "^0.0.12",
     "google-spreadsheet": "^3.1.15",
