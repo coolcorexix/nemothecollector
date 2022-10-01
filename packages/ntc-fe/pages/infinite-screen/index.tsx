@@ -5,7 +5,35 @@ import React, {
   useRef,
   useState,
 } from 'react';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
+
+const SCROLL_GRAB_MODE = 'SCROLL_GRAB_MODE';
+const SCROLL_DRAG_MODE = 'SCROLL_DRAG_MODE';
+
+const InfiniteScreenWrapper = styled.div<{
+  mouseMode: string;
+}>`
+  width: 100vw;
+  height: 100vh;
+  overflow: scroll;
+  ${(props) => {
+    return props.mouseMode === SCROLL_GRAB_MODE
+      ? css`
+          cursor: grab;
+          user-select: none;
+        `
+      : '';
+  }}
+
+  ${(props) => {
+    return props.mouseMode === SCROLL_DRAG_MODE
+      ? css`
+          cursor: grabbing;
+          user-select: none;
+        `
+      : '';
+  }}
+`;
 
 const DumbDiv = styled.div<{
   x: number;
@@ -22,10 +50,17 @@ const DumbDiv = styled.div<{
 
 function InfiniteScreen() {
   const [dumbDivs, setDumbDivs] = useState<ReactNode[]>([]);
+  const [pos, setPos] = useState({
+    left: 0,
+    top: 0,
+    // Get the current mouse position
+    x: 0,
+    y: 0,
+  });
 
   const addDumbDiv = useCallback(
     (x, y) => {
-      dumbDivs.push(<DumbDiv x={x} y={y} />);
+      dumbDivs.push(<DumbDiv key={x + y} x={x} y={y} />);
       setDumbDivs([...dumbDivs]);
     },
     [dumbDivs]
@@ -38,8 +73,40 @@ function InfiniteScreen() {
     };
   });
 
+  const [mouseMode, setMouseMode] = useState(null);
+
+  useEffect(() => {
+    const handleSpaceKeydown = (e) => {
+      e.preventDefault();
+      if (e.key === ' ' || e.code === 'Space') {
+        if (mouseMode === null) {
+          setMouseMode(SCROLL_GRAB_MODE);
+          console.log('reset space mode');
+        }
+      }
+    };
+
+    const handleSpaceKeyup = (e) => {
+      if (e.key === ' ' || e.code === 'Space') {
+        setMouseMode(null);
+      }
+    };
+    // call repeatedly when you hold space
+    window.addEventListener('keydown', handleSpaceKeydown);
+    window.addEventListener('keyup', handleSpaceKeyup);
+    return () => {
+      window.removeEventListener('keydown', handleSpaceKeydown);
+      window.removeEventListener('keyup', handleSpaceKeyup);
+    };
+  }, [
+    // if you dont pass mouse mode as dependency, its value will always be null
+    // which reset the mouse mode repeatedly while you hit space
+    mouseMode,
+  ]);
+
   const [ctx, setCtx] = useState<CanvasRenderingContext2D>(null);
 
+  const wrapper = useRef(null);
   const canvas = useRef(null);
   // TODO: add resize handler here to update canvas size
   useEffect(() => {
@@ -67,13 +134,50 @@ function InfiniteScreen() {
   }, [ctx]);
 
   return (
-    <div>
+    // scrollable element, act like the camera in game
+    // while the canvas is in static mode
+    <InfiniteScreenWrapper ref={wrapper} mouseMode={mouseMode}>
       <canvas
-        style={{
-          position: 'relative',
-        }}
+        // onClick =  mouseDown + mouseUp
         onClick={(e) => {
           addDumbDiv(e.pageX, e.pageY);
+        }}
+        onMouseDown={(e) => {
+          console.log(
+            '🚀 ~ file: index.tsx ~ line 150 ~ InfiniteScreen ~ mouseDown',
+            mouseMode
+          );
+          setPos({
+            // The current scroll
+            left: wrapper.current.scrollLeft,
+            top: wrapper.current.scrollTop,
+            // Get the current mouse position
+            x: e.clientX,
+            y: e.clientY,
+          });
+          setMouseMode(SCROLL_DRAG_MODE);
+        }}
+        onMouseMove={(e) => {
+          //   console.log(
+          //     '🚀 ~ file: index.tsx ~ line 150 ~ InfiniteScreen ~ mouseMode',
+          //     mouseMode
+          //   );
+          if (mouseMode !== SCROLL_DRAG_MODE) {
+            return;
+          }
+          //   console.log('at mouse move');
+          // How far the mouse has been moved
+          const dx = e.clientX - pos.x;
+          const dy = e.clientY - pos.y;
+
+          // Scroll the element
+          wrapper.current.scrollTo(pos.left - dx, pos.top - dy);
+        }}
+        onMouseUp={() => {
+          if (mouseMode === SCROLL_DRAG_MODE) {
+            console.log('is set here');
+            setMouseMode(null);
+          }
         }}
         ref={canvas}
         width={canvasSize.width}
@@ -81,8 +185,14 @@ function InfiniteScreen() {
       >
         <p>Your browser does not support canvas</p>
       </canvas>
+      {/* <div style={{
+        width: canvasSize.width,
+        height: canvasSize.height,
+        position: 'absolute',
+      }}> */}
       {dumbDivs}
-    </div>
+      {/* </div> */}
+    </InfiniteScreenWrapper>
   );
 }
 
