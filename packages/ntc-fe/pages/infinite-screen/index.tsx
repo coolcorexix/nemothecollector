@@ -12,7 +12,7 @@ import styled, { css } from 'styled-components';
 const SCROLL_GRAB_MODE = 'SCROLL_GRAB_MODE';
 const SCROLL_DRAG_MODE = 'SCROLL_DRAG_MODE';
 
-const InfiniteScreenWrapper = styled.div<{
+const InfiniteScreenViewport = styled.div<{
   mouseMode: string;
   commandMode: 'move';
 }>`
@@ -111,7 +111,7 @@ function InfiniteScreen() {
 
   const [ctx, setCtx] = useState<CanvasRenderingContext2D>(null);
 
-  const wrapper = useRef(null);
+  const viewportRef = useRef(null);
   const canvas = useRef(null);
   // TODO: add resize handler here to update canvas size
   useEffect(() => {
@@ -141,9 +141,9 @@ function InfiniteScreen() {
   return (
     // scrollable element, act like the camera in game
     // while the canvas is in static mode
-    <InfiniteScreenWrapper ref={wrapper}>
+    <InfiniteScreenViewport ref={viewportRef}>
       {isPressingSpace && (
-        <ScrollLayer mapSize={canvasSize} wrapperRef={wrapper} />
+        <ScrollLayer mapSize={canvasSize} viewportRef={viewportRef} />
       )}
       <canvas
         // onCli ck =  mouseDown + mouseUp
@@ -163,7 +163,7 @@ function InfiniteScreen() {
       }}> */}
       {dumbDivs}
       {/* </div> */}
-    </InfiniteScreenWrapper>
+    </InfiniteScreenViewport>
   );
 }
 

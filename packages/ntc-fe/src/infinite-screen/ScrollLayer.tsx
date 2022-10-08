@@ -18,13 +18,13 @@ const ScrollLayerWrapper = styled.div<{
 `;
 
 function ScrollLayer(props: {
-  wrapperRef: React.MutableRefObject<any>;
+  viewportRef: React.MutableRefObject<any>;
   mapSize: {
     width: number;
     height: number;
   };
 }) {
-  const { wrapperRef, mapSize } = props;
+  const { viewportRef, mapSize } = props;
   const [isDragging, setIsDragging] = useState(false);
   const [startDraggingPoint, setStartDraggingPoint] = useState({
     left: 0,
@@ -34,7 +34,7 @@ function ScrollLayer(props: {
     y: 0,
   });
   console.log('in scroll layer: ', props);
-  if (!wrapperRef.current) {
+  if (!viewportRef.current) {
     return null;
   }
   return (
@@ -44,8 +44,8 @@ function ScrollLayer(props: {
       onMouseDown={(e) => {
         setStartDraggingPoint({
           // The current scroll
-          left: wrapperRef.current.scrollLeft,
-          top: wrapperRef.current.scrollTop,
+          left: viewportRef.current.scrollLeft,
+          top: viewportRef.current.scrollTop,
           // Get the current mouse position
           x: e.clientX,
           y: e.clientY,
@@ -57,7 +57,7 @@ function ScrollLayer(props: {
         const dy = e.clientY - startDraggingPoint.y;
 
         // Scroll the element
-        wrapperRef.current.scrollTo(
+        viewportRef.current.scrollTo(
           startDraggingPoint.left - dx,
           startDraggingPoint.top - dy
         );
