@@ -2,9 +2,11 @@ import React, {
   ReactNode,
   useCallback,
   useEffect,
+  useMemo,
   useRef,
   useState,
 } from 'react';
+import ScrollLayer from 'src/infinite-screen/ScrollLayer';
 import styled, { css } from 'styled-components';
 
 const SCROLL_GRAB_MODE = 'SCROLL_GRAB_MODE';
@@ -12,6 +14,7 @@ const SCROLL_DRAG_MODE = 'SCROLL_DRAG_MODE';
 
 const InfiniteScreenWrapper = styled.div<{
   mouseMode: string;
+  commandMode: 'move';
 }>`
   width: 100vw;
   height: 100vh;
@@ -24,6 +27,14 @@ const InfiniteScreenWrapper = styled.div<{
         `
       : '';
   }}
+  #scroll-layer {
+    position: absolute;
+    display: ${(props) => props.commandMode !== 'move' && 'none'};
+    cursor: grab;
+    background: pink;
+    opacity: 0.4;
+    z-index: 2;
+  }
 
   ${(props) => {
     return props.mouseMode === SCROLL_DRAG_MODE
@@ -50,13 +61,6 @@ const DumbDiv = styled.div<{
 
 function InfiniteScreen() {
   const [dumbDivs, setDumbDivs] = useState<ReactNode[]>([]);
-  const [pos, setPos] = useState({
-    left: 0,
-    top: 0,
-    // Get the current mouse position
-    x: 0,
-    y: 0,
-  });
 
   const addDumbDiv = useCallback(
     (x, y) => {
@@ -72,24 +76,25 @@ function InfiniteScreen() {
       width: window.innerWidth * 2,
     };
   });
+  const [isPressingSpace, setIsPressingSpace] = useState(false);
 
-  const [mouseMode, setMouseMode] = useState(null);
+  const commandMode = useMemo(() => {
+    if (isPressingSpace) {
+      return 'move';
+    }
+    return null;
+  }, [isPressingSpace]);
 
   useEffect(() => {
     const handleSpaceKeydown = (e) => {
       e.preventDefault();
       if (e.key === ' ' || e.code === 'Space') {
-        if (mouseMode === null) {
-          setMouseMode(SCROLL_GRAB_MODE);
-          console.log('reset space mode');
-        }
+        setIsPressingSpace(true);
       }
     };
 
     const handleSpaceKeyup = (e) => {
-      if (e.key === ' ' || e.code === 'Space') {
-        setMouseMode(null);
-      }
+      setIsPressingSpace(false);
     };
     // call repeatedly when you hold space
     window.addEventListener('keydown', handleSpaceKeydown);
@@ -101,7 +106,7 @@ function InfiniteScreen() {
   }, [
     // if you dont pass mouse mode as dependency, its value will always be null
     // which reset the mouse mode repeatedly while you hit space
-    mouseMode,
+    commandMode,
   ]);
 
   const [ctx, setCtx] = useState<CanvasRenderingContext2D>(null);
@@ -136,48 +141,14 @@ function InfiniteScreen() {
   return (
     // scrollable element, act like the camera in game
     // while the canvas is in static mode
-    <InfiniteScreenWrapper ref={wrapper} mouseMode={mouseMode}>
+    <InfiniteScreenWrapper ref={wrapper}>
+      {isPressingSpace && (
+        <ScrollLayer mapSize={canvasSize} wrapperRef={wrapper} />
+      )}
       <canvas
-        // onClick =  mouseDown + mouseUp
+        // onCli ck =  mouseDown + mouseUp
         onClick={(e) => {
           addDumbDiv(e.pageX, e.pageY);
-        }}
-        onMouseDown={(e) => {
-          console.log(
-            '🚀 ~ file: index.tsx ~ line 150 ~ InfiniteScreen ~ mouseDown',
-            mouseMode
-          );
-          setPos({
-            // The current scroll
-            left: wrapper.current.scrollLeft,
-            top: wrapper.current.scrollTop,
-            // Get the current mouse position
-            x: e.clientX,
-            y: e.clientY,
-          });
-          setMouseMode(SCROLL_DRAG_MODE);
-        }}
-        onMouseMove={(e) => {
-          //   console.log(
-          //     '🚀 ~ file: index.tsx ~ line 150 ~ InfiniteScreen ~ mouseMode',
-          //     mouseMode
-          //   );
-          if (mouseMode !== SCROLL_DRAG_MODE) {
-            return;
-          }
-          //   console.log('at mouse move');
-          // How far the mouse has been moved
-          const dx = e.clientX - pos.x;
-          const dy = e.clientY - pos.y;
-
-          // Scroll the element
-          wrapper.current.scrollTo(pos.left - dx, pos.top - dy);
-        }}
-        onMouseUp={() => {
-          if (mouseMode === SCROLL_DRAG_MODE) {
-            console.log('is set here');
-            setMouseMode(null);
-          }
         }}
         ref={canvas}
         width={canvasSize.width}
