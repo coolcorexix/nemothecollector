@@ -6,6 +6,7 @@ import React, {
   useRef,
   useState,
 } from 'react';
+import ContentLayer from 'src/infinite-screen/ContentLayer';
 import ScrollLayer from 'src/infinite-screen/ScrollLayer';
 import styled, { css } from 'styled-components';
 
@@ -27,14 +28,6 @@ const InfiniteScreenViewport = styled.div<{
         `
       : '';
   }}
-  #scroll-layer {
-    position: absolute;
-    display: ${(props) => props.commandMode !== 'move' && 'none'};
-    cursor: grab;
-    background: pink;
-    opacity: 0.4;
-    z-index: 2;
-  }
 
   ${(props) => {
     return props.mouseMode === SCROLL_DRAG_MODE
@@ -87,7 +80,7 @@ function InfiniteScreen() {
 
   useEffect(() => {
     const handleSpaceKeydown = (e) => {
-      e.preventDefault();
+      // e.preventDefault();
       if (e.key === ' ' || e.code === 'Space') {
         setIsPressingSpace(true);
       }
@@ -145,23 +138,25 @@ function InfiniteScreen() {
       {isPressingSpace && (
         <ScrollLayer mapSize={canvasSize} viewportRef={viewportRef} />
       )}
-      <canvas
+      <ContentLayer width={canvasSize.width} height={canvasSize.height} />
+      {/* <canvas
         // onCli ck =  mouseDown + mouseUp
-        onClick={(e) => {
-          addDumbDiv(e.pageX, e.pageY);
-        }}
+        // onClick={(e) => {
+        //   addDumbDiv(e.pageX, e.pageY);
+        // }}
         ref={canvas}
         width={canvasSize.width}
         height={canvasSize.height}
       >
         <p>Your browser does not support canvas</p>
-      </canvas>
+      </canvas> */}
+
       {/* <div style={{
         width: canvasSize.width,
         height: canvasSize.height,
         position: 'absolute',
       }}> */}
-      {dumbDivs}
+      {/* {dumbDivs} */}
       {/* </div> */}
     </InfiniteScreenViewport>
   );
