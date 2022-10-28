@@ -1,3 +1,4 @@
+import { stringify } from 'querystring';
 import React, { ReactNode, useCallback, useEffect, useState } from 'react';
 import styled, { css } from 'styled-components';
 import ImageCard from '../ImageCard';
@@ -40,8 +41,17 @@ const ContentLayerWrapper = styled.div<{
   `}
 `;
 
-function ContentLayer(props: { width: number; height: number }) {
-  const [dumbDivs, setDumbDivs] = useState<ReactNode[]>([]);
+function ContentLayer(props: {
+  width: number;
+  height: number;
+  removeDumbDiv: any;
+}) {
+  const [dumbDivs, setDumbDivs] = useState<
+    {
+      render: ReactNode;
+      id: string;
+    }[]
+  >([]);
   const [mousePosition, setMousePosition] = useState(() => {
     return {
       x: 0,
@@ -80,14 +90,19 @@ function ContentLayer(props: { width: number; height: number }) {
             const parser = new DOMParser();
             const parsedDoc = parser.parseFromString(html, 'text/html');
             const imgSrc = parsedDoc.body.getElementsByTagName('img')[0].src;
-            dumbDivs.push(
-              <ImageCard
-                x={mousePosition.x}
-                y={mousePosition.y}
-                key={Date.now()}
-                imgSrc={imgSrc}
-              />
-            );
+            dumbDivs.push({
+              render: (
+                <ImageCard
+                  key={Date.now().toString()}
+                  removeDumbDiv={removeDumbDiv}
+                  x={mousePosition.x}
+                  y={mousePosition.y}
+                  id={Date.now().toString()}
+                  imgSrc={imgSrc}
+                />
+              ),
+              id: Date.now().toString(),
+            });
             setDumbDivs([...dumbDivs]);
           });
         }
@@ -101,21 +116,17 @@ function ContentLayer(props: { width: number; height: number }) {
       window.removeEventListener('paste', handlePaste);
     };
   }, [dumbDivs, mousePosition]);
-  const addDumbDiv = useCallback(
-    (x, y) => {
-      dumbDivs.push(<DumbDiv key={x + y} x={x} y={y} />);
-      setDumbDivs([...dumbDivs]);
+
+  const removeDumbDiv = useCallback(
+    (id) => {
+      console.log('remove id: ', id);
+      setDumbDivs((prevDivs) => prevDivs.filter((div) => div.id !== id));
     },
     [dumbDivs]
   );
   return (
-    <ContentLayerWrapper
-      {...props}
-      onClick={(e) => {
-        addDumbDiv(e.pageX, e.pageY);
-      }}
-    >
-      {dumbDivs}
+    <ContentLayerWrapper {...props}>
+      {dumbDivs.map((div) => div.render)}
     </ContentLayerWrapper>
   );
 }
