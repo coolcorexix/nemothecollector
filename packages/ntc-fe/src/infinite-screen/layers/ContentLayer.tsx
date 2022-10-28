@@ -1,5 +1,6 @@
 import React, { ReactNode, useCallback, useEffect, useState } from 'react';
 import styled, { css } from 'styled-components';
+import ImageCard from '../ImageCard';
 
 const DumbDiv = styled.div<{
   x: number;
@@ -18,8 +19,7 @@ const DumbImg = styled.img<{
   x: number;
   y: number;
 }>`
-  width: 100px;
-  height: 100px;
+  width: 150px;
   object-fit: contain;
   position: absolute;
   top: ${(props) => props.y}px;
@@ -62,12 +62,7 @@ function ContentLayer(props: { width: number; height: number }) {
   }, [mousePosition]);
   useEffect(() => {
     const handlePaste = async (event: ClipboardEvent) => {
-      console.log(event.pageX);
       const items = event.clipboardData.items;
-      console.log(
-        '🚀 ~ file: ContentLayer.tsx ~ line 34 ~ window.addEventListener ~ items',
-        items.length
-      );
       const isPastingAnImageFromWeb =
         items[0].type === 'text/html' && items[1].type === 'image/png';
       if (!isPastingAnImageFromWeb) {
@@ -86,11 +81,11 @@ function ContentLayer(props: { width: number; height: number }) {
             const parsedDoc = parser.parseFromString(html, 'text/html');
             const imgSrc = parsedDoc.body.getElementsByTagName('img')[0].src;
             dumbDivs.push(
-              <DumbImg
+              <ImageCard
                 x={mousePosition.x}
                 y={mousePosition.y}
                 key={Date.now()}
-                src={imgSrc}
+                imgSrc={imgSrc}
               />
             );
             setDumbDivs([...dumbDivs]);

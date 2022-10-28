@@ -6,8 +6,11 @@ import React, {
   useRef,
   useState,
 } from 'react';
-import ContentLayer from 'src/infinite-screen/ContentLayer';
-import ScrollLayer from 'src/infinite-screen/ScrollLayer';
+import HUDLayer from 'src/infinite-screen/HUDLayer';
+import BackgroundLayer from 'src/infinite-screen/layers/BackgroundLayer';
+import ContentLayer from 'src/infinite-screen/layers/ContentLayer';
+import ScrollLayer from 'src/infinite-screen/layers/ScrollLayer';
+import { base02 } from 'src/theme/colors';
 import styled, { css } from 'styled-components';
 
 const SCROLL_GRAB_MODE = 'SCROLL_GRAB_MODE';
@@ -54,6 +57,7 @@ const DumbDiv = styled.div<{
 
 function InfiniteScreen() {
   const [dumbDivs, setDumbDivs] = useState<ReactNode[]>([]);
+  const [backgroundColor, setBackgroundColor] = useState(() => base02);
 
   const addDumbDiv = useCallback(
     (x, y) => {
@@ -132,33 +136,23 @@ function InfiniteScreen() {
   }, [ctx]);
 
   return (
-    // scrollable element, act like the camera in game
-    // while the canvas is in static mode
-    <InfiniteScreenViewport ref={viewportRef}>
-      {isPressingSpace && (
-        <ScrollLayer mapSize={canvasSize} viewportRef={viewportRef} />
-      )}
-      <ContentLayer width={canvasSize.width} height={canvasSize.height} />
-      {/* <canvas
-        // onCli ck =  mouseDown + mouseUp
-        // onClick={(e) => {
-        //   addDumbDiv(e.pageX, e.pageY);
-        // }}
-        ref={canvas}
+    <div>
+      <HUDLayer
+        setBackgroundColor={setBackgroundColor}
+        backgroundColor={backgroundColor}
+      />
+      <BackgroundLayer
+        backgroundColor={backgroundColor}
         width={canvasSize.width}
         height={canvasSize.height}
-      >
-        <p>Your browser does not support canvas</p>
-      </canvas> */}
-
-      {/* <div style={{
-        width: canvasSize.width,
-        height: canvasSize.height,
-        position: 'absolute',
-      }}> */}
-      {/* {dumbDivs} */}
-      {/* </div> */}
-    </InfiniteScreenViewport>
+      />
+      <ContentLayer width={canvasSize.width} height={canvasSize.height} />
+      {/* <InfiniteScreenViewport ref={viewportRef}>
+        {isPressingSpace && (
+          <ScrollLayer mapSize={canvasSize} viewportRef={viewportRef} />
+        )}
+      </InfiniteScreenViewport> */}
+    </div>
   );
 }
 

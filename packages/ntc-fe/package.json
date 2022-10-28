@@ -13,6 +13,10 @@
   },
   "dependencies": {
     "@ant-design/icons": "4.0.0",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/base": "^5.0.0-alpha.103",
+    "@mui/system": "^5.10.10",
     "@tailwindcss/postcss7-compat": "^2.0.2",
     "antd": "^4.23.2",
     "autoprefixer": "^9",
