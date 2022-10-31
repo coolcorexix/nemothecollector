@@ -26,16 +26,3 @@ jobs:
           webhook_token: ${{ secrets.DISCORD_WEBHOOK_TOKEN }}
           color: "#48f442"
           message: "New update deployed 🚀"
-  screenshot:
-    needs: deploy
-    runs-on: macos-latest
-    strategy:
-      matrix:
-        width: [1024, 320]
-    steps:
-      - uses: swinton/screenshot-website@v1.x
-        with:
-          source: https://nemothecollector.dev/
-          destination: screenshot-${{ matrix.width }}.png
-          width: ${{ matrix.width }}
-          full-page: true
