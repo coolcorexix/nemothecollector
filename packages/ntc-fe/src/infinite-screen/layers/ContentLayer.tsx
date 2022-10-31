@@ -29,7 +29,7 @@ const DumbImg = styled.img<{
 `;
 
 const ContentLayerWrapper = styled.div<{
-  isDragging: boolean;
+  // isDragging: boolean;
   width: number;
   height: number;
 }>`
@@ -41,11 +41,7 @@ const ContentLayerWrapper = styled.div<{
   `}
 `;
 
-function ContentLayer(props: {
-  width: number;
-  height: number;
-  removeDumbDiv: any;
-}) {
+function ContentLayer(props: { width: number; height: number }) {
   const [dumbDivs, setDumbDivs] = useState<
     {
       render: ReactNode;
