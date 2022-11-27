@@ -15,6 +15,11 @@ const Wrapper = styled.div`
   }
 `;
 
+//* Conclusion: live preview should not be done with multiselect drag n drop
+//* Reason: it is hard to determine the direction of the drag because multiselect can be mixed
+//* picked intermittently and it mess up the array arrangement a lot
+//* so given the urgency + limited in this domain, I have decided not to pursue this UX approach
+//* I may revisit it once I saw a nice implementation from other apps
 function Container(props) {
   const [cards, setCards] = useState(() => {
     return ['a', 'b', 'c', 'd', 'e', 'f', 'g'].map((el) => {
