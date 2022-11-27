@@ -1,5 +1,5 @@
 import React from 'react';
-import Container from 'src/dnd-stuff/Container';
+import Container from 'src/multi-dnd-stuff/Container';
 
 function DnD(props) {
   return (
