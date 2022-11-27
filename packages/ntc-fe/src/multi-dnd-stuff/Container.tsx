@@ -1,7 +1,5 @@
 import React, { useCallback, useMemo } from 'react';
 import styled from 'styled-components';
-import { DndProvider } from 'react-dnd';
-import { HTML5Backend } from 'react-dnd-html5-backend';
 import Card from './Card';
 import { useState } from 'react';
 import DroppableGap from './DroppableGap';
@@ -25,11 +23,7 @@ const Wrapper = styled.div`
 //* so given the urgency + limited in this domain, I have decided not to pursue this UX approach
 //* I may revisit it once I saw a nice implementation from other apps
 function Container(props) {
-  const [approach, setApproach] = useState(1);
-  console.log(
-    '🚀 ~ file: Container.tsx ~ line 29 ~ Container ~ approach',
-    approach
-  );
+  const [isDragging, setIsDragging] = useState(false);
   const [cards, setCards] = useState(() => {
     return ['a', 'b', 'c', 'd', 'e', 'f', 'g'].map((el) => {
       return {
@@ -98,7 +92,7 @@ function Container(props) {
   );
 
   return (
-    <DndProvider backend={HTML5Backend}>
+    <>
       <div
         style={{
           width: 'fit-content',
@@ -107,16 +101,6 @@ function Container(props) {
       >
         <div className="flex mb-1 items-baseline">
           <div className="mr-2">{props.type}</div>
-          <select
-            onChange={(e) => {
-              setApproach(Number(e.target.value));
-            }}
-          >
-            <option value={1}>Approach 1</option>
-            <option value={2} onClick={() => setApproach(2)}>
-              Approach 2
-            </option>
-          </select>
         </div>
 
         <Wrapper>
@@ -127,16 +111,16 @@ function Container(props) {
             return (
               <>
                 <DroppableGap
+                  isDragging={isDragging}
                   selectedIndexes={sortedSelectedIndexes}
                   gapIndex={index}
                   // moveCards={moveCards}
-                  moveCards={
-                    approach === 2 ? moveCards2nd : moveCards1stApproach
-                  }
+                  moveCards={moveCards2nd}
                   type={props.type}
                   key={'gap' + index}
                 />
                 <Card
+                  setIsDragging={setIsDragging}
                   type={props.type}
                   key={'card' + el.content}
                   onSelect={(selectIndex) => {
@@ -157,6 +141,7 @@ function Container(props) {
             );
           })}
           <DroppableGap
+            isDragging={isDragging}
             selectedIndexes={selectedIndexes}
             gapIndex={cards.length}
             moveCards={moveCards2nd}
@@ -165,7 +150,7 @@ function Container(props) {
           />
         </Wrapper>
       </div>
-    </DndProvider>
+    </>
   );
 }
 

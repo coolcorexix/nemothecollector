@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import { useDrag, useDrop } from 'react-dnd';
 import { green, orange, violet } from 'src/theme/colors';
 import { CardType } from './types';
@@ -14,6 +14,7 @@ const boxColors = {
 };
 
 function Card(props: {
+  setIsDragging: (isDragging: boolean) => void;
   content: string;
   type: CardType;
   index: number;
@@ -22,6 +23,7 @@ function Card(props: {
   onDeselect: (index: number) => void;
 }) {
   const cardRef = useRef(null);
+
   const [collectedDragProps, drag] = useDrag({
     type: props.type,
     collect: (monitor) => ({
@@ -34,6 +36,9 @@ function Card(props: {
     },
   });
   const { isDragging } = collectedDragProps;
+  useEffect(() => {
+    props.setIsDragging(isDragging);
+  }, [isDragging]);
   const opacity = isDragging ? 0 : 1;
 
   drag(cardRef);

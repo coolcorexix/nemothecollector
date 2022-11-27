@@ -5,6 +5,7 @@ import { CardType } from 'src/dnd-stuff/types';
 function DroppableGap(props: {
   type: CardType;
   gapIndex: number;
+  isDragging: boolean;
   selectedIndexes: number[];
   moveCards: (itemIndexes: number[], gapIndex: number) => void;
 }) {
@@ -35,6 +36,7 @@ function DroppableGap(props: {
         background: collectedDropProps.isOver ? 'green' : 'white',
         width: 16,
         height: 32,
+        border: props.isDragging ? 'dashed 2px blue' : 'unset',
       }}
     ></div>
   );
