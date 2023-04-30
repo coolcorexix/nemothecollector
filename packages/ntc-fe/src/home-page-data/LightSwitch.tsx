@@ -50,6 +50,9 @@ function LightSwitch() {
         />
         <div
           onClick={() => {
+            // play an mp3 file
+            const audio = new Audio('/click-button-140881.mp3');
+            audio.play();
             setIsOn(!isOn);
           }}
           className="light-tip"
