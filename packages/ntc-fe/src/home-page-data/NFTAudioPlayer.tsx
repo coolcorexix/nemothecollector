@@ -3,8 +3,13 @@ import { NoisyImage } from 'src/NoisyImage';
 
 export function NFTAudioPlayer() {
   return (
-    <div className="flex flex-row items-center sm:items-start sm:flex-col">
-      <div className="w-1/3 mr-2 mb-1 sm:mr-0 sm:w-full">
+    <div
+      style={{
+        border: '1px solid #000',
+      }}
+      className="flex flex-row p-2 items-center sm:items-start sm:flex-col"
+    >
+      <div className="flex justify-center items-center w-1/3 mr-2 mb-2 sm:mr-0 sm:w-full">
         <NoisyImage imgUrl="https://i.imgur.com/xX8xTga.jpg" />
       </div>
       <div className="w-2/3 mb-1 sm:w-full">

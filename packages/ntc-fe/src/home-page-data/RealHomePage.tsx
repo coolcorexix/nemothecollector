@@ -10,6 +10,7 @@ import { pinnedContent } from './pinned-content';
 import SiteItems from './site-items-data';
 import { NFTAudioPlayer } from './NFTAudioPlayer';
 import { useEffect } from 'react';
+import LightSwitch from './LightSwitch';
 
 export default function RealHomePage() {
   const { executeRecaptcha } = useGoogleReCaptcha();
@@ -40,14 +41,15 @@ export default function RealHomePage() {
       </Head>
 
       <main className="max-w-screen-sm px-2 sm:px-0 m-auto">
-        <div className="flex flex-col py-4">
-          <span className="block font-bold text-xl">
-            It's me Nêmô, your boi! 🌱🌿🌼🍂🌱🌿
-          </span>
-          <span className="block text-sm">{quickBio}</span>
-        </div>
-        <div className="flex flex-col sm:flex-row mb-2">
-          <div className="w-full">
+        <div className="flex flex-row py-4 justify-between">
+          <div>
+            <div className="mb-4">
+              <span className="block font-bold text-xl">
+                It's me Nêmô, your boi! 🌱🌿🌼🍂🌱🌿
+              </span>
+              <span className="block text-sm">{quickBio}</span>
+            </div>
+
             <SectionContainer>
               <div className="text-3xl">
                 <a className="mx-5" href="/read2">
@@ -62,7 +64,13 @@ export default function RealHomePage() {
                 </a>
               </div>
             </SectionContainer>
+          </div>
 
+          <LightSwitch />
+        </div>
+
+        <div className="flex flex-col sm:flex-row mb-2">
+          <div className="w-full">
             <SectionContainer>
               <SectionHeader>Pinned:</SectionHeader>
               <div className="mb-1">{pinnedContent.caption}</div>
