@@ -1,16 +1,16 @@
-import React, { useCallback } from 'react';
 import Head from 'next/head';
-import { SectionHeader } from 'src/components/SectionHeader';
-import { SectionContainer } from 'src/components/SectionContainer';
+import { useCallback, useEffect } from 'react';
 import { useGoogleReCaptcha } from 'react-google-recaptcha-v3';
-import { PinnedSlider } from 'src/components/PinnedSlider';
 import { NoisyImage } from 'src/NoisyImage';
-import { quickBio } from './quick-bio';
-import { pinnedContent } from './pinned-content';
-import SiteItems from './site-items-data';
-import { NFTAudioPlayer } from './NFTAudioPlayer';
-import { useEffect } from 'react';
+import { PinnedSlider } from 'src/components/PinnedSlider';
+import { SectionContainer } from 'src/components/SectionContainer';
+import { SectionHeader } from 'src/components/SectionHeader';
+import Hole from './Hole';
 import LightSwitch from './LightSwitch';
+import { NFTAudioPlayer } from './NFTAudioPlayer';
+import { pinnedContent } from './pinned-content';
+import { quickBio } from './quick-bio';
+import SiteItems from './site-items-data';
 
 export default function RealHomePage() {
   const { executeRecaptcha } = useGoogleReCaptcha();
@@ -106,6 +106,9 @@ export default function RealHomePage() {
           <div className="w-32 max-w-sm flex mb-32 flex-row justify-end sm:w-full">
             <NoisyImage imgUrl="https://i.imgur.com/p75lwaN.png" />
           </div>
+        </div>
+        <div className="flex flex-row justify-center">
+          <Hole />
         </div>
       </main>
     </div>

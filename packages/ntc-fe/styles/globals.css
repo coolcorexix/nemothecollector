@@ -1,5 +1,8 @@
 html,
 body {
+  > div {
+    overflow: hidden;
+  }
   padding: 0;
   margin: 0;
   font-family: CrimsonPro, Bitter, -apple-system, BlinkMacSystemFont, Segoe UI,
