@@ -12,8 +12,12 @@ export const red = '#dc322f';
 export const magenta = '#d33682';
 export const violet = '#6c71c4';
 export const blue = '#268bd2';
+export const darkerBlue = 'hsl(208, 81%, 40%)';
 export const cyan = '#2aa198';
 export const green = '#859900';
+export const roseGold = 'hsl(4, 40%, 57%)';
+export const lighterRoseGold = 'hsl(4, 50%, 80%)';
+export const grass = 'hsl(80, 50%, 40%)';
 
 export const dark100 = base1;
 export const dark1000 = base00;

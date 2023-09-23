@@ -1,6 +1,6 @@
 import { useRouter } from 'next/dist/client/router';
 import React, { useState } from 'react';
-import { blue } from 'src/theme/colors';
+import { blue, darkerBlue } from 'src/theme/colors';
 import styled from 'styled-components';
 
 function scrollToBottom() {
@@ -13,7 +13,7 @@ function scrollToBottom() {
 const HoleWrapper = styled.div`
   @keyframes scaleAnimation {
     0% {
-      transform: scale(1000);
+      transform: scale(1500);
     }
 
     50% {
@@ -58,7 +58,7 @@ function Hole() {
     setTimeout(() => {
       setIsAnimating(true);
       setTimeout(() => {
-        router.push('/as-a-giver');
+        router.push('/products');
       }, 4000);
     }, 500);
     // setTimeout(() => {
@@ -88,7 +88,7 @@ function Hole() {
       >
         <path
           d="M1000 1000 L6000 1000 L6000 6000 L1000 6000 Z M3500 3500 m-0.5, 0 a 0.5,0.5 0 1,0 1,0 a 0.5,0.5 0 1,0 -1,0"
-          fill={blue}
+          fill={darkerBlue}
         />
       </svg>
       <img

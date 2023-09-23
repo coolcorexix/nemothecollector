@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { base2, cyan } from 'src/theme/colors';
+import { base2, blue, cyan, darkerBlue, grass } from 'src/theme/colors';
 
 export const NoisyImageContainer = styled.div`
   &.background::after {
@@ -29,8 +29,7 @@ export const NoisyImagePageWrapper = styled.div`
   overflow: hidden;
   width: 100vw;
   height:  100vh;
-  background-color: ${cyan};
-
+  background-color: ${darkerBlue};
 `;
 
 
