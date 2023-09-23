@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import React from 'react';
 import { NoisyImagePageWrapper } from 'src/NoisyImage/NoisyImage.styled';
 import { blue, darkerBlue, lighterRoseGold } from 'src/theme/colors';
@@ -18,46 +19,52 @@ const soLinks = [
 
 function ActionBar({ githubLink, reviewLink = '', soLink = '' }) {
   return (
-    <div className="flex text-sm justify-end pr-12 mt-2 mb-4">
-      {soLink && (
-        <a
-          href={soLink}
-          style={{
-            border: '1px dashed white',
-            padding: `0.2rem 0.5rem`,
-            marginRight: '0.5rem',
-          }}
-          target="_blank"
-        >
-          ⬆️
-        </a>
-      )}
-      {reviewLink && (
-        <a
-          href={reviewLink}
-          style={{
-            border: '1px dashed white',
-            padding: `0.2rem 0.5rem`,
-            marginRight: '0.5rem',
-          }}
-          target="_blank"
-        >
-          ✍️
-        </a>
-      )}
-      {githubLink && (
-        <a
-          href={githubLinks[1]}
-          style={{
-            border: '1px dashed white',
-            padding: `0.2rem 0.5rem`,
-          }}
-          target="_blank"
-        >
-          ⭐️
-        </a>
-      )}
-    </div>
+    <>
+      <Head>
+        <title>Products' Nêmô</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <div className="flex text-sm justify-end pr-12 mt-2 mb-4">
+        {soLink && (
+          <a
+            href={soLink}
+            style={{
+              border: '1px dashed white',
+              padding: `0.2rem 0.5rem`,
+              marginRight: '0.5rem',
+            }}
+            target="_blank"
+          >
+            ⬆️
+          </a>
+        )}
+        {reviewLink && (
+          <a
+            href={reviewLink}
+            style={{
+              border: '1px dashed white',
+              padding: `0.2rem 0.5rem`,
+              marginRight: '0.5rem',
+            }}
+            target="_blank"
+          >
+            ✍️
+          </a>
+        )}
+        {githubLink && (
+          <a
+            href={githubLinks[1]}
+            style={{
+              border: '1px dashed white',
+              padding: `0.2rem 0.5rem`,
+            }}
+            target="_blank"
+          >
+            ⭐️
+          </a>
+        )}
+      </div>
+    </>
   );
 }
 
@@ -84,6 +91,7 @@ function AsAGiverPage(props) {
                       color: blue,
                       backgroundColor: 'white',
                     }}
+                    target="_blank"
                     href="https://marketplace.visualstudio.com/items?itemName=nemothecollector.jsx-breadcrumbs&ssr=false"
                   >
                     [React Breadcrumb VSCode Extension ⚛️🥖]
@@ -99,6 +107,7 @@ function AsAGiverPage(props) {
                   <span>
                     *&nbsp;
                     <a
+                      target="_blank"
                       style={{
                         color: blue,
                         backgroundColor: 'white',
@@ -116,6 +125,7 @@ function AsAGiverPage(props) {
                 <li>
                   *&nbsp;
                   <a
+                    target="_blank"
                     style={{
                       color: blue,
                       backgroundColor: 'white',
