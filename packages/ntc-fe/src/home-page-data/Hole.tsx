@@ -1,3 +1,4 @@
+import { useRouter } from 'next/dist/client/router';
 import React, { useState } from 'react';
 import { blue } from 'src/theme/colors';
 import styled from 'styled-components';
@@ -50,11 +51,15 @@ const HoleWrapper = styled.div`
 
 function Hole() {
   const [isAnimating, setIsAnimating] = useState(false);
+  const router = useRouter();
 
   const handleClick = () => {
     scrollToBottom();
     setTimeout(() => {
       setIsAnimating(true);
+      setTimeout(() => {
+        router.push('/as-a-giver');
+      }, 4000);
     }, 500);
     // setTimeout(() => {
     //   setIsAnimating(false);
