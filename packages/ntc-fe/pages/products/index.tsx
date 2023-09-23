@@ -88,7 +88,7 @@ function AsAGiverPage(props) {
                   *&nbsp;
                   <a
                     style={{
-                      color: blue,
+                      color: darkerBlue,
                       backgroundColor: 'white',
                     }}
                     target="_blank"
@@ -109,7 +109,7 @@ function AsAGiverPage(props) {
                     <a
                       target="_blank"
                       style={{
-                        color: blue,
+                        color: darkerBlue,
                         backgroundColor: 'white',
                       }}
                       href="https://github.com/coolcorexix/ding"
@@ -127,7 +127,7 @@ function AsAGiverPage(props) {
                   <a
                     target="_blank"
                     style={{
-                      color: blue,
+                      color: darkerBlue,
                       backgroundColor: 'white',
                     }}
                     href="https://chrome.google.com/webstore/detail/freeze-dom/onekmnelbichmlnmkecckkjjljifhefg"
