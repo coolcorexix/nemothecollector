@@ -61,24 +61,9 @@ function Hole() {
         router.push('/products');
       }, 4000);
     }, 500);
-    // setTimeout(() => {
-    //   setIsAnimating(false);
-    // }, 4000);
   };
   return (
     <HoleWrapper onClick={handleClick}>
-      {/* <svg
-        id="iris"
-        className={`iris ${isAnimating ? 'animate' : ''}`}
-        xmlns="http://www.w3.org/2000/svg"
-        width="70"
-        height="70"
-      >
-        <path
-          d="M10 10 L60 10 L60 60 L10 60 Z M35 35 m-15, 0 a 15,15 0 1,0 30,0 a 15,15 0 1,0 -30,0"
-          fill="black"
-        />
-      </svg> */}
       <svg
         id="iris"
         className={`iris ${isAnimating ? 'animate' : ''}`}
