@@ -26,7 +26,8 @@ export const NoisyImageContainer = styled.div`
 
 export const NoisyImagePageWrapper = styled.div`
   position: relative;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: scroll;
   width: 100vw;
   height:  100vh;
   background-color: ${darkerBlue};
