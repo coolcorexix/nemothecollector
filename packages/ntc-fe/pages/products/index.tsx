@@ -87,20 +87,21 @@ function AsAGiverPage(props) {
                 <li>
                   *&nbsp;
                   <a
+                    target="_blank"
                     style={{
                       color: darkerBlue,
                       backgroundColor: 'white',
                     }}
-                    target="_blank"
-                    href="https://marketplace.visualstudio.com/items?itemName=nemothecollector.jsx-breadcrumbs&ssr=false"
+                    href="https://chrome.google.com/webstore/detail/freeze-dom/onekmnelbichmlnmkecckkjjljifhefg"
                   >
-                    [React Breadcrumb VSCode Extension ⚛️🥖]
+                    [Freeze DOM 🥶]
                   </a>{' '}
-                  - Get navigatable outlines of ReactJs in VsCode.
+                  - A Chrome Extension help freeze the DOM instantly for
+                  debugging purpose.
                   <ActionBar
-                    githubLink={githubLinks[0]}
-                    reviewLink={reviewLinks[0]}
-                    soLink={soLinks[0]}
+                    githubLink={githubLinks[2]}
+                    reviewLink={reviewLinks[1]}
+                    soLink={soLinks[1]}
                   />
                 </li>
                 <li>
@@ -116,8 +117,9 @@ function AsAGiverPage(props) {
                     >
                       [ Ding 🛎️]
                     </a>{' '}
-                    - Help you come back to your work when the command you are
-                    waiting for is done. With an elegant "ding!" sound.
+                    - A terminal command help come back to your work when the
+                    command you are waiting for is done. With an elegant "ding!"
+                    sound.
                   </span>
 
                   <ActionBar githubLink={githubLinks[1]} />
@@ -125,20 +127,20 @@ function AsAGiverPage(props) {
                 <li>
                   *&nbsp;
                   <a
-                    target="_blank"
                     style={{
                       color: darkerBlue,
                       backgroundColor: 'white',
                     }}
-                    href="https://chrome.google.com/webstore/detail/freeze-dom/onekmnelbichmlnmkecckkjjljifhefg"
+                    target="_blank"
+                    href="https://marketplace.visualstudio.com/items?itemName=nemothecollector.jsx-breadcrumbs&ssr=false"
                   >
-                    [Freeze DOM 🥶]
+                    [React Breadcrumb ⚛️🥖]
                   </a>{' '}
-                  - Freeze the DOM instantly for debugging purpose.
+                  - A VSCode extension help get navigatable outlines of ReactJs.
                   <ActionBar
-                    githubLink={githubLinks[2]}
-                    reviewLink={reviewLinks[1]}
-                    soLink={soLinks[1]}
+                    githubLink={githubLinks[0]}
+                    reviewLink={reviewLinks[0]}
+                    soLink={soLinks[0]}
                   />
                 </li>
               </ul>

@@ -28,6 +28,12 @@ export const NoisyImagePageWrapper = styled.div`
   position: relative;
   overflow-x: hidden;
   overflow-y: scroll;
+  // hide the scrollbar
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  &::-webkit-scrollbar {
+    display: none;
+  }
   width: 100vw;
   height:  100vh;
   background-color: ${darkerBlue};
