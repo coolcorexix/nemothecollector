@@ -15,7 +15,9 @@ const HoleWrapper = styled.div`
     0% {
       transform: scale(1500);
     }
-
+    10% {
+      transform: scale(1000);
+    }
     50% {
       transform: scale(250);
     }
@@ -49,12 +51,22 @@ const HoleWrapper = styled.div`
   }
 `;
 
+function isOnPhone() {
+  return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+    navigator.userAgent
+  );
+}
+
 function Hole() {
   const [isAnimating, setIsAnimating] = useState(false);
   const router = useRouter();
 
   const handleClick = () => {
     scrollToBottom();
+    if (isOnPhone()) {
+      router.push('/products');
+      return;
+    }
     setTimeout(() => {
       setIsAnimating(true);
       setTimeout(() => {

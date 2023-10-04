@@ -40,7 +40,7 @@ export default function RealHomePage() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="max-w-screen-sm px-2 overflow-x-hidden sm:px-0 m-auto">
+      <main className="max-w-screen-sm px-2 sm:px-0 m-auto">
         <div className="flex flex-row py-4 justify-between">
           <div>
             <div className="mb-4">
