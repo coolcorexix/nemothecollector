@@ -1,10 +1,9 @@
 import Head from 'next/head';
-import { useCallback, useEffect } from 'react';
-import { useGoogleReCaptcha } from 'react-google-recaptcha-v3';
 import { NoisyImage } from 'src/NoisyImage';
 import { PinnedSlider } from 'src/components/PinnedSlider';
 import { SectionContainer } from 'src/components/SectionContainer';
 import { SectionHeader } from 'src/components/SectionHeader';
+import { darkerBlue } from 'src/theme/colors';
 import Hole from './Hole';
 import LightSwitch from './LightSwitch';
 import { NFTAudioPlayer } from './NFTAudioPlayer';
@@ -13,26 +12,6 @@ import { quickBio } from './quick-bio';
 import SiteItems from './site-items-data';
 
 export default function RealHomePage() {
-  const { executeRecaptcha } = useGoogleReCaptcha();
-  const handleReCaptchaVerify = useCallback(
-    async (actionName: string) => {
-      if (!executeRecaptcha) {
-        console.log('Execute recaptcha not yet available');
-        return;
-      }
-      executeRecaptcha(actionName);
-
-      const token = await executeRecaptcha('yourAction');
-      // Do whatever you want with the token
-    },
-    [executeRecaptcha]
-  );
-
-  useEffect(() => {
-    console.log('recaptcha loaded');
-    handleReCaptchaVerify('access_page');
-  }, [handleReCaptchaVerify]);
-
   return (
     <div>
       <Head>
@@ -52,7 +31,12 @@ export default function RealHomePage() {
 
             <SectionContainer>
               <div className="text-3xl">
-                <a className="mx-5" href="/read2">
+                <a
+                  className="mx-5"
+                  href="
+                  https://www.notion.so/Li-n-k-t-t-ng-h-p-a2d4ee8dc1f44ce4bfaf9d666f98c85c?pvs=4
+                "
+                >
                   🔖
                 </a>
                 <a
@@ -68,6 +52,36 @@ export default function RealHomePage() {
 
           <LightSwitch />
         </div>
+        <p className="text-lg">
+          Hey, glad that you found my crafting yard. My guess that you either
+          used one of my tiny apps or read my blogs and now are following the
+          clue. Take your time and check out the rest of my work relating to{' '}
+          <a
+            style={{
+              background: darkerBlue,
+              color: 'white',
+              padding: '0.1rem 0.5rem',
+              borderRadius: '0.2rem',
+            }}
+            href="/products"
+          >
+            dev tools
+          </a>
+          ,{' '}
+          <a
+            style={{
+              backgroundColor: 'rgb(13 148 136)',
+              color: 'white',
+              padding: '0.1rem 0.5rem',
+              borderRadius: '0.2rem',
+            }}
+            href="https://www.mond-app.com/"
+          >
+            mental assistant
+          </a>
+          . Some of them are paid product and some are free but do know I made
+          all of them with love for nerds like us.
+        </p>
 
         <div className="flex flex-col sm:flex-row mb-2">
           <div className="w-full">
