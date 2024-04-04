@@ -25,6 +25,7 @@
     "@tailwindcss/postcss7-compat": "^2.0.2",
     "antd": "^4.23.2",
     "autoprefixer": "^9",
+    "axios": "^1.6.8",
     "coingecko-api-v3": "^0.0.12",
     "cross-env": "^7.0.3",
     "dnd-core": "^16.0.1",
