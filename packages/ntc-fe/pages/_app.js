@@ -7,11 +7,9 @@ import './svg-playground/cube-style.scss';
 import './FolderTree.scss';
 import './a-piece-of-art/animation.css';
 
-ReactGA.initialize('G-8S8745E8GZ');
-
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
-    ReactGA.initialize('Your Google Analytics Tracking ID');
+    ReactGA.initialize('G-8S8745E8GZ');
     // To Report Page View
     ReactGA.pageview(window.location.pathname + window.location.search);
   }, []);
