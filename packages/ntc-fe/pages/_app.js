@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
   }
   return (
     <>
-      <GoogleAnalytics gaId="G-8S8745E8GZ" />
+      <GoogleAnalytics gaId="G-K5Z613E4Q8" />
       <Component {...pageProps} />;
     </>
   );
