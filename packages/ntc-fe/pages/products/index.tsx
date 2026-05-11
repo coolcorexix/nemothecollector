@@ -1,12 +1,54 @@
 import Head from 'next/head';
-import React from 'react';
+import React, { useRef, useState } from 'react';
 import { NoisyImagePageWrapper } from 'src/NoisyImage/NoisyImage.styled';
 import { blue, darkerBlue, lighterRoseGold } from 'src/theme/colors';
+
+function AmbientSound() {
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+  const [playing, setPlaying] = useState(false);
+
+  const toggle = () => {
+    const el = audioRef.current;
+    if (!el) return;
+    if (playing) {
+      el.pause();
+      setPlaying(false);
+    } else {
+      el.volume = 0.3;
+      el.play().then(() => setPlaying(true)).catch(() => setPlaying(false));
+    }
+  };
+
+  return (
+    <>
+      <audio ref={audioRef} src="/ambient.mp3" loop preload="auto" />
+      <button
+        onClick={toggle}
+        aria-label={playing ? 'Mute ambient sound' : 'Play ambient sound'}
+        style={{
+          position: 'fixed',
+          bottom: '1rem',
+          right: '1rem',
+          zIndex: 1000,
+          border: '1px dashed white',
+          background: 'transparent',
+          color: 'white',
+          padding: '0.4rem 0.6rem',
+          cursor: 'pointer',
+          fontSize: '1.2rem',
+        }}
+      >
+        {playing ? '🔊' : '🔈'}
+      </button>
+    </>
+  );
+}
 
 const githubLinks = [
   'https://github.com/coolcorexix/freedom-on-demand',
   'https://github.com/coolcorexix/ding',
   'https://github.com/coolcorexix/jsx-viewer-extension',
+  'https://github.com/coolcorexix/mjolnir',
 ];
 const reviewLinks = [
   'https://marketplace.visualstudio.com/items?itemName=nemothecollector.jsx-breadcrumbs&ssr=false#review-details',
@@ -71,6 +113,7 @@ function ActionBar({ githubLink, reviewLink = '', soLink = '' }) {
 function AsAGiverPage(props) {
   return (
     <NoisyImagePageWrapper>
+      <AmbientSound />
       <div className="background-as-a-page" />
       <div className="text-white  p-4 justify-center align-content-center relative z-10 ">
         <div className="w-full max-w-screen-sm flex flex-col m-auto">
@@ -84,6 +127,21 @@ function AsAGiverPage(props) {
             </div>
             <div>
               <ul>
+                <li>
+                  *&nbsp;
+                  <a
+                    target="_blank"
+                    style={{
+                      color: darkerBlue,
+                      backgroundColor: 'white',
+                    }}
+                    href="https://github.com/coolcorexix/mjolnir"
+                  >
+                    [Mjolnir 🔨]
+                  </a>{' '}
+                  - Summon any open window anywhen instead of keep finding them (on macOS).
+                  <ActionBar githubLink={githubLinks[3]} />
+                </li>
                 <li>
                   *&nbsp;
                   <a
@@ -158,7 +216,7 @@ function AsAGiverPage(props) {
                 And pshh... if you wanna stay in touch, don't hesistate to
                 follow&nbsp;
                 <a
-                  href="https://twitter.com/phamhuyphat"
+                  href="https://www.threads.com/@nemothecollector"
                   target="_blank"
                   style={{
                     backgroundColor: lighterRoseGold,
@@ -166,7 +224,7 @@ function AsAGiverPage(props) {
                     color: darkerBlue,
                   }}
                 >
-                  my Twitter
+                  my Thread
                 </a>{' '}
                 where I tweet about my new projects and lessons learned along
                 the way.
