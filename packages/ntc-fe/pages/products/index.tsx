@@ -139,7 +139,7 @@ function AsAGiverPage(props) {
                   >
                     [Mjolnir 🔨]
                   </a>{' '}
-                  - Summon any open window anywhen instead of keep finding them (on macOS).
+                  - MacOS app to open any window anywhen instead of finding them. Get notified when the LLM finishes / gets blocked visually or with sound.
                   <ActionBar githubLink={githubLinks[3]} />
                 </li>
                 <li>
