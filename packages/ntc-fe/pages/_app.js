@@ -7,13 +7,10 @@ import './a-piece-of-art/animation.css';
 import './svg-playground/cube-style.scss';
 
 function MyApp({ Component, pageProps }) {
-  if (typeof window === 'undefined') {
-    return null;
-  }
   return (
     <>
       <GoogleAnalytics gaId="G-K5Z613E4Q8" />
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </>
   );
 }

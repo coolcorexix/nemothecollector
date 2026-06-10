@@ -49,6 +49,7 @@ const githubLinks = [
   'https://github.com/coolcorexix/ding',
   'https://github.com/coolcorexix/jsx-viewer-extension',
   'https://github.com/coolcorexix/mjolnir',
+  'https://github.com/coolcorexix/claude-grep',
 ];
 const reviewLinks = [
   'https://marketplace.visualstudio.com/items?itemName=nemothecollector.jsx-breadcrumbs&ssr=false#review-details',
@@ -59,13 +60,93 @@ const soLinks = [
   'https://stackoverflow.com/a/77028347/9814737',
 ];
 
+const productsJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  itemListElement: [
+    {
+      '@type': 'ListItem',
+      position: 1,
+      item: {
+        '@type': 'SoftwareSourceCode',
+        name: 'claude-grep',
+        codeRepository: 'https://github.com/coolcorexix/claude-grep',
+        url: 'https://claude-grep.vercel.app',
+        description:
+          'A CLI to search your AI coding sessions by content across Claude Code, OpenCode and Hermes — resume or fork any past conversation with one keypress.',
+        author: { '@type': 'Person', name: 'coolcorexix' },
+      },
+    },
+    {
+      '@type': 'ListItem',
+      position: 2,
+      item: {
+        '@type': 'SoftwareSourceCode',
+        name: 'Mjolnir',
+        codeRepository: 'https://github.com/coolcorexix/mjolnir',
+        description:
+          'MacOS app to open any window anywhen instead of finding them. Get notified when the LLM finishes or gets blocked, visually or with sound.',
+        operatingSystem: 'macOS',
+        author: { '@type': 'Person', name: 'coolcorexix' },
+      },
+    },
+    {
+      '@type': 'ListItem',
+      position: 3,
+      item: {
+        '@type': 'SoftwareSourceCode',
+        name: 'Freeze DOM',
+        codeRepository: 'https://github.com/coolcorexix/jsx-viewer-extension',
+        url: 'https://chrome.google.com/webstore/detail/freeze-dom/onekmnelbichmlnmkecckkjjljifhefg',
+        description:
+          'A Chrome Extension to freeze the DOM instantly for debugging purposes.',
+        author: { '@type': 'Person', name: 'coolcorexix' },
+      },
+    },
+    {
+      '@type': 'ListItem',
+      position: 4,
+      item: {
+        '@type': 'SoftwareSourceCode',
+        name: 'Ding',
+        codeRepository: 'https://github.com/coolcorexix/ding',
+        description:
+          'A terminal command that brings you back to your work when the command you are waiting for is done. With an elegant "ding!" sound.',
+        author: { '@type': 'Person', name: 'coolcorexix' },
+      },
+    },
+    {
+      '@type': 'ListItem',
+      position: 5,
+      item: {
+        '@type': 'SoftwareSourceCode',
+        name: 'React Breadcrumbs',
+        codeRepository: 'https://github.com/coolcorexix/freedom-on-demand',
+        url: 'https://marketplace.visualstudio.com/items?itemName=nemothecollector.jsx-breadcrumbs',
+        description:
+          'A VSCode extension to get navigatable outlines of ReactJS components.',
+        author: { '@type': 'Person', name: 'coolcorexix' },
+      },
+    },
+  ],
+};
+
+function RepoSlug({ url }) {
+  return (
+    <div
+      className="text-sm"
+      style={{ fontFamily: 'monospace', opacity: 0.75, marginTop: '0.25rem' }}
+    >
+      <a href={url} target="_blank">
+        {url.replace('https://', '')}
+      </a>
+    </div>
+  );
+}
+
 function ActionBar({ githubLink, reviewLink = '', soLink = '' }) {
   return (
     <>
-      <Head>
-        <title>Products' Nêmô</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
       <div className="flex text-sm justify-end pr-12 mt-2 mb-4">
         {soLink && (
           <a
@@ -95,7 +176,7 @@ function ActionBar({ githubLink, reviewLink = '', soLink = '' }) {
         )}
         {githubLink && (
           <a
-            href={githubLinks[1]}
+            href={githubLink}
             style={{
               border: '1px dashed white',
               padding: `0.2rem 0.5rem`,
@@ -113,6 +194,22 @@ function ActionBar({ githubLink, reviewLink = '', soLink = '' }) {
 function AsAGiverPage(props) {
   return (
     <NoisyImagePageWrapper>
+      <Head>
+        <title>
+          claude-grep, Mjolnir, Freeze DOM, Ding & React Breadcrumbs —
+          open-source tools by coolcorexix (Nêmô)
+        </title>
+        <meta
+          name="description"
+          content="Free open-source developer tools by coolcorexix (Nêmô): coolcorexix/claude-grep — search and fork AI coding sessions across Claude Code, OpenCode and Hermes; coolcorexix/mjolnir — macOS window switcher with LLM notifications; Freeze DOM, Ding and React Breadcrumbs."
+        />
+        <link rel="canonical" href="https://nemothecollector.dev/products" />
+        <link rel="icon" href="/favicon.ico" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(productsJsonLd) }}
+        />
+      </Head>
       <AmbientSound />
       <div className="background-as-a-page" />
       <div className="text-white  p-4 justify-center align-content-center relative z-10 ">
@@ -135,11 +232,30 @@ function AsAGiverPage(props) {
                       color: darkerBlue,
                       backgroundColor: 'white',
                     }}
+                    href="https://claude-grep.vercel.app"
+                  >
+                    [claude-grep 🔍]
+                  </a>{' '}
+                  - A CLI to search your AI coding sessions by content across
+                  Claude Code, OpenCode and Hermes — resume or fork any past
+                  conversation with one keypress.
+                  <RepoSlug url={githubLinks[4]} />
+                  <ActionBar githubLink={githubLinks[4]} />
+                </li>
+                <li>
+                  *&nbsp;
+                  <a
+                    target="_blank"
+                    style={{
+                      color: darkerBlue,
+                      backgroundColor: 'white',
+                    }}
                     href="https://github.com/coolcorexix/mjolnir"
                   >
                     [Mjolnir 🔨]
                   </a>{' '}
                   - MacOS app to open any window anywhen instead of finding them. Get notified when the LLM finishes / gets blocked visually or with sound.
+                  <RepoSlug url={githubLinks[3]} />
                   <ActionBar githubLink={githubLinks[3]} />
                 </li>
                 <li>
@@ -156,6 +272,7 @@ function AsAGiverPage(props) {
                   </a>{' '}
                   - A Chrome Extension help freeze the DOM instantly for
                   debugging purpose.
+                  <RepoSlug url={githubLinks[2]} />
                   <ActionBar
                     githubLink={githubLinks[2]}
                     reviewLink={reviewLinks[1]}
@@ -179,7 +296,7 @@ function AsAGiverPage(props) {
                     command you are waiting for is done. With an elegant "ding!"
                     sound.
                   </span>
-
+                  <RepoSlug url={githubLinks[1]} />
                   <ActionBar githubLink={githubLinks[1]} />
                 </li>
                 <li>
@@ -195,6 +312,7 @@ function AsAGiverPage(props) {
                     [React Breadcrumb ⚛️🥖]
                   </a>{' '}
                   - A VSCode extension help get navigatable outlines of ReactJs.
+                  <RepoSlug url={githubLinks[0]} />
                   <ActionBar
                     githubLink={githubLinks[0]}
                     reviewLink={reviewLinks[0]}
